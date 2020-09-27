@@ -146,31 +146,31 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		2141. Tutte le linee devono avere uno spessore massimo di `5 cm`.
 		2142. Il campo verrà segmentato su tutta la lunghezza in tre posizioni:\
 					• metà campo, o *linea centrale;*\
-					• entrambe le *linee di porta*.
-			21421. Verrà marcata la metà della linea centrale per posizionare la palla per le contese *(jousts).*
-		2143. Le *linee di porta* devono essere parallele e a `3–4.5 m` di distanza dalle sponde del lato corto, a seconda delle dimensioni del campo.
-			21431. Le *linee di porta* non possono essere distanti meno di `29 ± 0.5 m` l'una dall'altra.
-		2144. Le *linee di porta* devono essere tracciate per posizionare lo *specchio della porta*, centrato rispetto alla larghezza del campo, definendo quello che verrà chiamata la *linea dello specchio della porta.*
-			21441. Lo *specchio della porta* deve essere delimitato da due (2) linee perpendicolari che si estendono di `10 ± 1 cm` verso il centro del campo e `20 ± 1 cm` dietro la porta.
+					• entrambe le Linee di Porta.
+			21421. Verrà marcata la metà della linea centrale per posizionare la palla per le "contese" *(Joust).*
+		2143. Le Linee di Porta devono essere parallele e a `3–4.5 m` di distanza dalle sponde del lato corto, a seconda delle dimensioni del campo.
+			21431. Le Linee di Porta non possono essere distanti meno di `29 ± 0.5 m` l'una dall'altra.
+		2144. Le Linee di Porta devono essere tracciate per posizionare lo Specchio della Porta, centrato rispetto alla larghezza del campo, definendo quello che verrà chiamata la Linea dello Specchio della Porta.
+			21441. Lo Specchio della Porta deve essere delimitato da due (2) linee perpendicolari che si estendono di `10 ± 1 cm` verso il centro del campo e `20 ± 1 cm` dietro la porta.
 			21442. Le due (2) linee verticali devono coincidere con le dimensioni delle porte usate, usando come riferimento l'interno dei pali.
 	215. **Area di Tocco  *(Tap-In)***
-		2151. Saranno tracciate due (2) linee sulle sponde di entrambi i lati del campo e saranno considerate come *aree di tocco (tap-in)*.
-		2152. Le linee verranno disegnate ad ogni lato a `0.75 ± 0.10 m` dalla *linea centrale*.
+		2151. Saranno tracciate due (2) linee sulle sponde di entrambi i lati del campo e saranno considerate come Aree di Tocco *(tap-in).*
+		2152. Le linee verranno disegnate ad ogni lato a `0.75 ± 0.10 m` dalla linea centrale.
 	216. **Area di Porta *(Crease)***
 		2161. Verrà tracciata un'area davanti alla porta e verrà definita come *area di porta.*
-		2162. La dimensione dell'*area di porta* deve essere un semicerchio di `3 ± 0.1 m` dal centro dell'apertura della porta, tagliato a `1.25 ± 0.1 m` dall'esterno di ciascun delimitatore dello *specchio della porta.* Vedi diagramma 1.
-			21621. L'*area di porta* può essere disegnata con linee rette, come nel diagramma 2.
+		2162. La dimensione dell'Area di Porta deve essere un semicerchio di `3 ± 0.1 m` dal centro dell'apertura della porta, tagliato a `1.25 ± 0.1 m` dall'esterno di ciascun delimitatore dello Specchio della Porta. Vedi `Diagramma 1`.
+			21621. L'Area di Porta può essere disegnata con linee rette, come nel `Diagramma 2`.
 22. **Porte *(Goals)***
-	221. Le *porte* devono avere le reti.
-	222. Le *porte* devono avere una traversa rigida posizionata sopra la *linea di porta.*
-	223. Le *porte* sono posizionate in modo che lo *specchio della porta* sia uno di fronte all'altro, nelle posizioni marcate sulla *linea di porta.*
-	224. Lo *specchio della porta* è largo `185 ± 5 cm`, misurato dall'interno dei pali.
-	225. Lo *specchio della porta* è alto `90 ± 5 cm`, misurato dal suolo all'interno della traversa.
-	226. La *porta* è profonda `80 ± 15 cm`, misurata dal centro della *linea di porta.*
+	221. Le Porte devono avere le reti.
+	222. Le Porte devono avere una traversa rigida posizionata sopra la Linea di Porta.
+	223. Le Porte sono posizionate in modo che lo Specchio della Porta sia uno di fronte all'altro, nelle posizioni marcate sulla Linea di Porta.
+	224. Lo Specchio della Porta è largo `185 ± 5 cm`, misurato dall'interno dei pali.
+	225. Lo Specchio della Porta è alto `90 ± 5 cm`, misurato dal suolo all'interno della traversa.
+	226. La Porta è profonda `80 ± 15 cm`, misurata dal centro della Linea di Porta.
 23. **Palle**
-	231. Le palle devono avere diametro di `67 ± 2 mm`.
-	232. Le palle devono pesare `70 ± 5 g`.
-	233. Le palle devono essere realizzate di un materiale a basso rimbalzo e resistente agli urti.
+	231. Le Palle devono avere diametro di `67 ± 2 mm`.
+	232. Le Palle devono pesare `70 ± 5 g`.
+	233. Le Palle devono essere realizzate di un materiale a basso rimbalzo e resistente agli urti.
 		2331. La durezza del materiale deve corrispondere alla sua temperatura di prestazione ottimale.
 
 ## **Diagramma 1: Area di porta**
@@ -180,8 +180,8 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 [img]
 
 # Ufficiali di Gara
-31. *Ufficiali di Gara*
-	311. Un torneo richiede un Capo Arbitro (Head Referee) designato dagli organizzatori dell'evento e comunicato ai giocatori all'inizio del torneo.
+31. **Ufficiali di Gara**
+	311. Un torneo richiede un Capo Arbitro *(Head Referee)* designato dagli organizzatori dell'evento e comunicato ai giocatori all'inizio del torneo.
 	312. Una partita ha bisogno dei seguenti Ufficiali di Gara:\
 			- Arbitro Principale;\
 			- Giudici di Porta (2);\
@@ -194,7 +194,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			31231. Nel caso in cui gli Assistenti di Gioco non siano disponibili l'Arbitro Principale si assumerà le loro responsabilità e doveri.
 32. **Attrezzatura**
 	321. Gli organizzatori dell'evento devono fornire la seguente attrezzatura agli Ufficiali di Gara:\
-		- cronometro;\
+		- orologio o cronometro;\
 		- fischietto;\
 		- tabellone;\
 		- bandiere, cappelli o casacche (2) per i Giudici di Porta;\
@@ -210,7 +210,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		3323.  L'Assistente Arbitro può posizionarsi lungo il campo per aiutare a segnalare azioni difficili da vedere dall'Arbitro Principale, altrimenti si posizionerà accanto all'Arbitro Principale per seguire le azioni sulla palla e lontane dalla palla, in base alle esigenze del gioco.
 	334. **Giudici di Porta**
 		3341. I Giudici di Porta devono essere posizionati sul lato opposto dell'Arbitro Principale, vicino alla *linea di porta* leggermente verso la metà campo, con una vista chiara e non ostacolata dello *specchio della porta,* preferibilmente dall'alto.
-			33411. Nel caso in cui il posizionamento non sia disponibile, devono essere posizionati dietro o leggermente a lato della porta, a seconda di dove si ha una visione migliore dello *specchio della porta*. Il loro posizionamento deve essere approvato dall'Arbitro Principale.
+			33411. Nel caso in cui il posizionamento non sia disponibile, devono essere posizionati dietro o leggermente a lato della porta, a seconda di dove si ha una visione migliore dello Specchio della Porta. Il loro posizionamento deve essere approvato dall'Arbitro Principale.
 34. **Compiti**
 	341. ***Capo Arbitro***
 		3411. Il Capo Arbitro supervisiona la corretta applicazione del regolamento da parte degli altri Ufficiali di Gara.
@@ -315,13 +315,13 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 
 # Meccanismi di Gioco
 51. **Inizio del gioco**
-	511. Le squadre si preparano per la giostra ("joust") come da `5.2`.
+	511. Le squadre si preparano per la giostra (*Joust*) come da `5.2`.
 	512. L'Arbitro Principale chiede ad ogni squadra se è pronta. Il capitano di ogni squadra deve dare una chiara conferma o declinatura.
 		5121. I capitani delle squadre possono confermare alzando la mano o declinare estendendo la mano rivolta verso l'esterno e ondeggiandola da un parte all'altra.
 	513. Quando entrambe le squadre confermano di essere pronte, l'Arbitro Principale alza le mani e fischia mentre lascia cadere la mano per segnalare l'inizio.
 		5131. L'Assistente di Gioco fa partire il tempo al fischio.
 		5132. Le squadre possono gareggiare per il possesso di palla.
-52. **La Giostra ("Joust")**
+52. **La Giostra (*Joust*)**
 	521. Ogni squadra si posiziona nel proprio lato del campo; i giocatori stazionano sulle biciclette con la ruota posteriore che tocca la sponda alle spalle della porta.
 		5211. Si ha una Falsa Partenza quando un giocatore lascia la sponda prima del fischio di inizio del gioco.
 			52111. Il Giudice di Porta deve segnalare una Falsa Partenza, come da `3.5.2.3`, se qualunque giocatore lascia la sponda prima del fischio di inizio.
@@ -357,4 +357,34 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			53511. Durante gli ultimi due (2) minuti della partita, l'Assistente di Gioco ferma il tempo ad ogni interruzione del gioco.	
 54. **Ripresa del Gioco**
 	541. L'Arbitro Principale sollecita una conferma visiva o verbale alla squadra senza il possesso di palla se pronta a riprendere il gioco.
-		5411. 	
+		5411. L'Arbitro Principale può fischiare velocemente due volte per sollecitare la conferma della squadra.
+		5412. In caso la squadra senza possesso di palla non comunica di essere pronta entro dieci (10) secondi viene assegnata una Penalità di Ritardo come da `6.1.1`.
+	542. Dopo la conferma, l'Arbitro Principale indica che il gioco riparte come da '3.5.1.2' e annuncia “10 secondi per oltrepassare la metà campo”.
+		5421.  Se la squadra in possesso di palla non inizia a giocare entro dieci (10) secondi da quando l'altra squadra ha confermato di essere pronta, il team senza il possesso di palla può iniziare a giocare superarando la metà campo.
+			54211. L'arbitro segnala verbalmente “gioco” ("game on"). 
+			54212. L'Assistente Arbitro fa ripartire il tempo.
+	543. Il gioco inizia e il tempo riparte quando la palla o un giocatore della squadra con il possesso della palla, supera la metà campo.
+		5431. L'Arbitro Principale indica l'inizio del tempo annunciando “gioco” ("game on").
+		5432. I giocatori della squadra senza il possesso palla non possono attaccare l'altra squadra prima che inizi il gioco.
+55. **Fine del Gioco**
+	551. I'orologio ufficiale di gioco indica la fine della partita.
+	552. L'Arbitro Principale segnala la fine del gioco con due fischi lunghi.
+56. **Punteggio**
+	561. **Goal**
+		5611. Si guadagna un punto quando la palla attraversa completamente la Linea dello Specchio della Porta avendo avuto origine da un tiro, come definito in `4.2`.
+			56111. Un tiro può deviare su una qualunque superficie, ad eccezione del lato lungo della testa della mazza e della stecca della mazza di un giocatore in attacco, prima di attraversare la linea di porta ed essere considerato valido.
+		5612.  Il Giudice di Porta segnala un goal come da `3.5.2.1`. e il gioco riparte come da `5.4`.
+	562. **Goal non validi**
+		5621. Non viene assegnato un punto nel caso in cui la palla attraversa la Linea dello Specchio della Porta per mezzo di un'azione di un giocatore in attacco che non è stata un tiro.
+		5622. Non viene assegnato punto nelle seguenti situazioni:\
+			- Qualunque palla che superi la Linea dello Specchio della Porta dopo un fischio.
+			- Qualunque azione sulla palla che avvenga prima che il gioco abbia inizio come da `5.4.3`\
+			- Un giocatore in attacco commette un'infrazione prima che il tiro superi la Linea dello Specchio della Porta.
+		5623. Il Giudice di Porta segnala un goal non valido come indicato in `3.5.2.2`.
+		5624. La squadra in attacco perde il possesso di palla e il gioco ricomincia come da `5.4`.
+	563. **Autogoal**
+		5631. Viene assegnato un punto alla squadra avversaria quando una qualsiasi azione sulla palla da parte di un giocatore fa sì che l'intera palla attraversi la Linea dello Specchio della Porta della porta difesa.
+		5632. Il Giudice di Porta segnala un autogoal come da `3.5.2.1` e il gioco riprende come da `5.4`.
+57. **Palla Fuori Gioco**
+	571. **Fuori Campo**
+		5711. 
