@@ -238,5 +238,123 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		3434. I *giudici di porta* devono segnalare, come da `3.5.2.3`, false partenze durante la contesa (joust) come da `5.2.1.1`.
 		3435. I *giudici di porta* possono segnalare un *timeout* altrimenti non udito dall'*arbitro principale,* dagli *assistenti di gioco* o dall'*assistente arbitrario.*
 	344. **Assistenti di gioco**
-		3441. L'*assistente di gioco* tiene il tempo della partita ed è responsabile della partenza e interruzione del cronometro ufficiale.
-		3442. 
+		3441. L'assistente di gioco tiene il tempo della partita ed è responsabile dell'avvio e interruzione del cronometro ufficiale.
+		3442. L'assistente di gioco tiene il tempo delle penalità assegnate ai giocatori quando sono temporaneamente esclusi dal gioco.
+			34421. L'assistente di gioco ha la responsabilità di far sapere ai giocatori temporaneamente esclusi dal gioco quando possono rientrare. 
+		3443. L'assistente di gioco compila e mantiene un registro di gioco (*Game Log*) cartaceo.
+		3444. Il registro di gioco contiene le seguenti informazioni:\
+						• i goal di ogni squadra;\
+						• le penalità di ogni giocatore.
+			34441. L'organizzatore dell'evento, in aggiunta, può richiedere anche:\
+						• I tempi di tutti i goal e penalità chiamate;\
+						• I nomi di chi segna i goal.
+		3445. Se è presente un timer e un tabellone del punteggio visibile ai giocatori, l'assistente di gioco si occupa di far partire il tempo, fermarlo e aggiornare i goal sul tabellone.
+		3446. L'Assistente di Gioco chiama ad alta voce il tempo di gioco rimanente, ad intervalli periodici e anche nelle seguenti situazioni:\
+						• dopo i goal;\
+						• a metà partità;\
+						• ad ogni ripresa;\
+						• due (2) minuti dalla fine;\
+						• su richiesta dei giocatori.
+			34461. Dopo aver chiamato due (2) minuti, l'Assistente di Gioco deve chiamare sessanta (60) secondi, trenta (30) secondi, dieci (10) secondi e un conto alla rovescia da cinque (5) secondi a uno (1).
+	345. **Assistente Arbitro**
+		3451. L'Assistente Arbitro può segnalare quello che ritiene una penalità secondo il punto `3.5.3.1`.
+			3452. L'Assistente Arbitro dev'essere preparato a fornire una prospettiva all'Arbitro Principale riguardo qualunque potenziale punto o penalità.
+			3453. Le interazioni con l'Arbitro Principale sono strettamente consultive, la chiamata finale dev'essere fatta dall'Arbitro Principale.
+		3452. L'Assistente Arbitro può segnalare un timeout (come da `3.5.3.2`) che non è stato sentito dall'Arbitro Principale o dall'Assistente di Gioco.
+35. **Segnali manuali**
+	351. **Arbitro Principale** 
+		3511. Inizio del gioco — Alza il braccio in alto e lasciandolo cadere appena fischiato.
+		3512. Ripresa del gioco — Stende un braccio in avanti con il palmo rivolto verso l'alto per indicare che il gioco può iniziare.
+		3513. Penalità ritardata/Vantaggio — Solleva il braccio esteso verso l'alto.
+		3514. Possesso dopo un'interruzione — Tende un braccio in direzione della squadra che riprenderà il gioco con la palla.
+	352. **Giudici di Porta**
+		3521. Goal segnato — Solleva il braccio esteso verso l'alto.
+			35211. Alza la bandiera, se è disponibile.
+		3522. Tiro mancato/Goal non valido — Incrocia le braccia in avanti e le apre verso l'esterno con un movimento ampio.
+		3523. Falsa Partenza/Infrazione — Alza un braccio in alto e con l'altro indica il giocatore che ha commesso l'infrazione.
+			35231. Se è disponibile una bandiera, il Giudice di Porta la alza estendendo l'altro braccio.
+		35232. Timeout — Mima una "T" con entrambe le braccia.
+	353. **Assistente Arbitro**
+		3531. Infrazione – Alza un braccio e con l'altro indica il giocatore che ha commesso l'infrazione.
+		3532. Timeout — Mima una "T" con entrambe le braccia.
+
+# Ufficiali di Gara
+41. **Possesso di palla**
+	411.  Il giocatore che ha eseguito intenzionalmente l'ultimo tocco controllato del mallet sulla palla è considerato in possesso di palla. Il giocatore in possesso è noto come Portatore di Palla.
+		4111. Un giocatore non è considerato in possesso della palla, o il possesso viene ceduto nei seguenti casi:\
+						• La palla si muove a circa 3 metri di distanza dal Portatore di Palla;\
+						• La palla si muove così velocemente in prossimità di un giocatore che non è in grado di eseguire più di un (1) tocco controllato sulla palla libera;
+						• Il Portatore di Palla non è più in grado di giocare la palla con la mazza;
+		4112. Il possesso non è perso dal Portatore di Palla se un tocco intenzionale sulla palla da parte di un avversario, non ostacola l'abilità del Portatore di continuare a giocare la palla con il mallet e la palla resta in prossimità di circa tre (3) metri.
+42. **Tiro**
+	421. Un tiro viene definito come un urto elastico tra uno dei lati terminali della testa della mazza e la palla.
+	422. Direzionare intenzionalmente la palla per mezzo di un contatto con qualunque parte del corpo o della bici non è un tiro.
+	423. Uno "shuffle", "ball‐joint", "scoop" or "carry", come da punti `4.3` fino a `4.6`, non è un tiro.
+	424. Qualunque contatto con la stecca della mazza non è un tiro.
+	425. Una palla deviata da una superficie o equipaggiamento che viene da un'azione che non è stata un tiro non è considerata un tiro.
+43. **Shuffling**
+	431. Viene definito "Shuffle" qualunque contatto tra la parte allungata della testa della mazza e la palla.
+44. **‌Ball–Jointing**
+	441. Viene definito "Ball–Jointing" la pressione applicata sulla palla usando qualunque foro o superficie concava della testa della mazza allo scopo di incastrarla contro una qualsiasi superficie del campo.
+	442. Il "Ball–Jointing" è permesso in qualunque punto del campo per un tempo limitato di due (2) secondi.
+45. **Scooping**
+	451. Viene definito "Scoop" il manovrare la palla a coppa in un buco della testa della mazza usando la forza centripeta per mantenere la palla nel buco.
+	452. Lo "Scoop" è permesso al di sotto dell'altezza del manubrio del giocatore o dell'avversario se questo è vicino approssimativamente 3m come in `6.4.3.3`. 
+	453. Lo "Scoop" è permesso per non più di tre (3) cambi di direzione.
+46. **Carrying**
+	461. Viene definito "Carrying" portare la palla con la testa della mazza, grazie alla forza di gravità che tiene la palla derma nella testa.
+	462. Il "Carrying" non è permesso.
+47. **Grabbing**
+	471. Viene definito "Grabbing" usare la mano per afferrare la palla.
+	472. il "Grabbing" non è permesso.
+		4721. Un giocatore può usare entrambe le mani per fermare una palla volante ma deve immediatamente deviare la palla verso il pavimento nel punto in cui è stata fermata.
+48. **Slapping**
+	481. Reindirizzare intenzionalmente o dare impulso alla palla con le mani o i piedi è considerato "Slapping".
+	482. Lo "Slapping" non è permesso.
+		4821. Un giocatore difensivo all'interno della propria area di porta può usare le mani per reindirizzare, senza afferrare, una palla volante sotto l'altezza delle spalle.
+
+# Meccanismi di Gioco
+51. **Inizio del gioco**
+	511. Le squadre si preparano per la giostra ("joust") come da `5.2`.
+	512. L'Arbitro Principale chiede ad ogni squadra se è pronta. Il capitano di ogni squadra deve dare una chiara conferma o declinatura.
+		5121. I capitani delle squadre possono confermare alzando la mano o declinare estendendo la mano rivolta verso l'esterno e ondeggiandola da un parte all'altra.
+	513. Quando entrambe le squadre confermano di essere pronte, l'Arbitro Principale alza le mani e fischia mentre lascia cadere la mano per segnalare l'inizio.
+		5131. L'Assistente di Gioco fa partire il tempo al fischio.
+		5132. Le squadre possono gareggiare per il possesso di palla.
+52. **La Giostra ("Joust")**
+	521. Ogni squadra si posiziona nel proprio lato del campo; i giocatori stazionano sulle biciclette con la ruota posteriore che tocca la sponda alle spalle della porta.
+		5211. Si ha una Falsa Partenza quando un giocatore lascia la sponda prima del fischio di inizio del gioco.
+			52111. Il Giudice di Porta deve segnalare una Falsa Partenza, come da `3.5.2.3`, se qualunque giocatore lascia la sponda prima del fischio di inizio.
+			52112. Un vantaggio della squadra che ha commesso la Falsa Partenza si convertirà in una penalità e il possesso di palla è concesso alla squadra che ha perso la Giostra.
+	522. I giocatori che partono alla Giostra devono tenere la mazza sullo stesso lato della bici.
+		5221. Di solito, alla giostra partecipano giocatori destri.
+		5222. Le squadre possono accordarsi per una Giostra mancina, informando l'Arbitro Principale prima dell'inizio del gioco.
+			52221. In caso di disaccordo, il lato della giostra sarà determinato da quello nella quale la maggioranza dei giocatori tiene la mazza.
+		5223. In una Giostra di destri, i giocatori devono correre sul lato sinistro del loro avversario quando si incontrano e sorpassano. In una Giostra di mancini, i giocatori devono correre sul lato destro del loro avversario.
+	523. Solo un (1) giocatore per squadra correre durante Giostra.
+		5231. I giocatori che corrono nella Giostra devono mantenere direazione retta fino a quando uno dei giocatori entra in contatto con la palla.
+		5232. Qualunque giocatore che corre verso la palla con un ritmo costante viene considerato un partecipante alla Giostra.
+			52321. I giocatori che corrono nella Giostra, non possono smettere di correre una volta che sono a circa 3 metri dalla palla.
+		5233. Tutti gli altri giocatori non possono gareggiare per il possesso di palla o posizionarsi nella traiettoria di un giocatore che concorre nella Giostra, almeno fino a quando il possesso non è stabilito o entrambi i giocatori in corsa nella Giostra superano la palla, non riuscendo a guadagnarsi il possesso di palla.
+53. **Interruzione del Gioco**
+	531. L'Arbitro Principale segnala l'interruzione del gioco fischiando.
+		5311. Una volta che l'Arbitro Principale segnala l'interruzione, il gioco deve fermarsi indipendentemente dalle circostanze.
+	532. Il gioco può essere interrotto per una delle seguenti ragioni:\
+						• goal;\
+						• penalità;\
+						• palla fuori campo;\
+						• infortunio;\
+						• porta fuori sede;\
+						• time-out;\
+						• equipaggiamento non sicuro.
+	533. Le squadre devono smettere di giocare e tornare nella propria metà campo entro 10 secondi dal fischio.
+	534. **Formato 3v3**
+		5341. L'Assistente di Gioco deve fermare il tempo ad ogni interruzione del gioco.
+	535. **Formato a Squadra**
+		5351. Il cronometro non viene fermato se non in caso di:\
+						• infortunio;\
+						• time-out.
+			53511. Durante gli ultimi due (2) minuti della partita, l'Assistente di Gioco ferma il tempo ad ogni interruzione del gioco.	
+54. **Ripresa del Gioco**
+	541. L'Arbitro Principale sollecita una conferma visiva o verbale alla squadra senza il possesso di palla se pronta a riprendere il gioco.
+		5411. 	
