@@ -1,60 +1,3 @@
-<style>
-
-body {
-	counter-reset: section;
-}
-
-h1::before {
-	counter-increment: section;
-	content: "Sezione "counters(section, ".") ": ";
-}
-
-ol {
-	list-style-type: none;
-	counter-reset: item;
-	margin: 0;
-	padding: 0;
-}
-
-ol > li {
-	display: table;
-	counter-increment: item;
-	margin-bottom: 0.6em;
-	padding-left: 0px;
-}
-
-h1 ~ ol > li > strong {
-	font-size: larger;
-}
-
-ol > li::before {
-	content: counter(section) "." counters(item, ".") ". ";
-	display: table-cell;
-	padding-right: 1em;
-	font-weight: bold;
-}
-
-h1 ~ ol > li::before {
-	font-size: larger;
-}
-
-li ol > li {
-  margin: 0;
-  margin-left: -3em;
-  margin-top: 0.6em;
-}
-
-li ol > li:not(:last-child) {
-  margin-bottom: 0.6em;
-}
-
-
-li ol > li::before {
-	content: counter(section) "."counters(item, ".") ". ";
-	font-weight: bold; 
-}
-
-</style>
 
 ---
 ### EHBA\
@@ -63,12 +6,19 @@ li ol > li::before {
 Regolamento\
 2018
 
-###### Revisione 2806
+###### Versione  200324\
+Versione italiana  210102\
 
 ###### Traduzione: Rayna (Napoli)\
-Revisione e design: Pyetro (Milano)
+Revisione e sviluppo: Pyetro (Milano)
 
 ---
+
++++
+<div style="page-break-after: always;"></div>
+
+###### Premessa
+Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte, tranne nei vari casi in cui la versione inglese, oltre che essere più breve ed esaustiva rappresenta ormai un modo di dire consolidato a livello internazionale nel mondo del bike polo.
 
 +++
 <div style="page-break-after: always;"></div>
@@ -454,4 +404,9 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		51321. Se un giocatore che entra o esce dal campo, interferisce con una palla libera o con un portatore di palla avversario durante la sostituzione, viene chiamata un'infrazione di Sostituzione Illegale come da `6.1.5`.
 # Infrazioni
 61. **Infrazioni Tecniche**
-	611. 
+	611. **Ritardo di Gioco**
+		6111. Una squadra ostacola la ripresa del gioco come da `5.4`.
+			61111. Un Fallo Personale viene automaticamente assegnato al capitano della squadra alla prima infrazione.
+			61112. Qualsiasi infrazione successiva viene assegnata una Penalità Minore al capitano della squadra.
+		6112. Un giocatore blocca la pallina con la mazza o la bici mentre è appoggiato contro le sponde, impedendo agli altri giocatori di giocare la palla.
+		6113. Un giocatore fa palesemente uscire la palla dal gioco raccogliendola tirandola o incoppandola (scooping).

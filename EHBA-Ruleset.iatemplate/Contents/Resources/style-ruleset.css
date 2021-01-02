@@ -1,0 +1,52 @@
+body {
+  counter-reset: section;
+}
+
+h1::before {
+  counter-increment: section;
+  content: "Sezione " counters(section, ".") ": ";
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+  padding-left: 0px;
+}
+
+h1 ~ ol > li > strong {
+  font-size: larger;
+}
+
+ol > li::before {
+  content: counter(section) "." counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 1em;
+  font-weight: bold;
+}
+
+h1 ~ ol > li::before {
+  font-size: larger;
+}
+
+li ol > li {
+  margin: 0;
+  margin-left: -3em;
+  margin-top: 0.6em;
+}
+
+li ol > li:not(:last-child) {
+  margin-bottom: 0.6em;
+}
+
+li ol > li::before {
+  content: counter(section) "." counters(item, ".") ". ";
+  font-weight: bold;
+}
