@@ -236,7 +236,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			34331. Se il campo non consente l'accesso ai giudici di porta, l'Arbitro Principale deve delegare questa responsabilità ad altri volontari.
 			34332. Se non è disponibile l'accesso al campo, i giocatori vengono informati della responsabilità di riposizionare le porte.
 		3434. I Giudici di Porta devono segnalare, come da `3.5.2.3`, false partenze durante la contesa (joust) come da `5.2.1.1`.
-		3435. I Giudici di Porta possono segnalare un *timeout* altrimenti non udito dall'Arbitro Principale, dagli Assistenti di Gioco o dall'Assistente Arbitro.
+		3435. I Giudici di Porta possono segnalare un *Timeout* altrimenti non udito dall'Arbitro Principale, dagli Assistenti di Gioco o dall'Assistente Arbitro.
 	344. **Assistenti di Gioco**
 		3441. L'Assistente di Gioco tiene il tempo della partita ed è responsabile dell'avvio e interruzione del cronometro ufficiale.
 		3442. L'Assistente di Gioco tiene il tempo delle penalità assegnate ai giocatori quando sono temporaneamente esclusi dal gioco.
@@ -260,7 +260,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		3451. L'Assistente Arbitro può segnalare quello che ritiene una penalità secondo il punto `3.5.3.1`.
 			3452. L'Assistente Arbitro dev'essere preparato a fornire una prospettiva all'Arbitro Principale riguardo qualunque potenziale punto o penalità.
 			3453. Le interazioni con l'Arbitro Principale sono strettamente consultive, la chiamata finale dev'essere fatta dall'Arbitro Principale.
-		3452. L'Assistente Arbitro può segnalare un timeout (come da `3.5.3.2`) che non è stato sentito dall'Arbitro Principale o dall'Assistente di Gioco.
+		3452. L'Assistente Arbitro può segnalare un Timeout (come da `3.5.3.2`) che non è stato sentito dall'Arbitro Principale o dall'Assistente di Gioco.
 35. **Segnali manuali**
 	351. Arbitro Principale 
 		3511. Inizio del gioco — Alza il braccio in alto e lasciandolo cadere appena fischiato.
@@ -387,4 +387,71 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		5632. Il Giudice di Porta segnala un autogoal come da `3.5.2.1` e il gioco riprende come da `5.4`.
 57. **Palla Fuori Gioco**
 	571. **Fuori Campo**
-		5711. 
+		5711. La palla è fuori gioco quando lascia il campo o rimbalza su qualunque oggetto al di sopra delle sponde.
+			57111. Il possesso di palla è perso dalla squadra che ha toccato per ultima la palla, incluse deviazioni sul corpo o sulla bici di un giocatore.
+	572. **Palla Bloccata**
+		5721. Una palla è considerata bloccata quando è incastrata, intrappolata oppure bloccata nell'equipaggiamento di un giocatore o in una struttura del campo.
+			57211. Il possesso di palla è perso dalla squadra che ha la palla incastrata nel proprio equipaggiamento.
+			57212. Il possesso viene perso dalla squadra che ha toccato per ultimo la palla, incluse le deviazioni sul copro o sulla bici di un giocatore, quando la palla resta bloccata in una struttura del campo.
+58. **Infortuni**
+	581. L'interruzione del gioco per l'infortunio di un giocatore è chiamato a discrezione dell'Arbitro Principale, che determina se un giocatore necessita di attenzione immediate.
+		5811. Non c'è un limite di tempo definito all'interruzione di gioco in caso di infortunio.
+		5812. I giocatori non sono tenuti a tornare nella propria metà campo come da `5.3.3` se interessati alla sicurezza o il benessere di un giocatore, nel caso possano assistere il giocatore infortunato.
+		582. Il possesso di palla ritorna alla squadra che ne aveva possesso al momento dell'interruzione a meno che non venga assegnata una penalità *dall'Arbitro* Principale.
+		583. Il gioco riprende come da `5.4` a seguito del recupero del giocatore infortunato o l'entrata in campo di un giocatore sostitutivo come da `5.9`.
+59. **Sostituzione di un giocatore**
+	591. **Formato 3v3**
+		5911. Una squadra può chiedere all'Arbitro Principale la sostituzione di un giocatore in caso di infortunio o in altre circostanze eccezionali, durante il corso del gioco o tra le partire.
+	592. **Formato Squad**
+		5921. Una squadra non può sostituire nessun giocatore durante una partita.
+		5922. Una squadra non può chiedere all'Arbitro Principale la sostituzione di un giocatore finché la squadra ha meno di quattro (4) giocatori non infortunati che possono giocare.
+	593. **Procedura generale per la sostituzione**
+		5931. I giocatori sostituiti perdono la possibilità di essere scelti per giocare in qualunque altra squadra durante un torneo.
+		5932.  Gli unici giocatori eleggibili per la sostituzione sono quelli che non sono entrati nel torneo, oppure giocatori che sono già stati eliminati prima della fase o girone di eliminazione in corso.
+		5933.  Un giocatore sostituito può essere sostituita solo dal membro originario della squadra oppure in caso di un successivo infortunio.
+			59331. Se un giocatore originale si riunisca alla squadra dopo una sostituzione, la squadra perde la possibilità di una sostituzione secondaria per quel giocatore.
+			59332. In caso di ulteriori infortuni o inabilità del giocatore a continuare portano la squadra a proseguire senza il giocatore per il resto del torneo.
+		5934. Alla squadra viene concessa una ragionevole quantità di tempo (non superiore ai 5 minuti) per trovare un rimpiazzo che venga approvato dal Capo Arbitro.
+		5935. Se un giocatore viene espulso dal torneo la sua squadra può richiedere un sostituto solo dopo la partita in cui è avvenuta l'espulsione.
+5910. Timeout
+	5101. Ad ogni squadra sono concessi due (2) Timeout di durata massima di due minuti ciascuno.
+		51011. I Timeout possono essere richiesti consecutivamente, se necessario.
+			510111. Una squadra che non è pronta a giocare nei dieci (10) secondi di tempo limite dopo i due (2) minuti di pausa del primo Timeout deve richiedere, se disponibile, il secondo Timeout per estendere l'interruzione di gioco.
+	5102. Durante qualsiasi interruzione di gioco, ogni squadra può chiamare un Timeout per allungare il limite di dieci (10) secondi prima che il  gioco riprenda.
+		51021. La squadra con possesso di palla, non ne perde possesso quando il gioco riprende.
+	5103. Nel corso dell'azione di gioco, una squadra può chiedere un'interruzione di gioco guadagnando il possesso e chiamando ad alta-voce “Timeout” rivolgendosi all'Arbitro Principale.
+		51031. La squadra che ha chiamato il Timeout perde il possesso di palla,
+			510311. I Timeout richiesti durante l'azione di gioco dovuti a una palla rotta o all'infortunio di un giocatore che ha bisogno di attenzioni mediche immediate, porta la squadra a mantenere il possesso di palla alla ripresa del gioco e non influenza il numero di Timeout disponibili.
+		51032.  I Giudici di Porta e l'Assistente Arbitro possono segnalare la richiesta di Timeout all'Arbitro Principale come da `3.5.2.4`.
+	5104. Alla scadenza del Timeout o quando la squadra che l'ha richiesto si dichiara pronta, il gioco può ricominciare come da `5.4`.
+	5105. **Formato 3v3**
+		51051. In caso di problemi meccanici che richiedono la riparazione della bici o dell'attrezzatura di un giocatore, causati dalla squadra avversaria, possono essere concessi 5 minuti di pausa dall'Arbitro Principale.
+			510511. Questo Timeout non influenza il numero di Timeout disponibili della squadra.
+			510512. La squadra può allungare la pausa con i propri Timeout disponibili se necessario.
+			510513. La squadra che ha diritto al possesso di palla quando il gioco riprende, non cede il possesso all'avversario.
+	5106. **Formato Squad**
+		51061. I problemi meccanici, che richiedono la riparazione della bici o dell'attrezzatura di un giocatore, comporta la sostituzione del giocatore con un altro membro della sua squadra senza interruzione del gioco come da `5.13`.
+511. **Posizione sbagliata della porta**
+	5111. Se la porta cambia posizione, la Linea di Porta come definita in `2.1.4.4` resta la soglia che la palla deve oltrepassare perché un punto venga assegnato.
+		51111. L'Arbitro Principale può assegnare un punto a una squadra, per un tiro deviato da una porta spostata che altrimenti avrebbe oltrepassato la Linea di Porta.
+	5112. L'Arbitro Principale può fermare il gioco se la posizione della porta si è spostata tanto da impedire al Giudice di Porta di determinare se un punto è stato segnato o se è evidente che la posizione della porta spostata influisce lo svolgimento del gioco.
+	5113. La porta spostata dalla sua posizione originale, a causa di una circostanza non intenzionale non comporta una penalità.
+	5114. Il possesso di palla viene mantenuto dalla squadra che lo aveva prima dell'interruzione del gioo.
+		51141. Se nessun team aveva possesso di palla al momento dell'interruzione, il gioco riprende con una Giostra come da `5 .2`.
+	5115. Quando la porta viene rimessa nella posizione corretta dal Giudice di Porta come da `3.4.3.3` senza interferire con il gioco, non richiede interruzione del gioco.
+		51151. Un difensore nella propria Area di Porta può portare la porta leggermente spostata, nella sua posizione corretta se l'operazione non interferisce in alcun modo lo svolgimento del gioco.
+512. **Attrezzatura non sicura**
+	5121. L'Arbitro Principale può interrompere il gioco se ad un certo punto di una partita ritiene che l'equipaggiamento di un giocatore non sia sicuro.
+	5122. La squadra deve ricorrere ai propri Timeout disponibili, per risolvere il problema o sostituire la bici.
+		51221. Se il problema non può essere risolto o una bici sostitutiva non è disponibile nel tempo concesso, il gioco riprenderà senza il giocatore in questione quindi con un Vantaggio di Giocatori per la squadra avversaria.
+		51222. Il giocatore escluso può essere reintegrato in partita alla successiva interruzione di gioco.
+	5123. L'Arbitro Principale può concedere cinque (5) minuti di Timeout per risolvere i problemi dovuti a fattori esterni come nel caso di uno scontro.
+	5124. L'Arbitro Principale deve approvare l'attrezzatura del giocatore in questione prima di della ripresa del gioco.
+		51241. Nel caso in cui l'attrezzatura non sia ritenuto sicura dall'Arbitro Principale, il giocatore sarà escluso dal gioco fino alla risoluzione del problema.
+513. **Meccanismi di panchina – Formato Squad** 
+	5131. La squadra può sostituire qualunque giocatore in panchina con uno dei 3 giocatori in campo, entrando e uscendo attraverso un ingresso, situato nella metà difensiva del campo.
+	5132. Prima che un nuovo giocatore entri in campo, il giocatore che sta tentando l'uscita dal campo deve essere nell'area di transizione, delimitata a `3 ± 0.5 m` dal centro dell'ingresso assegnato alla sua squadra.
+		51321. Se un giocatore che entra o esce dal campo, interferisce con una palla libera o con un portatore di palla avversario durante la sostituzione, viene chiamata un'infrazione di Sostituzione Illegale come da `6.1.5`.
+# Infrazioni
+61. **Infrazioni Tecniche**
+	611. 
