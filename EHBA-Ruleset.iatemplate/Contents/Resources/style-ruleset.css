@@ -8,21 +8,28 @@ body {
   counter-reset: section;
 }
 
+.header {
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
 h1::before {
-  counter-increment: section;
   content: "Sezione " counters(section, ".") ": ";
+  counter-increment: section;
 }
 
 ol {
-  list-style-type: none;
   counter-reset: item;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 ol > li {
-  display: table;
   counter-increment: item;
+  display: table;
   margin-bottom: 0.6em;
   padding-left: 0px;
 }
@@ -34,8 +41,8 @@ h1 ~ ol > li > strong {
 ol > li::before {
   content: counter(section) "." counters(item, ".") ". ";
   display: table-cell;
-  padding-right: 1em;
   font-weight: bold;
+  padding-right: 1em;
 }
 
 h1 ~ ol > li::before {

@@ -75,6 +75,9 @@ Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte, tra
 		1344. Non possono esserci portapacchi, parafanghi, porta borraccia o qualunque altro accessorio che possa aiutare ad ostacolare il passaggio della palla.
 			13441. Copri ruota, copri dischi e copri catena rotondi sono permessi. 
 
++++
+<div style="page-break-after: always;"></div>
+
 # Strutture di gioco
 
 21. **Campo**
@@ -123,11 +126,17 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	233. Le Palle devono essere realizzate di un materiale a basso rimbalzo e resistente agli urti.
 		2331. La durezza del materiale deve corrispondere alla sua temperatura di prestazione ottimale.
 
++++
+<div style="page-break-after: always;"></div>
+
 ## **Diagramma 1: Area di porta**
 [img]
 
 ## Diagramma 2: Versione alternativa dell'area di porta
 [img]
+
++++
+<div style="page-break-after: always;"></div>
 
 # Ufficiali di Gara
 31. **Ufficiali di Gara**
@@ -228,6 +237,9 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		3531. Infrazione – Alza un braccio e con l'altro indica il giocatore che ha commesso l'infrazione.
 		3532. Timeout — Mima una "T" con entrambe le braccia.
 
++++
+<div style="page-break-after: always;"></div>
+
 # Ufficiali di Gara
 41. **Possesso di palla**
 	411.  Il giocatore che ha eseguito intenzionalmente l'ultimo tocco controllato del mallet sulla palla è considerato in possesso di palla. Il giocatore in possesso è noto come Portatore di Palla.
@@ -262,6 +274,9 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	481. Reindirizzare intenzionalmente o dare impulso alla palla con le mani o i piedi è considerato "Slapping".
 	482. Lo "Slapping" non è permesso.
 		4821. Un giocatore difensivo all'interno della propria area di porta può usare le mani per reindirizzare, senza afferrare, una palla volante sotto l'altezza delle spalle.
+
++++
+<div style="page-break-after: always;"></div>
 
 # Meccanismi di Gioco
 51. **Inizio del gioco**
@@ -402,6 +417,10 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	5131. La squadra può sostituire qualunque giocatore in panchina con uno dei 3 giocatori in campo, entrando e uscendo attraverso un ingresso, situato nella metà difensiva del campo.
 	5132. Prima che un nuovo giocatore entri in campo, il giocatore che sta tentando l'uscita dal campo deve essere nell'area di transizione, delimitata a `3 ± 0.5 m` dal centro dell'ingresso assegnato alla sua squadra.
 		51321. Se un giocatore che entra o esce dal campo, interferisce con una palla libera o con un portatore di palla avversario durante la sostituzione, viene chiamata un'infrazione di Sostituzione Illegale come da `6.1.5`.
+
++++
+<div style="page-break-after: always;"></div>
+
 # Infrazioni
 61. **Infrazioni Tecniche**
 	611. **Ritardo di Gioco**
