@@ -413,7 +413,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		6112. Un giocatore blocca la pallina con la mazza o la bici mentre è appoggiato contro le sponde, impedendo agli altri giocatori di giocare la palla.
 		6113. Un giocatore fa uscire la palla dal gioco raccogliendola con il lato cavo della testa (*Scooping*) o tirandola fuori dal gioco di proposito.
 		6114. Un giocatore sposta di proposito la posizione della porta come da `5.11`.
-	612. **Comportamento antisportivo**
+	612. **Comportamento Antisportivo**
 		6121. Il comportamento di un giocatore viene considerato antisportivo secondo, ma non limitato a, i seguenti criteri:\
 			• Generali e continuative interruzioni delle procedure di gioco;\
 			• Eccessive proteste contro gli ufficiali di gioco;\
@@ -425,7 +425,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		6122. L'infrazione da comportamento antisportivo comporta una Penalità Minore, Maggiore o di Cattiva Condotta.
 			61221. Un giocatore coinvolto in aggressioni verbali o fisiche rivolte a Ufficiali di Gioco, organizzatori dell'evento, spettatori o altri giocatori, porterà automaticamente all'assegnazione di una Penalità di Cattiva Condotta.
 	613. **Interferenza**
-		6131. **Interferenza della bici**
+		6131. **Interferenza con la Bici**
 			61311. Interferenza con la bici, "schermatura/ostruzione" (*screening*) o "blocco" viene definito come un utilizzo attivo del movimento e della posizione della bici per bloccare bruscamente e/o continuamente un avversario non in possesso da:\
 							• Guadagnare una posizione difensiva o offensiva nel campo.\
 							• Avere accesso diretto a una palla libera.\
@@ -440,7 +440,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 				613132. Una penalità per interferenza della bici viene assegnata se un giocatore che gareggia per il possesso ostruisce un avversario concedendo a un proprio compagno di squadra il possesso di palla.
 			61314. Un giocatore che non ha possesso di palla ha diritto di tentare di schermare il portatore di palla.
 				613141. Se un giocatore in possesso di palla, la passa o la perde non può più essere ostruito.
-		6132. **Interferenza fisica**
+		6132. **Interferenza Fisica**
 			61321. L'infrazione di interferenza fisica viene assegnata se un giocatore dà inizio a un contatto fisico con un avversario senza possesso di palla.
 				613211. I giocatori che gareggiano per il possesso di una palla libera possono ingaggiarsi fisicamente come da `6.3` entro `3 m` dalla palla.
 		6133. Interferenza della mazza
@@ -457,7 +457,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			61441. La successiva violazione porterà a una Penalità Minore indipendentemente da quale giocatore della squadra abbia commesso l'infrazione.
 		6145. Se la violazione viene commessa mentre un avversario ha un'evidente possibilità di segnare punto con un tiro, un passaggio o una palla libera o perché vicino all'Area di Porta, verrà assegnata una Penalità Minore immediatamente, anche alla prima occorrenza dell'infrazione.
 			61451. Successive infrazioni commesse mentre un avversario ha un'evidente possibilità di segnare punto con un tiro, un passaggio o una palla libera o perché vicino all'Area di Porta, la penalità si trasforma in una Penalità Maggiore indipendentemente da quale sia il giocatore a commettere l'infrazione.
-	615. **Sostituzione non permessa (Formato Squad)**
+	615. **Sostituzione Illegale (Formato Squad)**
 		6151. Un giocatore che sta uscendo dal campo deve avere almeno una ruota nell'Area di Transizione intorno all'ingresso designato alla squadra, prima che il giocatore in ingresso possa superare la soglia del campo.
 		6152. Durante una sostituzione, i giocatori nell'Area di Transizione non possono interferire attivamente con la palla o un giocatore avversario.
 			61521. Viene assegnata una Penalità Minore di Sostituzione Illegale, al giocatore che interferisce attivamente con la palla o un avversario dall'interno dell'Area di Transizione, durante la sostituzione.
@@ -465,7 +465,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		6154. Più di tre (3) giocatori della stessa squadra in campo, attivamente coinvolti nel gioco porterà a una Penalità Maggiore al giocatore entrato per ultimo in campo.
 			61541. La squadra penalizzata deve selezionare un altro giocatore in campo che dovrà sedere in panchina per la durata del Vantaggio di Giocatori.
 62. **Infrazione di gestione della bici**
-	621. *Dabbing* (Piede/Tocco)
+	621. ***Dabbing* (Piede/Tocco)**
 		6211. Un giocatore è considerato *Dabbed* quando i suoi piedi si appoggiano su qualsiasi cosa che non sia la sua stessa bici o la parete verticale delle sponde del campo.
 			62111. I piedi dei giocatori non devono toccare il pavimento, la porta o il corpo o l'attrezzatura di un altro giocatore.
 		6212. Un giocatore che si appoggia con una parte del corpo contro la porta per stabilizzarsi è considerato un giocatore *Dubbed*.
@@ -481,5 +481,81 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		6218. Al giocatore che ha commesso *Dab* è concesso un tempo ragionevole per ritirarsi dall'area di gioco.
 			62181. L'arbitro può assegnare una penalità se il giocatore che ha commesso *Dab* interferisce con il gioco creando un vantaggio per la propria squadra.
 			62182. Se il giocatore che ha commesso *Dab* blocca un tiro alla sua porta che diversamente avrebbe attraversato la Linea di Porta, l'Arbitro Principale assegna il punto alla squadra del giocatore che ha tirato come da `7.5.1`.
-	622. *Toppling* (Sbilanciamento)
-		6221. 
+	622. ***Toppling* (Sbilanciamento)**
+		6221. Viene chiamato un *Toppling* quando un giocatore commette *Dab* che è anche la causa del *Dab* o di uno incidente durante un contatto con uno o più avversari.
+		6222. Viene assegnata una Penalità di Toppling a un giocatore che nel perdere l'equilibrio fá commettere *Dab* o scontrare uno o più avversari ma riacquista l'equilibrio attraverso il contatto con il giocatore a cui ha fatto commettere *Dab*.
+	623. **Contatto tra bici**
+		6231. Un giocatore che usa, accelera o manovra la bici per iniziare un contatto con l'avversario o l'attrezzatura dell'avversario commette un'infrazione di Contatto con la bici.
+			62311. Un'infrazione Contatto *T-Bone* (chiusura a T) viene chiamata quando un giocatore inizia un contatto con un avversario, andando con impeto con la ruota o il pedale contro l'avversario nella direzione verso cui sta viaggiando.
+			62312. Un'infrazione di Contatto *Slapping* (schiaffeggiare) quando un giocatore inizia un contatto con un avversario sgommando o ruotando (*pivot*) una delle ruote della sua bici nell'avversario lateralmente o in rotazione.
+			62313. Un'infrazione di *Sweeping* (spazzata) viene chiamata quando un giocatore usa la ruota anteriore o posteriore per iniziare un contatto con la mazza ferma e puntata a terra, di un giocatore.
+			62314. Un fallo di *Pedaling* (pedalata) si ha se due giocatori sono fermi a stretto contatto e uno dei due usa un pedale per iniziare un contatto con un avversario o la sua attrezzatura.
+		6232. Il contatto bici–bici viene considerato accidentale quando due giocatori si toccano mentre entrambi sono in corsa per il possesso della palla senza  compromette il gioco e senza pericolo.
+			62321. Nessuna penalità viene assegnata quando il contatto tra bici è ritenuto accidentale.
+		6233. É a discrezione dell'Arbitro Principale chiamare le Penalità di Contatto tra bici per quelle infrazioni che non sono esplicitamente descritte ma dove il contatto tra bici causa un *Dab* o impedisce ragionevolmente il libero movimento sul campo.
+63. **Infrazioni di Contatto Fisico**
+	631. **Estensione (*Extension*)**
+		6311. L'infrazione di Estensione viene chiamata quando un giocatore allunga il braccio, il gomito, l'avambraccio o la mano per iniziare un contatto con un altro giocatore o lo spinge a contatto già avvenuto.
+			63111. Il contatto fisico principale deve avvenire con la spalla quando si affronta un avversario.
+			63112. Un giocatore può piegare il braccio vicino al corpo durante l'inizio e la fine del contatto.
+			63113. L'infrazione di estensione viene chiamata solo quando un giocatore estende il braccio verso l'alto o all'esterno della spalla per entrare in contatto o sganciarsi da un avversario in modo da spingerlo, puntandosi (infilzandolo) o colpendolo.
+	632. **Carica (*Charging*)**
+		6321. Un giocatore che inizia un contatto con un avversario, ha la responsabilità di affrontarlo “ad armi pari”.
+			63211. Il contatto con la parte bassa della schiena, i reni o le costole, o il contatto impetuoso da dietro verso un avversari, comporta l'assegnazione di un'infrazione di Carica.
+	633. **Trattenuta (*Holding*)**
+		6331. L'infrazione di Trattenuta viene assegnata quando un giocatore impedisce fisicamente il movimento di un avversario trattenendo la sua mazza, il corpo o la bici.
+	634. **Calciare (*Kicking*)**
+		6341. L'infrazione di Calciare comporta l'assegnazione di una Penalità Minore quando un giocatore calcia il corpo di un avversario, l'attrezzatura o la palla.
+	635. **Contatto di Testa (*Head Contact*)**
+		6351. L'infrazione di Contatto di Testa viene chiamato quando un giocatore inizia un contatto con la testa o il collo di un avversario con qualunque parte del suo corpo.
+	636. **Contatto col Manubrio (*Handlebar Contact*)**
+		6361. L'infrazione di Contatto col Manubrio viene chiamato quando un giocatore inizia un contatto con il manubrio di un avversario.
+	637. **Contatto col Braccio Sterzante (*Steering Arm Contact*)**
+		6371. L'infrazione di Contatto con il Braccio Sterzante viene chiamato quando un giocatore inizia il contatto con il braccio sterzante dell'avversario sotto la spalla mantenendo lo slancio nella direzione in cui viaggiano.
+	638.  **Evidenza (*Flagrance*)**
+		6381. L'infrazione di Evidenza viene chiamata quando un giocatore usa una forza fisica eccessiva o sproporzionata, su un avversario che l'arbitro giudica indifeso.
+			63811. Il contatto fisico viene giudicato eccessivo quando un giocatore interviene nel gioco in modo tale da schiantarsi da solo.
+		6382. L'infrazione di Evidenza viene chiamata se il giocatore che inizia un contatto fisico, abbandona la tattica o strategica applicazione di forza in maniera tale da essere giudicata dall'Arbitro Principale, spericolata.
+64. **Infrazioni di Gestione della Mazza e della Palla** 
+	641. **Gestione della Palla illegale**
+		6411. L'infrazione di Gestione della Palla Illegale viene chiamata per ogni palla non permessa come da `Sezione 4`.
+	642. **Frustata (*Slashing*)**
+		6421. L'infrazione di Frustata viene chiamata quando un giocatore ondeggia la propria mazza addosso alla stecca, alla mazza o al corpo di un avversario, con movimenti verso l'alto, il basso o lateralmente, in base ai seguenti criteri:\
+					  • Una risposta sproporzionata a un gioco naturale o in maniera violenta;\
+						• Ha il potenziale di causare danni o infortuni.
+	643. **Mazza Alta (*High Sticking*)**
+		6431. L'infrazione di Mazza Alta viene chiamato quando un giocatore tenta di prendere una palla volante con la mazza ad un altezza sopra il manubrio dell'avversario più vicino entro i `3 m` circa.
+			64311. Un giocatore che è situato a una distanza di sicurezza – approssimativamente di `3 m` o più – dall'avversario più vicino può tenere la mazza in aria, senza ondeggiarla, e deviare la palla a terra direttamente sotto la mazza.
+			64312. I giocatori possono toccare la palla con la mano, tenendo la mazza puntata verso il basso, per toccare una palla volante come da `4.7.2.1`.
+		6432. L'infrazione di Mazza Alta viene chiamata in tutti i casi di contatto con il corpo di un giocatore al di sopra delle spalle, dalla mazza di un avversario.
+		6433. L'infrazione di Mazza Alta viene chiamata quando lo *Scoop* sopra l'altezza del manubrio del giocatore che lo sta effettuando o il manubrio di un avversario nel raggio di `3 m` circa.
+		6434. Il caricamento e il conseguente movimento della mazza, associati al normale movimento per colpire la palla, quando si estende sopra l'altezza del manubrio dell'avversario, comporta l'assegnazione di un'infrazione di Mazza Alta, ma solo in caso l'Arbitro Principale giudichi l'oscillazione non sicura o fuori controllo, nelle seguenti situazioni:\
+					• se il colpo richiede la completa rotazione della mazza da sopra la testa dei giocatori verso il suolo;\
+					• se il movimento conseguente al tiro o il rovescio si estende sopra il manubrio dell'avversario più vicino.
+	644. **Interferenza (*Jamming*)**
+		6441. L'infrazione di Interferenza viene chiamata quando un giocatore costringe un avversario a commettere *Dab* o a schiantarsi, posizionando il mallet sotto la ruota anteriore o posteriore dell'avversario.
+			64411. Nessuna penalità viene assegnata se un giocatore passa accidentalmente passa sopra il mallet fermamente piantato di un giocatore fermo.
+		6442. L'infrazione di Interferenza viene chiamata quando la mazza di un giocatore rimane intrappolata nella bici di un avversario costringendolo a commettere *Dab*.
+	645. **Aggancio (*Hooking*)**
+		6451. L'infrazione di Aggancio viene chiamata quando un giocatore aggancia la mazza sulla bici o il corpo di un avversario.
+	646. **Attacco (*Striking*)**
+		6461. Un'infrazione di Attacco viene chiamata quando un giocatore colpisce il corpo di un altro giocatore con la propria mazza.
+	647. **Lancio (*Throwing*)** 
+		6471. L'infrazione di Lancio comporta l'assegnazione di una Penalità Minore quando un giocatore lancia qualunque parte della propria attrezzatura durante la partita, in modo da non compromettere il gioco.
+		6472. L'infrazione di Lancio comporta l'assegnazione di una Penalità di Comportamento Antisportivo quando un giocatore lancia qualunque parte della propria attrezzatura durante la partita, colpendo un altro giocatore, la palla, gli Ufficiali di Gara, spettatori, o è causa dello schianto di un altro giocatore.
+			64721. Se un giocatore lancia qualunque parte della sua attrezzatura direttamente davanti alla sua stessa rete per prevenire il tiro di un avversario, il punto viene assegnato alla squadra che ha tirato la palla e il giocatore riceve una Penalità per Comportamento Antisportivo.
+	648. **Mazza Caduta (*Mallet Dropping*)**
+		6481. Al giocatore è permesso avere un solo mallet alla volta in campo.
+			64811. Un'infrazione di Mazza Caduta viene chiamato quando un giocatore ha due mazze nel campo da gioco allo stesso tempo.
+			64812. Se la mazza di un giocatore si rompe, questo non può lasciarla cadere per recuperarne un'altra, deve immediatamente rimuovere ogni pezzo della mazza rotta dal gioco.
+			64813. Se un giocatore lascia cadere il suo mallet durante il corso del gioco, deve recuperarlo subito, non gli è permesso di usare una mazza di riserva fino a quando l'originale non sia stato rimossa dal campo.
+		6482. Se ad un giocatore cade la mazza, può continuare a giocare senza.
+			64821. L'infrazione di Mazza Caduta viene chiamata quando la mazza caduta causa un *Dab* o compromette il gioco in qualunque altro modo.
+			64822. I difensori possono spostare la mazza di un avversario se l'abilità di difendere la porta è compromessa.
+
+# Penalità
+71. **Cambio Palla (*Ball Turnover*)**
+	711. Il Cambio Palla viene assegnato quando è stato commesso un fallo in un contesto neutrale dove nessun potenziale di fare punto o altra opportunità siano state compromesse.
+	712.  Il Possesso di Palla viene garantito alla squadra che ha subito fallo e il gioco riprende come da `5.4`.
+72. **Penalità Minore (*Minor Penalty*)** 
+	721. 
