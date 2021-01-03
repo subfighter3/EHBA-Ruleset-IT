@@ -86,7 +86,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 				213111. Se sono disponibili due  (2) ingressi, devono essere simmetrici rispetto alla linea centrale del campo.
 		2132. **Formato Squad**
 			21321. Ci devono essere due (2) ingressi al campo, simmetrici rispetto alla linea centrale de campo.
-			21322. Un arco sarà marcato a `3 ± 0.25 m` dal centro di ciascuna porta e verrà indicato come area di transizione dei giocatori.
+			21322. Un arco sarà marcato a `3 ± 0.25 m` dal centro di ciascuna porta e verrà indicato come Area di Transizione dei giocatori.
 	214. **Linee**
 		2141. Tutte le linee devono avere uno spessore massimo di `5 cm`.
 		2142. Il campo verrà segmentato su tutta la lunghezza in tre posizioni:\
@@ -398,9 +398,9 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	5123. L'Arbitro Principale può concedere cinque (5) minuti di Timeout per risolvere i problemi dovuti a fattori esterni come nel caso di uno scontro.
 	5124. L'Arbitro Principale deve approvare l'attrezzatura del giocatore in questione prima di della ripresa del gioco.
 		51241. Nel caso in cui l'attrezzatura non sia ritenuto sicura dall'Arbitro Principale, il giocatore sarà escluso dal gioco fino alla risoluzione del problema.
-513. **Meccanismi di panchina – Formato Squad** 
+513. **Meccanismi di panchina (Formato Squad)** 
 	5131. La squadra può sostituire qualunque giocatore in panchina con uno dei 3 giocatori in campo, entrando e uscendo attraverso un ingresso, situato nella metà difensiva del campo.
-	5132. Prima che un nuovo giocatore entri in campo, il giocatore che sta tentando l'uscita dal campo deve essere nell'area di transizione, delimitata a `3 ± 0.5 m` dal centro dell'ingresso assegnato alla sua squadra.
+	5132. Prima che un nuovo giocatore entri in campo, il giocatore che sta tentando l'uscita dal campo deve essere nell'Area di Transizione, delimitata a `3 ± 0.5 m` dal centro dell'ingresso assegnato alla sua squadra.
 		51321. Se un giocatore che entra o esce dal campo, interferisce con una palla libera o con un portatore di palla avversario durante la sostituzione, viene chiamata un'infrazione di Sostituzione Illegale come da `6.1.5`.
 
 
@@ -447,5 +447,39 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			61331. L'infrazione per interferenza della mazza viene assegnata quando un giocatore usa la propria mazza per iniziare o continuare un contatto con la mazza di un giocatore avversario che non ha possesso di palla o gli impedisce di muoversi liberamente.
 				613331. Il contatto mazza-mazza è permesso quando si gareggia per una palla libera nel raggio di `3 m` dalla palla.
 				613332. Un giocatore che usa la propria mazza per iniziare un contatto con la mazza di un giocatore avversario, per concedere il possesso a un difensore all'interno dell'Area di Porta, non sarà punito con una penalità di interferenza della mazza.
-	614. **Violazione dell'area**
-		6141. 
+	614. **Violazione dell'area di porta (*crease*)**
+		6141. É permesso a un solo difensore di stare nell'Area di Porta per più di tre (3) secondi prima che vi faccia ingresso la palla o il portatore di palla.
+			61411. Una penalità di violazione dell'Area di Porta viene assegnata a qualunque difensore aggiuntivo o qualunque giocatore attacante che si trovi nell'Area di Porta per più di tre (3) secondi prima dell'ingresso della palla o del portatore di palla.
+		6142. Nel momento in cui la palla o il portatore di palla entrano nell'Area di Porta, i giocatori possono entrare a loro volta per fare un gioco leale sulla palla.
+		6143. Quando la palla esce dall'Area di Porta, tutti i giocatori eccetto un (1) difensore, devono uscire entro il limite di 3 secondi.
+			61431. Se un giocatore usa la bici, il corpo o la mazza per impedire a un avversario di uscire dall'Area di Porta entro il limite di tre (3) secondi, il giocatore che resta in area non riceve nessuna penalità.
+		6144. Se viene commessa una Violazione dell'Area di Porta mentre un avversario non ha la possibilità di segnare, si esegue un cambio palla solo alla prima occorrenza dell'infrazione.
+			61441. La successiva violazione porterà a una Penalità Minore indipendentemente da quale giocatore della squadra abbia commesso l'infrazione.
+		6145. Se la violazione viene commessa mentre un avversario ha un'evidente possibilità di segnare punto con un tiro, un passaggio o una palla libera o perché vicino all'Area di Porta, verrà assegnata una Penalità Minore immediatamente, anche alla prima occorrenza dell'infrazione.
+			61451. Successive infrazioni commesse mentre un avversario ha un'evidente possibilità di segnare punto con un tiro, un passaggio o una palla libera o perché vicino all'Area di Porta, la penalità si trasforma in una Penalità Maggiore indipendentemente da quale sia il giocatore a commettere l'infrazione.
+	615. **Sostituzione non permessa (Formato Squad)**
+		6151. Un giocatore che sta uscendo dal campo deve avere almeno una ruota nell'Area di Transizione intorno all'ingresso designato alla squadra, prima che il giocatore in ingresso possa superare la soglia del campo.
+		6152. Durante una sostituzione, i giocatori nell'Area di Transizione non possono interferire attivamente con la palla o un giocatore avversario.
+			61521. Viene assegnata una Penalità Minore di Sostituzione Illegale, al giocatore che interferisce attivamente con la palla o un avversario dall'interno dell'Area di Transizione, durante la sostituzione.
+		6153. Una palla libera che entra in contatto con un giocatore ma che non viene direzionata intenzionalmente, non porterà a una Penalità di Sostituzione Illegale, indipendentemente da quale giocatore la colpisce o se entrambi i giocatori sono in campo.
+		6154. Più di tre (3) giocatori della stessa squadra in campo, attivamente coinvolti nel gioco porterà a una Penalità Maggiore al giocatore entrato per ultimo in campo.
+			61541. La squadra penalizzata deve selezionare un altro giocatore in campo che dovrà sedere in panchina per la durata del Vantaggio di Giocatori.
+62. **Infrazione di gestione della bici**
+	621. *Dabbing* (Piede/Tocco)
+		6211. Un giocatore è considerato *Dabbed* quando i suoi piedi si appoggiano su qualsiasi cosa che non sia la sua stessa bici o la parete verticale delle sponde del campo.
+			62111. I piedi dei giocatori non devono toccare il pavimento, la porta o il corpo o l'attrezzatura di un altro giocatore.
+		6212. Un giocatore che si appoggia con una parte del corpo contro la porta per stabilizzarsi è considerato un giocatore *Dubbed*.
+			62121. Il Giudice di Porta può segnalare un *Dab* come da `3.5.2.3`.
+			62122. L'Arbitro Principale o il Giudice di Porta annuncia al giocatore il *Dab*.
+		6213. La mano di un giocatore non deve afferrare nient'altro che la sua bici, la mazza o la palla come da `4.7`.
+		6214. Trattenere, aggrapparsi o appoggiarsi sulla porta o sul bordo superiore delle sponde è considerato *Dab*.
+			62141. Riposizionare la porta come da `5.11.5.1` non è considerato *Dab*.
+		6215. Un giocatore che ha commesso *Dab* è considerato fuori dal gioco e non può interferire col gioco usando la bici, il corpo o la mazza per impedire a un avversario di giocare la palla o sul portatore di palla.
+		6216. Un giocatore che ha commesso *Dab* non può essere coinvolto nel gioco o schermato.
+			62161. L'Arbitro Principale assegna una Penalità per Comportamento Antisportivo come da `6.1.2.1`.
+		6217. Un giocatore che ha commesso *Dab* deve andare a battere la mazza sulle sponde del campo in una delle nelle aree *Tap-In* designate.
+		6218. Al giocatore che ha commesso *Dab* è concesso un tempo ragionevole per ritirarsi dall'area di gioco.
+			62181. L'arbitro può assegnare una penalità se il giocatore che ha commesso *Dab* interferisce con il gioco creando un vantaggio per la propria squadra.
+			62182. Se il giocatore che ha commesso *Dab* blocca un tiro alla sua porta che diversamente avrebbe attraversato la Linea di Porta, l'Arbitro Principale assegna il punto alla squadra del giocatore che ha tirato come da `7.5.1`.
+	622. *Toppling* (Sbilanciamento)
+		6221. 
