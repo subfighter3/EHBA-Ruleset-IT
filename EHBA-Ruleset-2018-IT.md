@@ -409,4 +409,41 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			61111. Un Fallo Personale viene automaticamente assegnato al capitano della squadra alla prima infrazione.
 			61112. Qualsiasi infrazione successiva viene assegnata una Penalità Minore al capitano della squadra.
 		6112. Un giocatore blocca la pallina con la mazza o la bici mentre è appoggiato contro le sponde, impedendo agli altri giocatori di giocare la palla.
-		6113. Un giocatore fa palesemente uscire la palla dal gioco raccogliendola tirandola o incoppandola (scooping).
+		6113. Un giocatore fa uscire la palla dal gioco raccogliendola con il lato cavo della testa (*Scooping*) o tirandola fuori dal gioco di proposito.
+		6114. Un giocatore sposta di proposito la posizione della porta come da `5.11`.
+	612. **Comportamento antisportivo**
+		6121. Il comportamento di un giocatore viene considerato antisportivo secondo, ma non limitato a, i seguenti criteri:\
+			• Generali e continuative interruzioni delle procedure di gioco;\
+			• Eccessive proteste contro gli ufficiali di gioco;\
+			• Essere attivamente coinvolto nel gioco dopo un Fallo di Piede (*Dabbing*);\
+			• Incapacità di uscire dopo un Fallo di Piede (*Dabbing*), che comporta un vantaggio per la propria squadra;\
+			• Interagire o impedire ad un giocatore che ha appena commesso un Fallo di Piede (*Dubbed*) o rendendo la sua attrezzatura più difficile da recuperare;\
+			• Creare un vantaggio ingiusto alla propria squadra.
+			61211. Spostare una mazza caduta a un giocatore che ha commesso un Fallo di Piede, che interferisce al gioco, non comporta un'infrazione da comportamento antisportivo come nel punto `6.4.8.2.2`.
+		6122. L'infrazione da comportamento antisportivo comporta una Penalità Minore, Maggiore o di Cattiva Condotta.
+			61221. Un giocatore coinvolto in aggressioni verbali o fisiche rivolte a Ufficiali di Gioco, organizzatori dell'evento, spettatori o altri giocatori, porterà automaticamente all'assegnazione di una Penalità di Cattiva Condotta.
+	613. **Interferenza**
+		6131. **Interferenza della bici**
+			61311. Interferenza con la bici, "schermatura/ostruzione" (*screening*) o "blocco" viene definito come un utilizzo attivo del movimento e della posizione della bici per bloccare bruscamente e/o continuamente un avversario non in possesso da:\
+							• Guadagnare una posizione difensiva o offensiva nel campo.\
+							• Avere accesso diretto a una palla libera.\
+							• Affrontare un giocatore in possesso di palla.
+				613111. Un'infrazione per interferenza della bici viene chiamata quando un giocatore che non è in possesso di palla, scherma un avversario che non ha possesso di palla.
+			61312. Tutti i giocatori non in possesso di palla hanno diritto allo spazio che occupano.
+				613121. La penalità non viene assegnate se un giocatore sta occupando il suo spazio da fermo o è in movimento ad una velocità prevedibile e costante nel prendere posizione offensiva o difensiva nel campo.
+				613122. Uno stazionamento o una momentanea ostruzione non comporta una penalità se l'azione incrocia accidentalmente la posizione del giocatore avversario.
+				613123. L'impedenza naturale di un avversario dovuta alla posizione e alla velocità non comporta una penalità.
+			61313. Quando si concorre per una palla libera, tutti i giocatori che gareggiano per il possesso devono muoversi direttamente e naturalmente verso la palla o concederla.
+				613131. La penalità non viene assegnata se il giocatore più vicino a una palla libera "scherma" gli avversari entro approssimativamente `3 m` per guadagnare la palla in sicurezza.
+				613132. Una penalità per interferenza della bici viene assegnata se un giocatore che gareggia per il possesso ostruisce un avversario concedendo a un proprio compagno di squadra il possesso di palla.
+			61314. Un giocatore che non ha possesso di palla ha diritto di tentare di schermare il portatore di palla.
+				613141. Se un giocatore in possesso di palla, la passa o la perde non può più essere ostruito.
+		6132. **Interferenza fisica**
+			61321. L'infrazione di interferenza fisica viene assegnata se un giocatore dà inizio a un contatto fisico con un avversario senza possesso di palla.
+				613211. I giocatori che gareggiano per il possesso di una palla libera possono ingaggiarsi fisicamente come da `6.3` entro `3 m` dalla palla.
+		6133. Interferenza della mazza
+			61331. L'infrazione per interferenza della mazza viene assegnata quando un giocatore usa la propria mazza per iniziare o continuare un contatto con la mazza di un giocatore avversario che non ha possesso di palla o gli impedisce di muoversi liberamente.
+				613331. Il contatto mazza-mazza è permesso quando si gareggia per una palla libera nel raggio di `3 m` dalla palla.
+				613332. Un giocatore che usa la propria mazza per iniziare un contatto con la mazza di un giocatore avversario, per concedere il possesso a un difensore all'interno dell'Area di Porta, non sarà punito con una penalità di interferenza della mazza.
+	614. **Violazione dell'area**
+		6141. 
