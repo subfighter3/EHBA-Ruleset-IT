@@ -1,3 +1,9 @@
+/** 
+* * Custom listing styles to conform to official EHBA ruleset
+* ! Author Pyetro (MBP)
+* ! Version 1.1 
+*/
+
 body {
   counter-reset: section;
 }
