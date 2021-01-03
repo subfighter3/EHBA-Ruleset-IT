@@ -68,7 +68,7 @@ html {
 
 @media print {
   .markdown-body {
-    --horizontal-padding: 30px;
+    --horizontal-padding: 75px;
   }
   .markdown-body pre code {
     white-space: pre-wrap;

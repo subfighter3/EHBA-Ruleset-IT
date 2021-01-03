@@ -6,6 +6,15 @@
 
 body {
   counter-reset: section;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #24292e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
 }
 
 .header {
@@ -15,51 +24,72 @@ body {
   padding-bottom: 1rem;
 }
 
-h1::before {
+.markdown-body h1,
+.markdown-body h2 {
+  page-break-before: always;
+}
+
+.markdown-body h1::before {
   content: "Sezione " counters(section, ".") ": ";
   counter-increment: section;
 }
 
-ol {
+.markdown-body ol {
   counter-reset: item;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-ol > li {
+.markdown-body ol > li {
   counter-increment: item;
   display: table;
   margin-bottom: 0.6em;
   padding-left: 0px;
+  page-break-inside: avoid;
 }
 
-h1 ~ ol > li > strong {
+.markdown-body h1 ~ ol > li > strong {
   font-size: larger;
 }
 
-ol > li::before {
+.markdown-body ol > li::before {
   content: counter(section) "." counters(item, ".") ". ";
   display: table-cell;
   font-weight: bold;
   padding-right: 1em;
 }
 
-h1 ~ ol > li::before {
+.markdown-body h1 ~ ol > li::before {
   font-size: larger;
 }
 
-li ol > li {
+.markdown-body li ol > li {
   margin: 0;
-  margin-left: -3em;
+  margin-left: -2.5em;
   margin-top: 0.6em;
 }
 
-li ol > li:not(:last-child) {
+.markdown-body li ol > li:not(:last-child) {
   margin-bottom: 0.6em;
 }
 
-li ol > li::before {
+.markdown-body li ol > li::before {
   content: counter(section) "." counters(item, ".") ". ";
   font-weight: bold;
+}
+
+@media print {
+  .markdown-body {
+    font-size: 8pt;
+    --horizontal-padding: 1cm;
+  }
+
+  .title,
+  .header,
+  .footer {
+    padding-left: var(--horizontal-padding);
+    padding-right: var(--horizontal-padding);
+    font-size: 6pt;
+  }
 }

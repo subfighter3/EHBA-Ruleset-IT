@@ -1,27 +1,21 @@
 
 ---
-### EHBA\
+#### EHBA\
 
-## Hardcourt Bike Polo\
+### Hardcourt Bike Polo\
 Regolamento\
 2018
 
-###### Versione  200324\
-Versione italiana  210102\
+##### Revisione  200324\
+Revisione italiana  210103\
 
-###### Traduzione: Rayna (Napoli)\
+##### Traduzione: Rayna (Napoli)\
 Revisione e sviluppo: Pyetro (Milano)
 
 ---
 
-+++
-<div style="page-break-after: always;"></div>
-
-###### Premessa
+## Premessa
 Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte, tranne nei vari casi in cui la versione inglese, oltre che essere più breve ed esaustiva rappresenta ormai un modo di dire consolidato a livello internazionale nel mondo del bike polo.
-
-+++
-<div style="page-break-after: always;"></div>
 
 # Squadre, Giocatori & Equipaggiamento
 
@@ -75,8 +69,6 @@ Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte, tra
 		1344. Non possono esserci portapacchi, parafanghi, porta borraccia o qualunque altro accessorio che possa aiutare ad ostacolare il passaggio della palla.
 			13441. Copri ruota, copri dischi e copri catena rotondi sono permessi. 
 
-+++
-<div style="page-break-after: always;"></div>
 
 # Strutture di gioco
 
@@ -126,17 +118,14 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	233. Le Palle devono essere realizzate di un materiale a basso rimbalzo e resistente agli urti.
 		2331. La durezza del materiale deve corrispondere alla sua temperatura di prestazione ottimale.
 
-+++
-<div style="page-break-after: always;"></div>
 
 ## **Diagramma 1: Area di porta**
 [img]
 
+
 ## Diagramma 2: Versione alternativa dell'area di porta
 [img]
 
-+++
-<div style="page-break-after: always;"></div>
 
 # Ufficiali di Gara
 31. **Ufficiali di Gara**
@@ -237,8 +226,6 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		3531. Infrazione – Alza un braccio e con l'altro indica il giocatore che ha commesso l'infrazione.
 		3532. Timeout — Mima una "T" con entrambe le braccia.
 
-+++
-<div style="page-break-after: always;"></div>
 
 # Ufficiali di Gara
 41. **Possesso di palla**
@@ -275,8 +262,6 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	482. Lo "Slapping" non è permesso.
 		4821. Un giocatore difensivo all'interno della propria area di porta può usare le mani per reindirizzare, senza afferrare, una palla volante sotto l'altezza delle spalle.
 
-+++
-<div style="page-break-after: always;"></div>
 
 # Meccanismi di Gioco
 51. **Inizio del gioco**
@@ -325,7 +310,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		5411. L'Arbitro Principale può fischiare velocemente due volte per sollecitare la conferma della squadra.
 		5412. In caso la squadra senza possesso di palla non comunica di essere pronta entro dieci (10) secondi viene assegnata una Penalità di Ritardo come da `6.1.1`.
 	542. Dopo la conferma, l'Arbitro Principale indica che il gioco riparte come da '3.5.1.2' e annuncia “10 secondi per oltrepassare la metà campo”.
-		5421.  Se la squadra in possesso di palla non inizia a giocare entro dieci (10) secondi da quando l'altra squadra ha confermato di essere pronta, il team senza il possesso di palla può iniziare a giocare superarando la metà campo.
+		5421.  Se la squadra in possesso di palla non inizia a giocare entro dieci (10) secondi da quando l'altra squadra ha confermato di essere pronta, il team senza il possesso di palla può iniziare a giocare superando la metà campo.
 			54211. L'arbitro segnala verbalmente “gioco” ("game on"). 
 			54212. L'Assistente Arbitro fa ripartire il tempo.
 	543. Il gioco inizia e il tempo riparte quando la palla o un giocatore della squadra con il possesso della palla, supera la metà campo.
@@ -378,7 +363,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			59332. In caso di ulteriori infortuni o inabilità del giocatore a continuare portano la squadra a proseguire senza il giocatore per il resto del torneo.
 		5934. Alla squadra viene concessa una ragionevole quantità di tempo (non superiore ai 5 minuti) per trovare un rimpiazzo che venga approvato dal Capo Arbitro.
 		5935. Se un giocatore viene espulso dal torneo la sua squadra può richiedere un sostituto solo dopo la partita in cui è avvenuta l'espulsione.
-5910. Timeout
+5910. **Timeout**
 	5101. Ad ogni squadra sono concessi due (2) Timeout di durata massima di due minuti ciascuno.
 		51011. I Timeout possono essere richiesti consecutivamente, se necessario.
 			510111. Una squadra che non è pronta a giocare nei dieci (10) secondi di tempo limite dopo i due (2) minuti di pausa del primo Timeout deve richiedere, se disponibile, il secondo Timeout per estendere l'interruzione di gioco.
@@ -418,8 +403,6 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	5132. Prima che un nuovo giocatore entri in campo, il giocatore che sta tentando l'uscita dal campo deve essere nell'area di transizione, delimitata a `3 ± 0.5 m` dal centro dell'ingresso assegnato alla sua squadra.
 		51321. Se un giocatore che entra o esce dal campo, interferisce con una palla libera o con un portatore di palla avversario durante la sostituzione, viene chiamata un'infrazione di Sostituzione Illegale come da `6.1.5`.
 
-+++
-<div style="page-break-after: always;"></div>
 
 # Infrazioni
 61. **Infrazioni Tecniche**
