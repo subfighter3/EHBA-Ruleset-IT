@@ -558,4 +558,11 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	711. Il Cambio Palla viene assegnato quando è stato commesso un fallo in un contesto neutrale dove nessun potenziale di fare punto o altra opportunità siano state compromesse.
 	712.  Il Possesso di Palla viene garantito alla squadra che ha subito fallo e il gioco riprende come da `5.4`.
 72. **Penalità Minore (*Minor Penalty*)** 
-	721. 
+	721. Viene assegnata una Penalità Minore per le infrazioni che impediscono una chiara opportunità di fare punto o un vantaggio significativo per la squadra che subisce l'infrazione, o in caso di una qualunque altra azione specificata nella `Sezione 6`.
+	722. Viene assegnata una Penalità Minore per qualunque comportamento pericoloso non intenzionale o inconsapevole.
+	723. Viene assegnata una Penalità Minore per qualunque infrazione commessa nell'Aria di Porta a danni del Possessore di Palla come indicato nella `Sezione 6`.
+	724. Una Penalità Minore può essere assegnata a causa di una Procedura di Fallo Personale come da `8.6`.
+	725. Il possesso di palla è concesso alla squadra che ha subito l'infrazione e il gioco riprende come da `5.4` con un Vantaggio di Giocatori di trenta (30) secondi come da `8.5`.
+		7251. Il Vantaggio di Giocatori termina se la squadra con il vantaggio, segna.
+73. **Penalità Maggiore (*Major Penalty*)**
+	731. 
