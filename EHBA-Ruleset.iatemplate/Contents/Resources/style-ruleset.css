@@ -4,8 +4,12 @@
 * ! Version 1.1 
 */
 
-body {
+:root {
   counter-reset: section;
+  counter-set: section 1;
+}
+
+body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
@@ -45,7 +49,7 @@ body {
   counter-increment: item;
   display: table;
   margin-bottom: 0.6em;
-  padding-left: 0px;
+  padding-left: 0;
   page-break-inside: avoid;
 }
 
