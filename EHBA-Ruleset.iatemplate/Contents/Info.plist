@@ -4,33 +4,33 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>it</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.bikepolo.ruleset</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleIdentifier</key>
-	<string>it.bikepolo.ruleset</string>
 	<key>CFBundleName</key>
-	<string>EHBA Ruleset Italian Version</string>
+	<string>EHBA Ruleset</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
-	<key>IATemplateDocumentFile</key>
-	<string>document</string>
-	<!-- <key>IATemplateTitleFile</key> -->
-	<!-- <string>title</string> -->
-	<key>IATemplateFooterFile</key>
-	<string>footer</string>
-	<key>IATemplateFooterHeight</key>
-	<integer>45</integer>
-	<key>IATemplateHeaderFile</key>
-	<string>header</string>
-	<key>IATemplateHeaderHeight</key>
-	<integer>45</integer>
-	<key>IATemplateDescription</key>
-	<string>Bike Polo ruleset style.</string>
+	<string>1.1</string>
 	<key>IATemplateAuthor</key>
 	<string>Pyetro (MBP)</string>
 	<key>IATemplateAuthorURL</key>
 	<string>https://pyet.ro/</string>
+	<key>IATemplateDescription</key>
+	<string>Bike Polo ruleset style.</string>
+	<key>IATemplateDocumentFile</key>
+	<string>document</string>
+	<key>IATemplateFooterFile</key>
+	<string>footer</string>
+	<key>IATemplateFooterHeight</key>
+	<integer>30</integer>
+	<key>IATemplateHeaderFile</key>
+	<string>header</string>
+	<key>IATemplateHeaderHeight</key>
+	<integer>30</integer>
+	<key>IATemplateTitleFile</key>
+	<string>title</string>
 </dict>
 </plist>

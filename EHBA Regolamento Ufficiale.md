@@ -1,21 +1,23 @@
+## EHBA: European Hardcourt Bikepolo Association
 
----
-#### EHBA\
+### Regolamento Ufficiale
+##### Revisione EN: 200324\
+Revisione IT: 240402
 
-### Hardcourt Bike Polo\
-Regolamento\
-2018
+> Traduzione: Rayna (Napoli)\
+> Revisione e mantenimento: Pyetro (Milano)
 
-##### Revisione  200324\
-Revisione italiana  210103\
-
-##### Traduzione: Rayna (Napoli)\
-Revisione e sviluppo: Pyetro (Milano)
+	⚠️ Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte in Italiano, tranne quando la versione Inglese, oltre che essere più breve ed esaustiva rappresenta ormai un modo di dire consolidato a livello internazionale nel Bike Polo.
 
 ---
 
-## Premessa
-Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte, tranne nei vari casi in cui la versione inglese, oltre che essere più breve ed esaustiva rappresenta ormai un modo di dire consolidato a livello internazionale nel mondo del bike polo.
+##### **Indice**
+
+{{TOC}}
+
+---
+
++++
 
 # Squadre, Giocatori & Equipaggiamento [section1]
 
@@ -33,7 +35,7 @@ Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte, tra
 	123. I capitani delle squadre sono responsabili della trasmissione di tutte le comunicazioni dagli Ufficiali di Gara ai membri della loro squadra.
 	124. I capitani delle squadre possono interagire con l'Arbitro durante le interruzioni riguardanti sostituzioni, controversie di penalità, equipaggiamento e altri casi di ragionevole dubbio.
 		1241. Ai capitani delle squadre non è consentito interagire con l'Arbitro durante il gioco o dall'esterno del campo.
-13. **Equipaggiamento‌**
+13. <a name="1.3"></a>**Equipaggiamento‌**
 	131. **Divise**
 		1311. Le squadre devono indossare divise dello stesso colore, in contrasto con il colore della squadra avversaria.
 		1312. Se richiesto dall'Arbitro, le squadre devono cambiare la divisa principale con la divisa alternativa prima dell'inizio della partita.
@@ -41,12 +43,12 @@ Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte, tra
 	132. **Equipaggiamento di sicurezza**
 		1321. I giocatori devono indossare un casco sportivo omologato quando sono in campo.
 		1322. Guanti, parastinchi e/o ginocchiere, gabbie per il viso e altri dispositivi di protezione non sono obbligatori ma sono raccomandati.
-133. **Mazze *(Mallets)***
+	133. **Mazze *(Mallets)***
 		1331. **Asta *(Shaft)***
 			13311. L'asta dev'essere fatta di un materiale resistente, che non si scheggi o che non sia suscettibile alla rottura durante quello che è considerato un gioco normale.
 			13312. L'impugnatura dell'asta dev'essere tappata o sigillata.
 			13313. L'asta non deve sporgere attraverso la parte inferiore della testa della mazza.
-		1332. **Testa della mazza *(Mallet Head)***
+		1332. ***Testa della mazza* (Mallet Head)***
 			13321. La testa della mazza dev'essere fatta di un materiale che non si frantuma, si spezza o si logora dando origine a un bordo tagliente.
 			13322. La testa della mazza deve avere forma allungata e avere solo due (2) estremità.
 			13323. La testa della mazza dev'essere fissata saldamente all'asta.
@@ -95,7 +97,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 				21421. Verrà marcata la metà della linea centrale per posizionare la palla per le "contese" *(Joust).*
 		2143. Le Linee di Porta devono essere parallele e a `3–4.5 m` di distanza dalle sponde del lato corto, a seconda delle dimensioni del campo.
 			21431. Le Linee di Porta non possono essere distanti meno di `29 ± 0.5 m` l'una dall'altra.
-		2144. Le Linee di Porta devono essere tracciate per posizionare lo Specchio della Porta, centrato rispetto alla larghezza del campo, definendo quello che verrà chiamata la Linea dello Specchio della Porta.
+		2144. <a name="2.1.4.4"></a>Le Linee di Porta devono essere tracciate per posizionare lo Specchio della Porta, centrato rispetto alla larghezza del campo, definendo quello che verrà chiamata la Linea dello Specchio della Porta.
 			21441. Lo Specchio della Porta deve essere delimitato da due (2) linee perpendicolari che si estendono di `10 ± 1 cm` verso il centro del campo e `20 ± 1 cm` dietro la porta.
 			21442. Le due (2) linee verticali devono coincidere con le dimensioni delle porte usate, usando come riferimento l'interno dei pali.
 	215. **Area di Tocco  *(Tap-In)***
@@ -103,8 +105,8 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		2152. Le linee verranno disegnate ad ogni lato a `0.75 ± 0.10 m` dalla linea centrale.
 	216. **Area di Porta *(Crease)***
 		2161. Verrà tracciata un'area davanti alla porta e verrà definita come *area di porta.*
-		2162. La dimensione dell'Area di Porta deve essere un semicerchio di `3 ± 0.1 m` dal centro dell'apertura della porta, tagliato a `1.25 ± 0.1 m` dall'esterno di ciascun delimitatore dello Specchio della Porta. Vedi `Diagramma 1`.
-			21621. L'Area di Porta può essere disegnata con linee rette, come nel `Diagramma 2`.
+		2162. La dimensione dell'Area di Porta deve essere un semicerchio di `3 ± 0.1 m` dal centro dell'apertura della porta, tagliato a `1.25 ± 0.1 m` dall'esterno di ciascun delimitatore dello Specchio della Porta. Vedi [`Diagramma 1`][diagram1].
+			21621. L'Area di Porta può essere disegnata con linee rette, come nel [`Diagramma 2`][diagram2].
 22. **Porte *(Goals)***
 	221. Le Porte devono avere le reti.
 	222. Le Porte devono avere una traversa rigida posizionata sopra la Linea di Porta.
@@ -119,11 +121,11 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		2331. La durezza del materiale deve corrispondere alla sua temperatura di prestazione ottimale.
 
 
-## **Diagramma 1: Area di porta**
+### Diagramma 1: Area di porta [diagram1]
 [img]
 
 
-## Diagramma 2: Versione alternativa dell'area di porta
+### Diagramma 2: Versione alternativa dell'area di porta [diagram2]
 [img]
 
 
@@ -167,7 +169,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			34121. È responsabilità del Capo Arbitro spiegare il regolamento ai giocatori e agli altri Ufficiali di Gara.
 		3413. Il Capo Arbitro ispeziona l'equipaggiamento dei giocatori prima dell'inizio dell'evento per determinarne la sicurezza e la conformità come da [`1.3`](#1.3).
 			3414. Il Capo Arbitro può essere aiutato da altri Ufficiali di Gara per verificare l'attrezzatura.
-		3414. Il punteggio finale delle partite perse a tavolino viene definito e annunciato dal Capo Arbitro prima dell'inizio del torneo.
+		3414. <a name="3.4.1.4"></a>Il punteggio finale delle partite perse a tavolino viene definito e annunciato dal Capo Arbitro prima dell'inizio del torneo.
 	342. **Arbitro**
 		3421. L'Arbitro mantiene il pieno controllo del gioco, applicando il regolamento al meglio delle proprie capacità.
 			34211. È responsabilità dell'Arbitro valutare la gravità di tutte le infrazioni ed emettere qualsiasi penalità elencata nella [`Sezione 7`][section7] in modo tale da eliminare lo svantaggio competitivo.
@@ -180,7 +182,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		3432. I Giudici di Porta dovrebbero segnalare ciò che percepiscono come una penalità nelle loro immediate vicinanze come da [`3.5.2.3`](#3.5.2.3).
 			34321. I Giudici di Porta deve essere pronto a fornire una prospettiva all'Arbitro in merito a eventuali punti o penalità.
 			34322. L'interazione con l'Arbitro è strettamente consultiva e la decisione finale spetta all'Arbitro.
-		3433. I Giudici di Porta devono riposizionare le porte in caso vengano spostate o rovesciate durante il gioco.
+		3433. <a name="3.4.3.3"></a>I Giudici di Porta devono riposizionare le porte in caso vengano spostate o rovesciate durante il gioco.
 			34331. Se il campo non consente l'accesso ai giudici di porta, l'Arbitro deve delegare questa responsabilità ad altri volontari.
 			34332. Se non è disponibile l'accesso al campo, i giocatori vengono informati della responsabilità di riposizionare le porte.
 		3434. I Giudici di Porta devono segnalare, come da [`3.5.2.3`](#3.5.2.3), false partenze durante la contesa (joust) come da [`5.2.1.1`](#5.2.1.1).
@@ -212,22 +214,22 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 35. **Segnali manuali**
 	351. Arbitro 
 		3511. Inizio del gioco—Alza il braccio in alto e lasciandolo cadere appena fischiato.
-		3512. Ripresa del gioco—Stende un braccio in avanti con il palmo rivolto verso l'alto per indicare che il gioco può iniziare.
-		3513. Penalità ritardata/Vantaggio—Solleva il braccio esteso verso l'alto.
+		3512. <a name="3.5.1.2"></a>Ripresa del gioco—Stende un braccio in avanti con il palmo rivolto verso l'alto per indicare che il gioco può iniziare.
+		3513. <a name="3.5.1.3"></a>Penalità ritardata/Vantaggio—Solleva il braccio esteso verso l'alto.
 		3514. Possesso dopo un'interruzione—Tende un braccio in direzione della squadra che riprenderà il gioco con la palla.
 	352. Giudici di Porta
-		3521. Goal segnato—Solleva il braccio esteso verso l'alto.
+		3521. <a name="3.5.2.1"></a>Goal segnato—Solleva il braccio esteso verso l'alto.
 			35211. Alza la bandiera, se è disponibile.
-		3522. Tiro mancato/Goal non valido—Incrocia le braccia in avanti e le apre verso l'esterno con un movimento ampio.
-		3523. Falsa Partenza/Infrazione—Alza un braccio in alto e con l'altro indica il giocatore che ha commesso l'infrazione.
+		3522. <a name="3.5.2.2"></a>Tiro mancato/Goal non valido—Incrocia le braccia in avanti e le apre verso l'esterno con un movimento ampio.
+		3523. <a name="3.5.2.3"></a>Falsa Partenza/Infrazione—Alza un braccio in alto e con l'altro indica il giocatore che ha commesso l'infrazione.
 			35231. Se è disponibile una bandiera, il Giudice di Porta la alza estendendo l'altro braccio.
-		35232. Timeout—Mima una "T" con entrambe le braccia.
+		3524. <a name="3.5.2.4"></a>Timeout—Mima una "T" con entrambe le braccia.
 	353. **Assistente Arbitro**
-		3531. Infrazione—Alza un braccio e con l'altro indica il giocatore che ha commesso l'infrazione.
-		3532. Timeout—Mima una "T" con entrambe le braccia.
+		3531. <a name="3.5.3.1"></a>Infrazione—Alza un braccio e con l'altro indica il giocatore che ha commesso l'infrazione.
+		3532. <a name="3.5.3.2"></a>Timeout—Mima una "T" con entrambe le braccia.
 
 
-# Ufficiali di Gara [section4]
+# Giocare la palla [section4]
 41. **Possesso di palla**
 	411.  Il giocatore che ha eseguito intenzionalmente l'ultimo tocco controllato del mallet sulla palla è considerato in possesso di palla. Il giocatore in possesso è noto come Portatore di Palla.
 		4111. Un giocatore non è considerato in possesso della palla, o il possesso viene ceduto nei seguenti casi:\
@@ -235,13 +237,13 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 				- La palla si muove così velocemente in prossimità di un giocatore che non è in grado di eseguire più di un (1) tocco controllato sulla palla libera;\
 				- Il Portatore di Palla non è più in grado di giocare la palla con la mazza;
 		4112. Il possesso non è perso dal Portatore di Palla se un tocco intenzionale sulla palla da parte di un avversario, non ostacola l'abilità del Portatore di continuare a giocare la palla con il mallet e la palla resta in prossimità di circa tre (3) metri.
-42. **Tiro**
+42. <a name="4.2"></a>**Tiro**
 	421. Un tiro viene definito come un urto elastico tra uno dei lati terminali della testa della mazza e la palla.
 	422. Direzionare intenzionalmente la palla per mezzo di un contatto con qualunque parte del corpo o della bici non è un tiro.
 	423. Uno "shuffle", "ball‐joint", "scoop" or "carry", come da punti [`4.3`](#4.3) fino a [`4.6`](#4.6), non è un tiro.
 	424. Qualunque contatto con la stecca della mazza non è un tiro.
 	425. Una palla deviata da una superficie o equipaggiamento che viene da un'azione che non è stata un tiro non è considerata un tiro.
-43. **Shuffling**
+43. <a name="4.3"></a>**Shuffling**
 	431. Viene definito "Shuffle" qualunque contatto tra la parte allungata della testa della mazza e la palla.
 44. **‌Ball–Jointing**
 	441. Viene definito "Ball–Jointing" la pressione applicata sulla palla usando qualunque foro o superficie concava della testa della mazza allo scopo di incastrarla contro una qualsiasi superficie del campo.
@@ -250,13 +252,13 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	451. Viene definito "Scoop" il manovrare la palla a coppa in un buco della testa della mazza usando la forza centripeta per mantenere la palla nel buco.
 	452. Lo "Scoop" è permesso al di sotto dell'altezza del manubrio del giocatore o dell'avversario se questo è vicino approssimativamente 3m come in [`6.4.3.3`](#6.4.3.3). 
 	453. Lo "Scoop" è permesso per non più di tre (3) cambi di direzione.
-46. **Carrying**
+46. <a name="4.6"></a>**Carrying**
 	461. Viene definito "Carrying" portare la palla con la testa della mazza, grazie alla forza di gravità che tiene la palla derma nella testa.
 	462. Il "Carrying" non è permesso.
-47. **Grabbing**
+47. <a name="4.7"></a>**Grabbing**
 	471. Viene definito "Grabbing" usare la mano per afferrare la palla.
 	472. il "Grabbing" non è permesso.
-		4721. Un giocatore può usare entrambe le mani per fermare una palla volante ma deve immediatamente deviare la palla verso il pavimento nel punto in cui è stata fermata.
+		4721. <a name="4.7.2.1"></a>Un giocatore può usare entrambe le mani per fermare una palla volante ma deve immediatamente deviare la palla verso il pavimento nel punto in cui è stata fermata.
 48. **Slapping**
 	481. Reindirizzare intenzionalmente o dare impulso alla palla con le mani o i piedi è considerato "Slapping".
 	482. Lo "Slapping" non è permesso.
@@ -273,7 +275,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		5132. Le squadre possono gareggiare per il possesso di palla.
 52. <a name="5.2"></a>**La Giostra (*Joust*)**
 	521. Ogni squadra si posiziona nel proprio lato del campo; i giocatori stazionano sulle biciclette con la ruota posteriore che tocca la sponda alle spalle della porta.
-		5211. Si ha una Falsa Partenza quando un giocatore lascia la sponda prima del fischio di inizio del gioco.
+		5211. <a name="5.2.1.1"></a> Si ha una Falsa Partenza quando un giocatore lascia la sponda prima del fischio di inizio del gioco.
 			52111. Il Giudice di Porta deve segnalare una Falsa Partenza, come da [`3.5.2.3`](#3.5.2.3), se qualunque giocatore lascia la sponda prima del fischio di inizio.
 			52112. Un vantaggio della squadra che ha commesso la Falsa Partenza si convertirà in una penalità e il possesso di palla è concesso alla squadra che ha perso la Giostra.
 	522. I giocatori che partono alla Giostra devono tenere la mazza sullo stesso lato della bici.
@@ -297,7 +299,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		- porta fuori sede;\
 		- time-out;\
 		- equipaggiamento non sicuro.
-	533. Le squadre devono smettere di giocare e tornare nella propria metà campo entro dieci (10) secondi dal fischio.
+	533. <a name="5.3.3"></a>Le squadre devono smettere di giocare e tornare nella propria metà campo entro dieci (10) secondi dal fischio.
 	534. **Formato 3v3**
 		5341. L'Assistente di Gioco deve fermare il tempo ad ogni interruzione del gioco.
 	535. **Formato a Squadra**
@@ -313,7 +315,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		5421.  Se la squadra in possesso di palla non inizia a giocare entro dieci (10) secondi da quando l'altra squadra ha confermato di essere pronta, il team senza il possesso di palla può iniziare a giocare superando la metà campo.
 			54211. L'arbitro segnala verbalmente “gioco” ("game on"). 
 			54212. L'Assistente Arbitro fa ripartire il tempo.
-	543. Il gioco inizia e il tempo riparte quando la palla o un giocatore della squadra con il possesso della palla, supera la metà campo.
+	543. <a name="5.4.3"></a> Il gioco inizia e il tempo riparte quando la palla o un giocatore della squadra con il possesso della palla, supera la metà campo.
 		5431. L'Arbitro indica l'inizio del tempo annunciando “gioco” ("game on").
 		5432. I giocatori della squadra senza il possesso palla non possono attaccare l'altra squadra prima che inizi il gioco.
 55. <a name="5.5"></a>**Fine del Gioco**
@@ -368,7 +370,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		51011. I Timeout possono essere richiesti consecutivamente, se necessario.
 			510111. Una squadra che non è pronta a giocare nei dieci (10) secondi di tempo limite dopo i due (2) minuti di pausa del primo Timeout deve richiedere, se disponibile, il secondo Timeout per estendere l'interruzione di gioco.
 	5102. Durante qualsiasi interruzione di gioco, ogni squadra può chiamare un Timeout per allungare il limite di dieci (10) secondi prima che il  gioco riprenda.
-		51021. La squadra con possesso di palla, non ne perde possesso quando il gioco riprende.
+		51021. <a name="5.10.2.1"></a>La squadra con possesso di palla, non ne perde possesso quando il gioco riprende.
 	5103. Nel corso dell'azione di gioco, una squadra può chiedere un'interruzione di gioco guadagnando il possesso e chiamando ad alta-voce “Timeout” rivolgendosi all'Arbitro.
 		51031. La squadra che ha chiamato il Timeout perde il possesso di palla,
 			510311. I Timeout richiesti durante l'azione di gioco dovuti a una palla rotta o all'infortunio di un giocatore che ha bisogno di attenzioni mediche immediate, porta la squadra a mantenere il possesso di palla alla ripresa del gioco e non influenza il numero di Timeout disponibili.
@@ -389,7 +391,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	5114. Il possesso di palla viene mantenuto dalla squadra che lo aveva prima dell'interruzione del gioco.
 		51141. Se nessun team aveva possesso di palla al momento dell'interruzione, il gioco riprende con una Giostra come da [`5.2`](#5.2).
 	5115. Quando la porta viene rimessa nella posizione corretta dal Giudice di Porta come da [`3.4.3.3`](#3.4.3.3) senza interferire con il gioco, non richiede interruzione del gioco.
-		51151. Un difensore nella propria Area di Porta può portare la porta leggermente spostata, nella sua posizione corretta se l'operazione non interferisce in alcun modo lo svolgimento del gioco.
+		51151. <a name="5.11.5.1"></a>Un difensore nella propria Area di Porta può portare la porta leggermente spostata, nella sua posizione corretta se l'operazione non interferisce in alcun modo lo svolgimento del gioco.
 512. <a name="5.12"></a>**Attrezzatura non sicura**
 	5121. L'Arbitro può interrompere il gioco se ad un certo punto di una partita ritiene che l'equipaggiamento di un giocatore non sia sicuro.
 	5122. La squadra deve ricorrere ai propri Timeout disponibili, per risolvere il problema o sostituire la bici.
@@ -399,14 +401,14 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	5124. L'Arbitro deve approvare l'attrezzatura del giocatore in questione prima di della ripresa del gioco.
 		51241. Nel caso in cui l'attrezzatura non sia ritenuto sicura dall'Arbitro, il giocatore sarà escluso dal gioco fino alla risoluzione del problema.
 513. <a name="5.13"></a>**Meccanismi di panchina (Formato Squad)** 
-	5131. La squadra può sostituire qualunque giocatore in panchina con uno dei 3 giocatori in campo, entrando e uscendo attraverso un ingresso, situato nella metà difensiva del campo.
+	5131. <a name="5.13.1"></a>La squadra può sostituire qualunque giocatore in panchina con uno dei 3 giocatori in campo, entrando e uscendo attraverso un ingresso, situato nella metà difensiva del campo.
 	5132. Prima che un nuovo giocatore entri in campo, il giocatore che sta tentando l'uscita dal campo deve essere nell'Area di Transizione, delimitata a `3 ± 0.5 m` dal centro dell'ingresso assegnato alla sua squadra.
 		51321. Se un giocatore che entra o esce dal campo, interferisce con una palla libera o con un portatore di palla avversario durante la sostituzione, viene chiamata un'infrazione di Sostituzione Illegale come da [`6.1.5`](#6.1.5).
 
 
 # Infrazioni [section6]
 61. <a name="6.1"></a>**Infrazioni Tecniche**
-	611. **Ritardo di Gioco**
+	611. <a name="6.1.1"></a>**Ritardo di Gioco**
 		6111. Una squadra ostacola la ripresa del gioco come da [`5.4`](#5.4).
 			61111. Un'Infrazione Personale viene automaticamente assegnato al capitano della squadra alla prima infrazione.
 			61112. Qualsiasi infrazione successiva viene assegnata una Penalità Minore al capitano della squadra.
@@ -414,7 +416,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		6113. Un giocatore fa uscire la palla dal gioco raccogliendola con il lato cavo della testa (*Scooping*) o tirandola fuori dal gioco di proposito.
 		6114. Un giocatore sposta di proposito la posizione della porta come da [`5.11`](#5.11).
 	612. **Comportamento Antisportivo**
-		6121. Il comportamento di un giocatore viene considerato antisportivo secondo, ma non limitato a, i seguenti criteri:\
+		6121. <a name="6.1.2.1"></a>Il comportamento di un giocatore viene considerato antisportivo secondo, ma non limitato a, i seguenti criteri:\
 			- Generali e continuative interruzioni delle procedure di gioco;\
 			- Eccessive proteste contro gli ufficiali di gioco;\
 			- Essere attivamente coinvolto nel gioco dopo in'Infrazione di Piede (*Dabbing*);\
@@ -457,7 +459,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			61441. La successiva violazione porterà a una Penalità Minore indipendentemente da quale giocatore della squadra abbia commesso l'infrazione.
 		6145. Se la violazione viene commessa mentre un avversario ha un'evidente possibilità di segnare punto con un tiro, un passaggio o una palla libera o perché vicino all'Area di Porta, verrà assegnata una Penalità Minore immediatamente, anche alla prima occorrenza dell'infrazione.
 			61451. Successive infrazioni commesse mentre un avversario ha un'evidente possibilità di segnare punto con un tiro, un passaggio o una palla libera o perché vicino all'Area di Porta, la penalità si trasforma in una Penalità Maggiore indipendentemente da quale sia il giocatore a commettere l'infrazione.
-	615. **Sostituzione Illegale (Formato Squad)**
+	615. <a name="6.1.5"></a>**Sostituzione Illegale (Formato Squad)**
 		6151. Un giocatore che sta uscendo dal campo deve avere almeno una ruota nell'Area di Transizione intorno all'ingresso designato alla squadra, prima che il giocatore in ingresso possa superare la soglia del campo.
 		6152. Durante una sostituzione, i giocatori nell'Area di Transizione non possono interferire attivamente con la palla o un giocatore avversario.
 			61521. Viene assegnata una Penalità Minore di Sostituzione Illegale, al giocatore che interferisce attivamente con la palla o un avversario dall'interno dell'Area di Transizione, durante la sostituzione.
@@ -528,7 +530,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			64311. Un giocatore che è situato a una distanza di sicurezza—approssimativamente di `3 m` o più—dall'avversario più vicino può tenere la mazza in aria, senza ondeggiarla, e deviare la palla a terra direttamente sotto la mazza.
 			64312. I giocatori possono toccare la palla con la mano, tenendo la mazza puntata verso il basso, per toccare una palla volante come da [`4.7.2.1`](#4.7.2.1).
 		6432. L'infrazione di Mazza Alta viene chiamata in tutti i casi di contatto con il corpo di un giocatore al di sopra delle spalle, dalla mazza di un avversario.
-		6433. L'infrazione di Mazza Alta viene chiamata quando lo *Scoop* sopra l'altezza del manubrio del giocatore che lo sta effettuando o il manubrio di un avversario nel raggio di `3 m` circa.
+		6433. <a name="6.4.3.3"></a>L'infrazione di Mazza Alta viene chiamata quando lo *Scoop* sopra l'altezza del manubrio del giocatore che lo sta effettuando o il manubrio di un avversario nel raggio di `3 m` circa.
 		6434. Il caricamento e il conseguente movimento della mazza, associati al normale movimento per colpire la palla, quando si estende sopra l'altezza del manubrio dell'avversario, comporta l'assegnazione di un'infrazione di Mazza Alta, ma solo in caso l'Arbitro giudichi l'oscillazione non sicura o fuori controllo, nelle seguenti situazioni:\
 			- se il colpo richiede la completa rotazione della mazza da sopra la testa dei giocatori verso il suolo;\
 			- se il movimento conseguente al tiro o il rovescio si estende sopra il manubrio dell'avversario più vicino.
@@ -538,7 +540,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		6442. L'infrazione di Interferenza viene chiamata quando la mazza di un giocatore rimane intrappolata nella bici di un avversario costringendolo a commettere *Dab*.
 	645. **Aggancio (*Hooking*)**
 		6451. L'infrazione di Aggancio viene chiamata quando un giocatore aggancia la mazza sulla bici o il corpo di un avversario.
-	646. **Attacco (*Striking*)**
+	646. <a name="6.4.6"></a>**Attacco (*Striking*)**
 		6461. Un'infrazione di Attacco viene chiamata quando un giocatore colpisce il corpo di un altro giocatore con la propria mazza.
 	647. **Lancio (*Throwing*)** 
 		6471. L'infrazione di Lancio comporta l'assegnazione di una Penalità Minore quando un giocatore lancia qualunque parte della propria attrezzatura durante la partita, in modo da non compromettere il gioco.
@@ -551,7 +553,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 			64813. Se un giocatore lascia cadere il suo mallet durante il corso del gioco, deve recuperarlo subito, non gli è permesso di usare una mazza di riserva fino a quando l'originale non sia stato rimossa dal campo.
 		6482. Se ad un giocatore cade la mazza, può continuare a giocare senza.
 			64821. L'infrazione di Mazza Caduta viene chiamata quando la mazza caduta causa un *Dab* o compromette il gioco in qualunque altro modo.
-			64822. I difensori possono spostare la mazza di un avversario se l'abilità di difendere la porta è compromessa.
+			64822. <a name="6.4.8.2.2"></a>I difensori possono spostare la mazza di un avversario se l'abilità di difendere la porta è compromessa.
 
 # Penalità [section7]
 71. <a name="7.1"></a>**Cambio Palla (*Ball Turnover*)**
@@ -565,9 +567,9 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	725. Il possesso di palla è concesso alla squadra che ha subito l'infrazione e il gioco riprende come da `5.4` con un Vantaggio del Giocatore di trenta (30) secondi come da [`8.5`](#8.5).
 		7251. Il Vantaggio del Giocatore termina se la squadra con il vantaggio, segna.
 73. <a name="7.3"></a>**Penalità Maggiore (*Major Penalty*)**
-	731. Viene assegnata una Penalità Maggiore per qualunque azione l'Arbitro ne ritenga la natura eccessivamente pericolosa o spericolata, o se al giocatore era stata già assegnata una Penalità Minore per la stessa infrazione.
+	731. <a name="7.3.1"></a>Viene assegnata una Penalità Maggiore per qualunque azione l'Arbitro ne ritenga la natura eccessivamente pericolosa o spericolata, o se al giocatore era stata già assegnata una Penalità Minore per la stessa infrazione.
 	732. Una Penalità Maggiore può essere assegnata a causa della procedura del fallo personale, come da [`8.6`](#8.6).
-	733. Il possesso di palla viene garantito alla squadra che ha subito il fallo e il gioco riprende, come da [`5.4`](#5.4), con un Vantaggio del Giocatore di due (2) minuti.
+	733. <a name="7.3.3"></a>Il possesso di palla viene garantito alla squadra che ha subito il fallo e il gioco riprende, come da [`5.4`](#5.4), con un Vantaggio del Giocatore di due (2) minuti.
 		7331. Il vantaggio del Giocatore continua per la durata della penalità indipendentemente dalle squadre che segnano.
 		7332. Il Vantaggio del Giocatore termina se la squadra che ne beneficia segna ma solo se la Penalità Maggiore è dovuta alla procedura del fallo personale come da [`8.6.1.2`](#8.6.1.2).
 74. <a name="7.4"></a>**Cattiva condotta del giocatore (*Player Misconduct*)**
@@ -584,7 +586,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 		7432. La partita si ritiene persa e il punteggio finale viene determinato come da punto [`3.4.1.4`](#3.4.1.4).
 	744. Un giocatore che commette un'infrazione punibile con una Penalità Maggiore, come da [`7.3.1`](#7.3.1), avendo già ricevuto una Penalità Maggiore, risulta in una Penalità di Cattiva Condotta.
 75. <a name="7.5"></a>**Assegnazione del Punteggio (*Awarded Score*)**
-	751. Un'infrazione che impedisce a un giocatore in possesso di palla, di avvicinarsi ad una porta aperta e indifesa, che avrebbe potuto altrimenti segnare, vedrà l'Arbitro assegnare un punto alla squadra che subisce il fallo.
+	751. <a name="7.5.1"></a>Un'infrazione che impedisce a un giocatore in possesso di palla, di avvicinarsi ad una porta aperta e indifesa, che avrebbe potuto altrimenti segnare, vedrà l'Arbitro assegnare un punto alla squadra che subisce il fallo.
 		7511. Se il fallo commesso sul giocatore in possesso di palla merita un cambio palla o una Penalità Minore, la penalità non viene assegnata e la squadra colpevole ricomincia il gioco con il possesso di palla, come da [`5.4`](#5.4) come se fosse stato segnato un normale goal.
 		7512. Se l'infrazione commessa su un giocatore con possesso di palla merita una Penalità Maggiore o una Penalità di Cattiva Condotta, la squadra colpevole non perde il possesso e si ricomincia come da [`5.4`](#5.4), tuttavia il giocatore che ha commesso l'infrazione inizia a scontare la durata del Vantaggio del Giocatore al riavvio della partita.
 	752. Un tiro che viene deviato da una mazza caduta, un giocatore con un piede a terra (*Dab*) o da una porta spostata e diversamente avrebbe attraversato la Linea di Porta risulterà nell'assegnazione di un punto alla squadra che ha tirato, da parte dell'Arbitro.
@@ -643,8 +645,8 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 86. <a name="8.6"></a>**Falli Personali (Personal Fouls)**
 	861. <a name="8.6.1"></a>**3v3 Format**
 		8611. Un giocatore che commette il terzo fallo personale farà automaticamente aumentare la gravità della penalità, senza eccedere la Penalità Maggiore.
-		8612. Un giocatore che commette il quarto fallo personale risulta in una Penalità Maggiore.
-			86121. Il Vantaggio del Giocatore scade quando la squadra *in vantaggio* segna se la penalità che verrebbe normalmente assegnata è inferiore di una Penalità Maggiore.
+		8612. <a name="8.6.1.2"></a>Un giocatore che commette il quarto fallo personale risulta in una Penalità Maggiore.
+			86121. <a name="8.6.1.2.1"></a>Il Vantaggio del Giocatore scade quando la squadra *in vantaggio* segna se la penalità che verrebbe normalmente assegnata è inferiore di una Penalità Maggiore.
 		8613. Un giocatore che commette il quinto o successivo fallo personale, risulta in una Penalità Maggiore.
 	862. <a name="8.6.2"></a>**Formato a Squadra (Squad Format)**
 		8621. Un giocatore che commette il suo terzo fallo personale sarà automaticamente rimpiazzato da un altro giocatore disponibile della propria squadra almeno fino alla successiva interruzione del gioco.

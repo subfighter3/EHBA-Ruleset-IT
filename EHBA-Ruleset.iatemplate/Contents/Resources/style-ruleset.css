@@ -1,12 +1,12 @@
-/** 
+/**
 * * Custom listing styles to conform to official EHBA ruleset
 * ! Author Pyetro (MBP)
-* ! Version 1.1 
+* ! Version 1.1.1
 */
 
 :root {
-	counter-reset: section;
-	counter-set: section 0;
+	counter-reset: section toc;
+	counter-set: section 0 toc 0;
 }
 
 body {
@@ -22,19 +22,40 @@ body {
 }
 
 .header {
-	border-bottom: 1px solid;
+	border-bottom: 1px solid #dfe2e5;
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+.markdown-body .TOC ul {
+	list-style-type: disclosure-closed;
+	margin: 0;
+	padding: 0;
+}
+
+.markdown-body .TOC ul > li {
+	counter-increment: toc;
+	/* display: table; */
+	page-break-inside: avoid;
+	margin-left: 0.8rem;
+}
+
+.markdown-body .TOC ul > li:first-of-type {
+	display: none;
+}
+
+.markdown-body .TOC li a::before {
+	content: "Sezione " counter(toc) ": ";
 }
 
 .markdown-body h1,
-.markdown-body h2 {
+.markdown-body h2:not(:first-of-type) {
 	page-break-before: always;
 }
 
 .markdown-body h1::before {
-	content: "Sezione " counters(section, ".") ": ";
+	content: "Sezione " counter(section) ": ";
 	counter-increment: section;
 }
 
@@ -58,7 +79,7 @@ body {
 }
 
 .markdown-body ol > li::before {
-	content: counter(section) "." counters(item, ".") ". ";
+	content: counter(section) "." counters(item, ".", decimal) ". ";
 	display: table-cell;
 	font-weight: bold;
 	padding-right: 1em;
@@ -79,8 +100,13 @@ body {
 }
 
 .markdown-body li ol > li::before {
-	content: counter(section) "." counters(item, ".") ". ";
+	content: counter(section) "." counters(item, ".", decimal) ". ";
 	font-weight: bold;
+}
+
+.markdown-body ol ul {
+	list-style-type: disclosure-closed;
+	margin-left: -0.5rem;
 }
 
 @media print {
