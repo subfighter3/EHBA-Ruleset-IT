@@ -28,6 +28,12 @@ body {
 	padding-bottom: 0.5rem;
 }
 
+.markdown-body img {
+	max-height: 45vh;
+	width: 100%;
+	object-fit: contain;
+}
+
 .markdown-body .TOC ul {
 	list-style-type: disclosure-closed;
 	margin: 0;

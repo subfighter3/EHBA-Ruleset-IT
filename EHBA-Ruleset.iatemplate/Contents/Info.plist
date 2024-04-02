@@ -25,11 +25,11 @@
 	<key>IATemplateFooterFile</key>
 	<string>footer</string>
 	<key>IATemplateFooterHeight</key>
-	<integer>30</integer>
-	<key>IATemplateHeaderFile</key>
+	<integer>40</integer>
+	<key>IATemplateHeaderFile</key>	
 	<string>header</string>
 	<key>IATemplateHeaderHeight</key>
-	<integer>30</integer>
+	<integer>80</integer>
 	<key>IATemplateTitleFile</key>
 	<string>title</string>
 </dict>

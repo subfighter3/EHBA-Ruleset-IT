@@ -120,14 +120,15 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	233. Le Palle devono essere realizzate di un materiale a basso rimbalzo e resistente agli urti.
 		2331. La durezza del materiale deve corrispondere alla sua temperatura di prestazione ottimale.
 
++++
 
 ### Diagramma 1: Area di porta [diagram1]
-[img]
-
+![](Assets/Diagram_1-Crease.svg)
 
 ### Diagramma 2: Versione alternativa dell'area di porta [diagram2]
-[img]
+![](Assets/Diagram_2-Alternate_crease.svg)
 
++++
 
 # Ufficiali di Gara [section3]
 31. **Ufficiali di Gara**
