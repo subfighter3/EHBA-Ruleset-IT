@@ -241,7 +241,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 42. <a name="4.2"></a>**Tiro**
 	421. Un tiro viene definito come un urto elastico tra uno dei lati terminali della testa della mazza e la palla.
 	422. Direzionare intenzionalmente la palla per mezzo di un contatto con qualunque parte del corpo o della bici non è un tiro.
-	423. Uno "shuffle", "ball‐joint", "scoop" or "carry", come da punti [`4.3`](#4.3) fino a [`4.6`](#4.6), non è un tiro.
+	423. Uno "shuffle", "ball‐joint", "scoop" o "trasporto", come da [`4.3`](#4.3) fino a [`4.6`](#4.6), non viene considerato un tiro.
 	424. Qualunque contatto con la stecca della mazza non è un tiro.
 	425. Una palla deviata da una superficie o equipaggiamento che viene da un'azione che non è stata un tiro non è considerata un tiro.
 43. <a name="4.3"></a>**Shuffling**
@@ -249,14 +249,14 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 44. **‌Ball–Jointing**
 	441. Viene definito "Ball–Jointing" la pressione applicata sulla palla usando qualunque foro o superficie concava della testa della mazza allo scopo di incastrarla contro una qualsiasi superficie del campo.
 	442. Il "Ball–Jointing" è permesso in qualunque punto del campo per un tempo limitato di due (2) secondi.
-45. **Scooping**
+45. **Cucchiaio *(Scooping)***
 	451. Viene definito "Scoop" il manovrare la palla a coppa in un buco della testa della mazza usando la forza centripeta per mantenere la palla nel buco.
 	452. Lo "Scoop" è permesso al di sotto dell'altezza del manubrio del giocatore o dell'avversario se questo è vicino approssimativamente 3m come in [`6.4.3.3`](#6.4.3.3). 
 	453. Lo "Scoop" è permesso per non più di tre (3) cambi di direzione.
-46. <a name="4.6"></a>**Carrying**
+46. <a name="4.6"></a>**Trasporto *(Carrying)***
 	461. Viene definito "Carrying" portare la palla con la testa della mazza, grazie alla forza di gravità che tiene la palla derma nella testa.
 	462. Il "Carrying" non è permesso.
-47. <a name="4.7"></a>**Grabbing**
+47. <a name="4.7"></a>**Afferrare *(Grabbing)***
 	471. Viene definito "Grabbing" usare la mano per afferrare la palla.
 	472. il "Grabbing" non è permesso.
 		4721. <a name="4.7.2.1"></a>Un giocatore può usare entrambe le mani per fermare una palla volante ma deve immediatamente deviare la palla verso il pavimento nel punto in cui è stata fermata.
@@ -433,7 +433,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 				- Guadagnare una posizione difensiva o offensiva nel campo.\
 				- Avere accesso diretto a una palla libera.\
 				- Affrontare un giocatore in possesso di palla.
-		613111. Un'infrazione per interferenza della bici viene chiamata quando un giocatore che non è in possesso di palla, scherma un avversario che non ha possesso di palla.
+					613111. Un'infrazione per interferenza della bici viene chiamata quando un giocatore che non è in possesso di palla, scherma un avversario che non ha possesso di palla.
 			61312. Tutti i giocatori non in possesso di palla hanno diritto allo spazio che occupano.
 				613121. La penalità non viene assegnate se un giocatore sta occupando il suo spazio da fermo o è in movimento ad una velocità prevedibile e costante nel prendere posizione offensiva o difensiva nel campo.
 				613122. Uno stazionamento o una momentanea ostruzione non comporta una penalità se l'azione incrocia accidentalmente la posizione del giocatore avversario.
@@ -565,7 +565,7 @@ I campi non può essere più largo di `45 ± 0.5 m` per `25 ± 0.5 m` e più pic
 	722. Viene assegnata una Penalità Minore per qualunque comportamento pericoloso non intenzionale o inconsapevole.
 	723. Viene assegnata una Penalità Minore per qualunque infrazione commessa nell'Aria di Porta a danni del Possessore di Palla come indicato nella [`Sezione 6`][section6].
 	724. Una Penalità Minore può essere assegnata a causa di una Procedura di Fallo Personale come da [`8.6`](#8.6).
-	725. Il possesso di palla è concesso alla squadra che ha subito l'infrazione e il gioco riprende come da `5.4` con un Vantaggio del Giocatore di trenta (30) secondi come da [`8.5`](#8.5).
+	725. Il possesso di palla è concesso alla squadra che ha subito l'infrazione e il gioco riprende come da [`5.4`](#5.4) con un Vantaggio del Giocatore di trenta (30) secondi come da [`8.5`](#8.5).
 		7251. Il Vantaggio del Giocatore termina se la squadra con il vantaggio, segna.
 73. <a name="7.3"></a>**Penalità Maggiore (*Major Penalty*)**
 	731. <a name="7.3.1"></a>Viene assegnata una Penalità Maggiore per qualunque azione l'Arbitro ne ritenga la natura eccessivamente pericolosa o spericolata, o se al giocatore era stata già assegnata una Penalità Minore per la stessa infrazione.
