@@ -1,0 +1,18 @@
+{
+  // The ruleset source (EHBA-ruleset-rev230712-IT.md) uses TAB indentation to
+  // encode clause-nesting depth — see CLAUDE.md, trap #2. Any Markdown formatter
+  // (Prettier, the built-in one, etc.) does not recognise those tab-indented,
+  // multi-digit "lists" and reflows them into run-on paragraphs, which silently
+  // breaks the CSS-generated clause numbering on the published site.
+  //
+  // So: never let a formatter touch Markdown in this repo, and keep tabs intact.
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": false
+  }
+}
