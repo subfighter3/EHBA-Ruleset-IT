@@ -123,10 +123,10 @@ Revisione IT: 240402
 +++
 
 ### Diagramma 1: Area di porta [diagram1]
-![](Assets/Diagram_1-Crease.svg)
+![](assets/diagrams/diagram-1-crease.svg)
 
 ### Diagramma 2: Versione alternativa dell'area di porta [diagram2]
-![](Assets/Diagram_2-Alternate_crease.svg)
+![](assets/diagrams/diagram-2-alternate-crease.svg)
 
 +++
 

@@ -133,6 +133,6 @@ rinumerazione a cascata in molte sezioni.
 
 - **Diagrammi 1 e 2**: la distanza sponda→linea di porta è un range `300-450`
   (non un valore fisso). La correzione va fatta **dentro i file SVG**
-  (`Assets/Diagram_1-Crease.svg`, `Assets/Diagram_2-Alternate_crease.svg`), che
+  (`assets/diagrams/diagram-1-crease.svg`, `assets/diagrams/diagram-2-alternate-crease.svg`), che
   non sono disponibili in questa sessione. Carica gli SVG per la correzione, o
   modificali direttamente nel sorgente vettoriale.

@@ -7,17 +7,15 @@ lang: it
 # clause numbers (3.1.2.1 ...) from list nesting depth.
 markdown: kramdown
 kramdown:
-    input: GFM
-    hard_wrap: false
-    parse_block_html: true # lets the <div class="TOC" markdown="1"> render its inner list
-    syntax_highlighter: rouge
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true   # lets the <div class="TOC" markdown="1"> render its inner list
+  syntax_highlighter: rouge
 
 # We render a single document, so disable the default post/collection machinery.
 exclude:
-    - README.md
-    - build_page.py
-    - Gemfile
-    - Gemfile.lock
-    - vendor
-
-pdf_url: /EHBA-ruleset-rev230712-IT.pdf
+  - README.md
+  - build_page.py
+  - Gemfile
+  - Gemfile.lock
+  - vendor
