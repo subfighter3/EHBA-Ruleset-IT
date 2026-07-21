@@ -32,4 +32,6 @@ if [[ "${1:-}" == "--no-serve" ]]; then
 fi
 
 echo "==> Serving at http://localhost:4000  (Ctrl-C to stop)"
-exec bundle exec jekyll serve --livereload
+# --baseurl "" overrides the project-page baseurl from _config.yml so the local
+# site is reachable at localhost:4000/ (not localhost:4000/EHBA-Ruleset-IT/).
+exec bundle exec jekyll serve --livereload --baseurl ""

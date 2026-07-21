@@ -2,6 +2,16 @@ title: EHBA — Regolamento Ufficiale (IT)
 description: Traduzione italiana ufficiale del regolamento EHBA Hardcourt Bike Polo, revisione 230712 (2023).
 lang: it
 
+# jekyll-github-metadata needs the repo owner/name when building inside a custom
+# GitHub Actions workflow; without it the build fails with "No repo name found".
+repository: subfighter3/EHBA-Ruleset-IT
+
+# Project page lives at https://subfighter3.github.io/EHBA-Ruleset-IT/, so baseurl
+# makes {{ '...' | relative_url }} links (e.g. the stylesheet) resolve correctly.
+# serve.sh passes --baseurl "" so local preview still works at localhost:4000/.
+url: https://subfighter3.github.io
+baseurl: /EHBA-Ruleset-IT
+
 # Kramdown is GitHub Pages' Markdown engine. GFM input keeps the tab-indented
 # nested lists working so the CSS counters in style-ruleset.css can generate the
 # clause numbers (3.1.2.1 ...) from list nesting depth.
@@ -15,7 +25,9 @@ kramdown:
 # We render a single document, so disable the default post/collection machinery.
 exclude:
   - README.md
+  - CLAUDE.md
   - build_page.py
+  - serve.sh
   - Gemfile
   - Gemfile.lock
   - vendor
