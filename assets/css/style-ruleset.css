@@ -1,0 +1,131 @@
+/**
+* * Custom listing styles to conform to official EHBA ruleset
+* ! Author Pyetro (MBP)
+* ! Version 1.1.1
+*/
+
+:root {
+	counter-reset: section toc;
+	counter-set: section 0 toc 0;
+}
+
+body {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.5;
+	color: #24292e;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+		sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+.header {
+	border-bottom: 1px solid #dfe2e5;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 0.5rem;
+}
+
+.markdown-body img {
+	max-height: 45vh;
+	width: 100%;
+	object-fit: contain;
+}
+
+.markdown-body .TOC ul {
+	list-style-type: disclosure-closed;
+	margin: 0;
+	padding: 0;
+}
+
+.markdown-body .TOC ul > li {
+	counter-increment: toc;
+	/* display: table; */
+	page-break-inside: avoid;
+	margin-left: 0.8rem;
+}
+
+.markdown-body .TOC ul > li:first-of-type {
+	display: none;
+}
+
+.markdown-body .TOC li a::before {
+	content: "Sezione " counter(toc) ": ";
+}
+
+.markdown-body h1,
+.markdown-body h2:not(:first-of-type) {
+	page-break-before: always;
+}
+
+.markdown-body h1::before {
+	content: "Sezione " counter(section) ": ";
+	counter-increment: section;
+}
+
+.markdown-body ol {
+	counter-reset: item;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.markdown-body ol > li {
+	counter-increment: item;
+	display: table;
+	margin-bottom: 0.6em;
+	padding-left: 0;
+	page-break-inside: avoid;
+}
+
+.markdown-body h1 ~ ol > li > strong {
+	font-size: larger;
+}
+
+.markdown-body ol > li::before {
+	content: counter(section) "." counters(item, ".", decimal) ". ";
+	display: table-cell;
+	font-weight: bold;
+	padding-right: 1em;
+}
+
+.markdown-body h1 ~ ol > li::before {
+	font-size: larger;
+}
+
+.markdown-body li ol > li {
+	margin: 0;
+	margin-left: -2.5em;
+	margin-top: 0.6em;
+}
+
+.markdown-body li ol > li:not(:last-child) {
+	margin-bottom: 0.6em;
+}
+
+.markdown-body li ol > li::before {
+	content: counter(section) "." counters(item, ".", decimal) ". ";
+	font-weight: bold;
+}
+
+.markdown-body ol ul {
+	list-style-type: disclosure-closed;
+	margin-left: -0.5rem;
+}
+
+@media print {
+	.markdown-body {
+		font-size: 8pt;
+		--horizontal-padding: 1cm;
+	}
+
+	.title,
+	.header,
+	.footer {
+		padding-left: var(--horizontal-padding);
+		padding-right: var(--horizontal-padding);
+		font-size: 6pt;
+	}
+}

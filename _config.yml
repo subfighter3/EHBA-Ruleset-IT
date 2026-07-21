@@ -1,0 +1,21 @@
+title: EHBA — Regolamento Ufficiale (IT)
+description: Traduzione italiana ufficiale del regolamento EHBA Hardcourt Bike Polo, revisione 230712 (2023).
+lang: it
+
+# Kramdown is GitHub Pages' Markdown engine. GFM input keeps the tab-indented
+# nested lists working so the CSS counters in style-ruleset.css can generate the
+# clause numbers (3.1.2.1 ...) from list nesting depth.
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true   # lets the <div class="TOC" markdown="1"> render its inner list
+  syntax_highlighter: rouge
+
+# We render a single document, so disable the default post/collection machinery.
+exclude:
+  - README.md
+  - build_page.py
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -103,7 +103,7 @@ Revisione IT: 250719 *(migrazione 2023 in revisione)*
 		2142. Il campo verrà segmentato per tutta la sua larghezza in tre posizioni:\
 			- metà campo, o *linea centrale;*\
 			- entrambe le Linee di Porta.\
-			21421. Verrà marcata la metà della linea centrale per posizionare la palla per le "contese" *(Joust).*
+				21421. Verrà marcata la metà della linea centrale per posizionare la palla per le "contese" *(Joust).*
 		2143. Le Linee di Porta devono essere parallele alla sponda di fondo e a `3–4.5 m` di distanza da essa, a seconda delle dimensioni del campo.
 			21431. Le Linee di Porta non possono essere distanti meno di `29 ± 0.5 m` l'una dall'altra.
 		2144. <a name="2.1.4.4"></a>Le Linee di Porta devono essere tracciate per posizionare lo Specchio della Porta, centrato rispetto alla larghezza del campo, definendo quella che verrà chiamata Linea dello Specchio della Porta.
@@ -132,10 +132,10 @@ Revisione IT: 250719 *(migrazione 2023 in revisione)*
 +++
 
 ### Diagramma 1: Area di porta [diagram1]
-![](Assets/Diagram_1-Crease.svg)
+![](assets/diagram_1-crease.svg)
 
 ### Diagramma 2: Versione alternativa dell'area di porta [diagram2]
-![](Assets/Diagram_2-Alternate_crease.svg)
+![](assets/diagram_2-alternate_crease.svg)
 
 +++
 
@@ -205,9 +205,9 @@ Revisione IT: 250719 *(migrazione 2023 in revisione)*
 		3444. Il registro di gioco contiene le seguenti informazioni:\
 			- i goal di ogni squadra;\
 			- le penalità di ogni giocatore.
-			34441. L'organizzatore dell'evento, in aggiunta, può richiedere anche:\
-				- I tempi di tutti i goal e penalità chiamate;\
-				- I nomi di chi segna i goal.
+				34441. L'organizzatore dell'evento, in aggiunta, può richiedere anche:\
+					- I tempi di tutti i goal e penalità chiamate;\
+					- I nomi di chi segna i goal.
 		3445. Se è presente un timer e un tabellone del punteggio visibile ai giocatori, l'Assistente di Gioco si occupa di far partire il tempo, fermarlo e aggiornare i goal sul tabellone.
 		3446. L'Assistente di Gioco chiama ad alta voce i tempi di gioco a intervalli periodici e anche nelle seguenti situazioni:\
 			- dopo i goal;\
@@ -215,7 +215,7 @@ Revisione IT: 250719 *(migrazione 2023 in revisione)*
 			- ad ogni ripresa;\
 			- due (2) minuti dalla fine;\
 			- su richiesta dei giocatori.
-			34461. Dopo aver chiamato due (2) minuti, l'Assistente di Gioco deve chiamare sessanta (60) secondi, trenta (30) secondi, dieci (10) secondi e un conto alla rovescia da cinque (5) secondi a uno (1).
+				34461. Dopo aver chiamato due (2) minuti, l'Assistente di Gioco deve chiamare sessanta (60) secondi, trenta (30) secondi, dieci (10) secondi e un conto alla rovescia da cinque (5) secondi a uno (1).
 	345. **Assistente Arbitro**
 		3451. L'Assistente Arbitro può segnalare quello che ritiene una penalità secondo il punto [`3.5.3.1`](#3.5.3.1).
 			34511. L'Assistente Arbitro dev'essere preparato a fornire una prospettiva all'Arbitro riguardo qualunque potenziale punto o penalità.
@@ -320,13 +320,13 @@ Revisione IT: 250719 *(migrazione 2023 in revisione)*
 			- danni al campo;\
 			- palla rotta o mancante;\
 			- valutazione e revisione di un'azione, un fallo o un goal da parte degli Ufficiali di Gara.
-			53511. Durante gli ultimi due (2) minuti della partita, l'Assistente di Gioco ferma il tempo ad ogni interruzione del gioco. 🔶
+				53511. Durante gli ultimi due (2) minuti della partita, l'Assistente di Gioco ferma il tempo ad ogni interruzione del gioco. 🔶
 	536. **Formato Squad** 🔶
 		5361. Il cronometro continua a scorrere, ad eccezione degli infortuni o di circostanze che impedirebbero una rapida ripresa del gioco, come, ma non solo: 🔶\
 			- danni al campo;\
 			- palla rotta o mancante;\
 			- valutazione e revisione di un'azione, un fallo o un goal da parte degli Ufficiali di Gara.
-			53611. Durante gli ultimi due (2) minuti della partita, l'Assistente di Gioco ferma il tempo ad ogni interruzione del gioco. 🔶
+				53611. Durante gli ultimi due (2) minuti della partita, l'Assistente di Gioco ferma il tempo ad ogni interruzione del gioco. 🔶
 54. <a name="5.4"></a>**Ripresa del Gioco**
 	541. L'Arbitro sollecita alla squadra senza il possesso di palla una conferma visiva o verbale che sia pronta a riprendere il gioco.
 		5411. L'Arbitro può fischiare velocemente due volte per sollecitare la conferma della squadra.
@@ -463,7 +463,7 @@ Revisione IT: 250719 *(migrazione 2023 in revisione)*
 			- Incapacità di uscire dopo un'Infrazione di Piede (*Dabbing*), che comporta un vantaggio per la propria squadra;\
 			- Interagire o schermare un giocatore che ha appena commesso un'Infrazione di Piede (*Dabbed*), o rendere la sua attrezzatura più difficile da recuperare;\
 			- Creare un vantaggio ingiusto per la propria squadra.
-			61211. Spostare la mazza caduta di un giocatore che ha commesso un'Infrazione di Piede, e che interferisce con il gioco, non comporta un'infrazione da comportamento antisportivo, come da [`6.4.8.2.2`](#6.4.8.2.2).
+				61211. Spostare la mazza caduta di un giocatore che ha commesso un'Infrazione di Piede, e che interferisce con il gioco, non comporta un'infrazione da comportamento antisportivo, come da [`6.4.8.2.2`](#6.4.8.2.2).
 		6122. L'infrazione da comportamento antisportivo comporta una Penalità Minore, Maggiore o di Cattiva Condotta.
 			61221. Un giocatore coinvolto in aggressioni verbali o fisiche rivolte a Ufficiali di Gioco, organizzatori dell'evento, spettatori o altri giocatori, porterà automaticamente all'assegnazione di una Penalità di Cattiva Condotta.
 	613. **Interferenza**
@@ -472,7 +472,7 @@ Revisione IT: 250719 *(migrazione 2023 in revisione)*
 				- Guadagnare una posizione difensiva o offensiva nel campo.\
 				- Avere accesso diretto a una palla libera.\
 				- Affrontare il giocatore in possesso di palla.
-				613111. Un'infrazione di Interferenza con la Bici viene chiamata quando un giocatore che non è in possesso di palla scherma un avversario che a sua volta non è in possesso di palla.
+					613111. Un'infrazione di Interferenza con la Bici viene chiamata quando un giocatore che non è in possesso di palla scherma un avversario che a sua volta non è in possesso di palla.
 			61312. Tutti i giocatori non in possesso di palla hanno diritto allo spazio che occupano.
 				613121. La penalità non viene assegnata se un giocatore sta occupando il proprio spazio da fermo, o si muove a una velocità prevedibile e costante mentre prende una posizione offensiva o difensiva nel campo.
 				613122. Una schermatura stazionaria o momentanea non comporta una penalità se l'azione incrocia accidentalmente la posizione del giocatore avversario.
@@ -568,7 +568,7 @@ Revisione IT: 250719 *(migrazione 2023 in revisione)*
 		6421. L'infrazione di Frustata viene chiamata quando un giocatore colpisce, o tenta di colpire, l'asta della mazza o il corpo di un avversario con movimenti verso l'alto, verso il basso o laterali, in base ai seguenti criteri:\
 			- una risposta sproporzionata rispetto al gioco naturale, o in maniera violenta;
 			- ha il potenziale di causare danni o infortuni.
-			64211. Il contatto con il corpo o la bici di un avversario non è un requisito necessario per l'assegnazione di una penalità di Frustata.
+				64211. Il contatto con il corpo o la bici di un avversario non è un requisito necessario per l'assegnazione di una penalità di Frustata.
 	643. **Attacco (*Striking*)** 🔶
 		6431. Un'infrazione di Attacco viene chiamata quando un giocatore colpisce il corpo di un altro giocatore con la propria mazza. 🔶
 	644. **Mazza Alta (*High Sticking*)** 🔶

@@ -110,3 +110,29 @@ rinumerazione a cascata in molte sezioni.
 3. **Terminologia**: sono mantenute le scelte concordate (Flagranza, Incastro per
    *Jamming*, ecc.). I nuovi termini 2023 (es. *Quads*) sono lasciati in inglese
    come da convenzione del documento.
+
+---
+
+## Aggiornamento formattazione (merge revisione umana)
+
+- Recepita la revisione manuale con la correzione del pattern di annidamento per
+  iA Writer nella **Sezione 3.1**: le sotto-clausole numerate che seguono un
+  elenco puntato all'interno di una clausola vanno indentate **un livello più in
+  profondità** dell'elenco, così iA Writer le mantiene annidate e ne rende
+  correttamente la numerazione manuale.
+- Applicato lo stesso pattern agli altri 8 punti del documento con la stessa
+  collisione elenco-puntato → clausola-numerata: **2.1.4.2** (21421), **3.4.4.4**
+  (34441 + sotto-punti), **3.4.4.6** (34461), **5.3.5.1.1** (53511),
+  **5.3.6.1.1** (53611), **6.1.2.1.1** (61211), **6.1.3.1.1.1** (613111),
+  **6.4.2.1.1** (64211).
+- Altre correzioni recepite dalla revisione: intestazione crediti
+  («Prima traduzione» / «Revisione e aggiornamenti»), 4.5 «Scooping» (rimossa la
+  glossa italiana), 6.4.4.3 «uno *Scoop*».
+
+## Da fare (non risolvibile senza i sorgenti)
+
+- **Diagrammi 1 e 2**: la distanza sponda→linea di porta è un range `300-450`
+  (non un valore fisso). La correzione va fatta **dentro i file SVG**
+  (`Assets/Diagram_1-Crease.svg`, `Assets/Diagram_2-Alternate_crease.svg`), che
+  non sono disponibili in questa sessione. Carica gli SVG per la correzione, o
+  modificali direttamente nel sorgente vettoriale.
