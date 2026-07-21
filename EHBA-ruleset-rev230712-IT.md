@@ -2,7 +2,7 @@
 
 ### Regolamento Ufficiale
 ##### Revisione EN: 230712\
-Revisione IT: 250719
+Revisione IT: 250721
 
 > Prima traduzione: Rayna (Napoli)\
 > Revisione e aggiornamenti: Pyetro (Milano)
