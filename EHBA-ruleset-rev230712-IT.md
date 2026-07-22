@@ -1,15 +1,12 @@
 ## EHBA: European Hardcourt Bikepolo Association
+### Regolamento Ufficiale (rev. 230712)
 
-### Regolamento Ufficiale
-##### Revisione EN: 230712\
-Revisione IT: 250722
+* Prima traduzione: Rayna (Napoli)
+* Revisione e aggiornamenti: Pyetro (Milano)
 
-> Prima traduzione: Rayna (Napoli)\
-> Revisione e aggiornamenti: Pyetro (Milano)
+> ⚠️ Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte in Italiano, tranne quando la versione Inglese, oltre che essere più breve ed esaustiva rappresenta ormai un modo di dire consolidato a livello internazionale nel Bike Polo.
 
-	⚠️ Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte in Italiano, tranne quando la versione Inglese, oltre che essere più breve ed esaustiva rappresenta ormai un modo di dire consolidato a livello internazionale nel Bike Polo.
-
----
++++
 
 ##### **Indice**
 

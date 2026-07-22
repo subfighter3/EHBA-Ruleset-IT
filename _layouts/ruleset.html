@@ -11,10 +11,19 @@
     <a id="top"></a>
 
     <div class="doc-toolbar" role="navigation" aria-label="Strumenti documento">
-      <button id="toggle-night" type="button" aria-pressed="false">🌙 Modalità notte</button>
-      {% if site.pdf_url %}
-      <a class="pdf-link" href="{{ site.pdf_url }}">⬇︎ Scarica PDF</a>
-      {% endif %}
+      <div class="doc-search" role="search">
+        <input id="search-input" type="search" inputmode="search" autocomplete="off"
+          placeholder="Cerca nel testo…" aria-label="Cerca nel documento" />
+        <span id="search-count" class="doc-search__count" aria-live="polite"></span>
+        <button id="search-prev" type="button" aria-label="Risultato precedente" disabled>↑</button>
+        <button id="search-next" type="button" aria-label="Risultato successivo" disabled>↓</button>
+      </div>
+      <div class="doc-toolbar__tools">
+        <button id="toggle-night" type="button" aria-pressed="false">🌙 Modalità notte</button>
+        {% if site.pdf_url %}
+        <a class="pdf-link" href="{{ site.pdf_url | relative_url }}">⬇︎ Scarica PDF</a>
+        {% endif %}
+      </div>
     </div>
 
     {{ content }}
@@ -29,6 +38,109 @@
           btn.setAttribute('aria-pressed', String(on));
           btn.textContent = on ? '☀︎ Modalità giorno' : '🌙 Modalità notte';
         });
+      })();
+
+      // In-page search: highlights matches and cycles them with prev/next.
+      (function () {
+        var input = document.getElementById('search-input');
+        var count = document.getElementById('search-count');
+        var prev = document.getElementById('search-prev');
+        var next = document.getElementById('search-next');
+        if (!input) return;
+
+        var hits = [];
+        var current = -1;
+        var timer = null;
+
+        function clearMarks() {
+          var marks = document.querySelectorAll('mark.search-hit');
+          for (var i = 0; i < marks.length; i++) {
+            var m = marks[i];
+            var parent = m.parentNode;
+            parent.replaceChild(document.createTextNode(m.textContent), m);
+            parent.normalize();
+          }
+          hits = [];
+          current = -1;
+        }
+
+        function acceptNode(node) {
+          if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+          var p = node.parentNode;
+          if (!p) return NodeFilter.FILTER_REJECT;
+          var tag = p.nodeName;
+          if (tag === 'SCRIPT' || tag === 'STYLE') return NodeFilter.FILTER_REJECT;
+          if (p.closest && p.closest('.doc-toolbar')) return NodeFilter.FILTER_REJECT;
+          return NodeFilter.FILTER_ACCEPT;
+        }
+
+        function buildMarks(query) {
+          var q = query.toLowerCase();
+          var walker = document.createTreeWalker(
+            document.body, NodeFilter.SHOW_TEXT, { acceptNode: acceptNode }
+          );
+          var nodes = [];
+          while (walker.nextNode()) nodes.push(walker.currentNode);
+
+          for (var n = 0; n < nodes.length; n++) {
+            var node = nodes[n];
+            var text = node.nodeValue;
+            var lower = text.toLowerCase();
+            var idx = lower.indexOf(q);
+            if (idx === -1) continue;
+            var frag = document.createDocumentFragment();
+            var last = 0;
+            while (idx !== -1) {
+              if (idx > last) frag.appendChild(document.createTextNode(text.slice(last, idx)));
+              var mark = document.createElement('mark');
+              mark.className = 'search-hit';
+              mark.textContent = text.slice(idx, idx + q.length);
+              frag.appendChild(mark);
+              hits.push(mark);
+              last = idx + q.length;
+              idx = lower.indexOf(q, last);
+            }
+            if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+            node.parentNode.replaceChild(frag, node);
+          }
+        }
+
+        function updateUI() {
+          var has = hits.length > 0;
+          prev.disabled = !has;
+          next.disabled = !has;
+          if (!input.value) { count.textContent = ''; return; }
+          count.textContent = has ? (current + 1) + '/' + hits.length : 'Nessun risultato';
+        }
+
+        function focusHit(i) {
+          if (!hits.length) return;
+          if (current > -1 && hits[current]) hits[current].classList.remove('is-current');
+          current = (i + hits.length) % hits.length;
+          var el = hits[current];
+          el.classList.add('is-current');
+          el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+          updateUI();
+        }
+
+        function runSearch() {
+          clearMarks();
+          var q = input.value;
+          if (q) buildMarks(q);
+          if (hits.length) focusHit(0);
+          else updateUI();
+        }
+
+        input.addEventListener('input', function () {
+          clearTimeout(timer);
+          timer = setTimeout(runSearch, 180);
+        });
+        input.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter') { e.preventDefault(); focusHit(current + (e.shiftKey ? -1 : 1)); }
+          else if (e.key === 'Escape') { input.value = ''; clearMarks(); updateUI(); }
+        });
+        prev.addEventListener('click', function () { focusHit(current - 1); });
+        next.addEventListener('click', function () { focusHit(current + 1); });
       })();
     </script>
   </body>

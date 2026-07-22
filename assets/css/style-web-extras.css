@@ -6,13 +6,18 @@
 
 /* Toolbar with night-mode toggle + PDF link, only on screens */
 @media screen {
+  /* Offset anchor jumps so clause targets clear the sticky toolbar. */
+  html {
+    scroll-padding-top: 3.5rem;
+  }
+
   .doc-toolbar {
     position: sticky;
     top: 0;
     z-index: 10;
     display: flex;
-    gap: 0.75rem;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     align-items: center;
     padding: 0.5rem 0.75rem;
     margin: 0 0 1rem;
@@ -55,6 +60,79 @@
   .night-mode .doc-toolbar button:hover,
   .night-mode .doc-toolbar .pdf-link:hover {
     background: #2a2a2a;
+  }
+
+  /* Flatten both wrappers so every control shares the toolbar's single gap:
+     the search box keeps its `search` landmark, the tools keep their grouping,
+     but all children become direct flex items of .doc-toolbar. */
+  .doc-toolbar__tools,
+  .doc-search {
+    display: contents;
+  }
+
+  .doc-search input {
+    font: inherit;
+    font-size: 0.85rem;
+    line-height: 1;
+    padding: 0.5em 0.7em;
+    border-radius: 6px;
+    border: 1px solid #d1d5da;
+    background: #fff;
+    color: #24292e;
+    flex: 1 1 auto;
+    min-width: 6rem;
+  }
+
+  .doc-search__count {
+    font-size: 0.75rem;
+    color: #586069;
+    min-width: 3.5rem;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  /* When there is no query the count is empty; collapse it so it does not
+     reserve a flex slot and skew the spacing between the other controls. */
+  .doc-search__count:empty {
+    display: none;
+  }
+
+  .doc-search button:disabled {
+    opacity: 0.45;
+    cursor: default;
+  }
+
+  /* Search highlights in the document body. */
+  mark.search-hit {
+    background: #fff3b0;
+    color: inherit;
+    border-radius: 2px;
+    padding: 0 0.05em;
+  }
+
+  mark.search-hit.is-current {
+    background: #ffb300;
+    box-shadow: 0 0 0 2px rgba(255, 179, 0, 0.5);
+  }
+
+  .night-mode .doc-search input {
+    background: #1e1e1e;
+    color: #dedede;
+    border-color: #333;
+  }
+
+  .night-mode .doc-search__count {
+    color: #9aa0a6;
+  }
+
+  .night-mode mark.search-hit {
+    background: #6b5900;
+    color: #fff;
+  }
+
+  .night-mode mark.search-hit.is-current {
+    background: #b38600;
   }
 }
 
