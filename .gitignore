@@ -1,6 +1,6 @@
 .DS_Store
 
-# Generated artifacts — rebuilt from EHBA-ruleset-rev230712-IT.md at build time.
+# Generated artifacts — rebuilt from the newest src/*.md at build time.
 # Never commit these (see CLAUDE.md golden rule): the next build overwrites them.
 _site/
 index.md
@@ -12,3 +12,7 @@ _body.md
 .sass-cache/
 .bundle/
 vendor/
+
+# Python bytecode cache from build_page.py (regenerated; version/platform specific).
+__pycache__/
+*.py[cod]
