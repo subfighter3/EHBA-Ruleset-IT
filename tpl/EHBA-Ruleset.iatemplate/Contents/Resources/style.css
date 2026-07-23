@@ -1,6 +1,8 @@
 /* github-markdown, github-markdown-mobile are extracted using https://github.com/sindresorhus/generate-github-markdown-css */
 /* .pl styles have been removed, because they refer to prettylights syntax highlighter https://github.com/primer/github-syntax-theme-generator */
 
+@import "style-fonts.css";
+
 @import "style-markdown.css" screen and (min-width: 520px), print;
 
 @import "style-markdown-mobile.css" screen and (max-width: 520px);

@@ -17,7 +17,8 @@ src/    single source of truth — the iA Writer Markdown (edit only this)
 tpl/    iA Writer PDF template (EHBA-Ruleset.iatemplate)
 dist/   the manually exported PDF (download target for web + README)
 old/    archive of previous PDFs and the 2018/200324 Markdown
-assets/ theme CSS (assets/css) + crease diagrams (assets/diagrams), shared
+assets/ theme CSS (assets/css) + crease diagrams (assets/diagrams) + the
+        webfont originals (assets/fonts), shared
 ```
 
 ## Golden rule — single source of truth
@@ -100,6 +101,15 @@ list, apply the same +1-tab rule.
   file (e.g. `style-ruleset.css`), mirror it into the template copy so PDF and
   web stay in sync. (`style.css` intentionally differs: the web one also imports
   `style-web-extras.css`.)
+- `assets/fonts/` — the webfont originals (currently Inter = body, SF Mono =
+  clause numbers and inline `n.n` references; the Apfel Grotezk / Necto Mono
+  files are kept but no longer wired up). They are **not** linked with
+  `url()`: `gen_fonts_css.py` base64-inlines them into `assets/css/style-fonts.css`
+  and mirrors that file into the template's `Resources/`. Inlining is deliberate —
+  the two CSS copies sit at different depths, so no single relative path would
+  work for both, and it guarantees the iA Writer export resolves the faces.
+  After adding/replacing a font file, add it to `FACES` in `gen_fonts_css.py`
+  (family, filename, weight, style) and re-run `python3 gen_fonts_css.py`.
 - `assets/diagrams/` — the two crease SVGs:
   `diagram-1-crease.svg`, `diagram-2-alternate-crease.svg`
   (all lowercase; there must be exactly ONE `assets/` folder — a capital `Assets/`

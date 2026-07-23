@@ -51,10 +51,6 @@
   background-color: #1e1e1e;
 }
 
-.night-mode .markdown-body img {
-  background-color: #fff;
-}
-
 .night-mode .markdown-body code,
 .night-mode .markdown-body pre {
   background-color: #242422;

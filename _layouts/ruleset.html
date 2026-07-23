@@ -5,31 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ site.description }}" />
+    <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml" />
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   </head>
-  <body class="markdown-body" data-document>
+  <body data-document>
     <a id="top"></a>
 
+    {% comment %}
+      The <body> stays full-bleed so its background covers the whole viewport
+      (night mode); the reading column lives in .site-content, and the toolbar
+      keeps a full-width bar with its controls aligned to that same column.
+    {% endcomment %}
     <div class="doc-toolbar" role="navigation" aria-label="Strumenti documento">
-      <div class="doc-search" role="search">
-        <input id="search-input" type="search" inputmode="search" autocomplete="off"
-          placeholder="Cerca nel testo…" aria-label="Cerca nel documento" />
-        <span id="search-count" class="doc-search__count" aria-live="polite"></span>
-        <button id="search-prev" type="button" aria-label="Risultato precedente" disabled>↑</button>
-        <button id="search-next" type="button" aria-label="Risultato successivo" disabled>↓</button>
-      </div>
-      <div class="doc-toolbar__tools">
-        <button id="toggle-night" type="button" aria-pressed="false">🌙 Modalità notte</button>
-        {% comment %} Link the newest PDF in dist/ — no hardcoded filename. {% endcomment %}
-        {% assign dist_pdfs = site.static_files | where_exp: "f", "f.path contains '/dist/'" | where: "extname", ".pdf" | sort: "path" %}
-        {% assign latest_pdf = dist_pdfs | last %}
-        {% if latest_pdf %}
-        <a class="pdf-link" href="{{ latest_pdf.path | relative_url }}">⬇︎ Scarica PDF</a>
-        {% endif %}
+      <div class="doc-toolbar__inner">
+        <div class="doc-search" role="search">
+          <input id="search-input" type="search" inputmode="search" autocomplete="off"
+            placeholder="Cerca nel testo…" aria-label="Cerca nel documento" />
+          <span id="search-count" class="doc-search__count" aria-live="polite"></span>
+          <button id="search-prev" type="button" aria-label="Risultato precedente" disabled>↑</button>
+          <button id="search-next" type="button" aria-label="Risultato successivo" disabled>↓</button>
+        </div>
+        <div class="doc-toolbar__tools">
+          <button id="toggle-night" type="button" aria-pressed="false">🌙 Modalità notte</button>
+          {% comment %} Link the newest PDF in dist/ — no hardcoded filename. {% endcomment %}
+          {% assign dist_pdfs = site.static_files | where_exp: "f", "f.path contains '/dist/'" | where: "extname", ".pdf" | sort: "path" %}
+          {% assign latest_pdf = dist_pdfs | last %}
+          {% if latest_pdf %}
+          <a class="pdf-link" href="{{ latest_pdf.path | relative_url }}">⬇︎ Scarica PDF</a>
+          {% endif %}
+        </div>
       </div>
     </div>
 
-    {{ content }}
+    <main class="site-content markdown-body">
+      {{ content }}
+    </main>
+
+    <div class="back-to-top">
+      <button id="back-to-top" class="back-to-top__btn" type="button"
+        aria-label="Torna all'inizio" title="Torna all'inizio">↑</button>
+    </div>
 
     <script>
       // Night-mode toggle (persists for the session only; no storage APIs on Pages needed)
@@ -40,6 +55,33 @@
           var on = document.body.classList.toggle('night-mode');
           btn.setAttribute('aria-pressed', String(on));
           btn.textContent = on ? '☀︎ Modalità giorno' : '🌙 Modalità notte';
+        });
+      })();
+
+      // Back-to-top: shows up once the reader is a full viewport down the page.
+      (function () {
+        var rail = document.querySelector('.back-to-top');
+        var btn = document.getElementById('back-to-top');
+        if (!rail || !btn) return;
+
+        var queued = false;
+        function update() {
+          queued = false;
+          rail.classList.toggle('is-visible', window.pageYOffset > window.innerHeight);
+        }
+        function onScroll() {
+          if (queued) return;
+          queued = true;
+          window.requestAnimationFrame(update);
+        }
+
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onScroll, { passive: true });
+        update();
+
+        btn.addEventListener('click', function () {
+          var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
         });
       })();
 
@@ -73,7 +115,7 @@
           if (!p) return NodeFilter.FILTER_REJECT;
           var tag = p.nodeName;
           if (tag === 'SCRIPT' || tag === 'STYLE') return NodeFilter.FILTER_REJECT;
-          if (p.closest && p.closest('.doc-toolbar')) return NodeFilter.FILTER_REJECT;
+          if (p.closest && p.closest('.doc-toolbar, .back-to-top')) return NodeFilter.FILTER_REJECT;
           return NodeFilter.FILTER_ACCEPT;
         }
 

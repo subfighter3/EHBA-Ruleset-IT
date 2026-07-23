@@ -32,6 +32,7 @@ exclude:
     - CLAUDE.md
     - CHANGELOG_IT.md
     - build_page.py
+    - gen_fonts_css.py
     - serve.sh
     - Gemfile
     - Gemfile.lock

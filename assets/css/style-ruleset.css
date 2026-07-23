@@ -14,11 +14,32 @@ body {
 	-webkit-text-size-adjust: 100%;
 	line-height: 1.5;
 	color: #24292e;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-		sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: var(--font-body);
+	font-feature-settings: var(--font-body-features);
 	font-size: 16px;
 	line-height: 1.5;
 	word-wrap: break-word;
+}
+
+/* .markdown-body carries its own font-family from style-markdown.css, which
+   would out-specify the body rule above — restate it here (this file is
+   imported later, so equal specificity wins). Faces come from style-fonts.css. */
+.markdown-body {
+	font-family: var(--font-body);
+	font-feature-settings: var(--font-body-features);
+}
+
+/* The mono face is for the reference numbering: the generated clause numbers
+   and the inline clause/measurement references (`5.4`, `3 m`) written as code
+   spans. Which face that is lives in style-fonts.css, not here. */
+.markdown-body ol > li::before,
+.markdown-body li ol > li::before,
+.markdown-body code,
+.markdown-body pre {
+	font-family: var(--font-mono);
+	/* The body face's feature set is inherited but means nothing here, and cv/ss
+	   tags are font-specific — drop them rather than aim them at another face. */
+	font-feature-settings: normal;
 }
 
 .header {
@@ -28,10 +49,15 @@ body {
 	padding-bottom: 0.5rem;
 }
 
+/* The crease diagrams are transparent SVGs with dark strokes, so they always sit
+   on the same light plate — day, night and print alike. (This used to be a
+   white plate declared only in style-markdown-night-mode.css; that rule is gone,
+   it would have out-specified this one.) */
 .markdown-body img {
 	max-height: 45vh;
 	width: 100%;
 	object-fit: contain;
+	background-color: #f2f2f2;
 }
 
 .markdown-body .TOC ul {
@@ -77,6 +103,13 @@ body {
 	display: table;
 	margin-bottom: 0.6em;
 	padding-left: 0;
+	/* A clause is a table box, so it can never be laid out narrower than its
+	   widest unbreakable word: on a narrow screen the deepest clauses pushed the
+	   page wider than the window and turned on horizontal scrolling. `anywhere`,
+	   unlike the `break-word` on body, also lowers the min-content size — which
+	   is the part that actually lets the column shrink. It only ever breaks a
+	   word that has nowhere else to go, so wide layouts are unaffected. */
+	overflow-wrap: anywhere;
 	/* Pagination: let clauses flow across a page break so each page fills up to
 	   the last whole clause that fits, instead of pushing an entire clause to the
 	   next page and leaving a gap. orphans/widows stop a single line being
@@ -98,6 +131,9 @@ body {
 	display: table-cell;
 	font-weight: bold;
 	padding-right: 1em;
+	/* Back to normal for the number itself: it inherits `anywhere` from the
+	   clause, which would let "6.1.3.1.1.1." break across two lines. */
+	overflow-wrap: normal;
 }
 
 .markdown-body h1 ~ ol > li::before {
@@ -122,6 +158,17 @@ body {
 .markdown-body ol ul {
 	list-style-type: disclosure-closed;
 	margin-left: -0.5rem;
+}
+
+/* Decorative end-of-document mark (U+25EF LARGE CIRCLE, drawn by the body face).
+   Generated, so it stays out of the Markdown source and cannot drift out of it. */
+.markdown-body::after {
+	content: "◯";
+	display: block;
+	font-size: 80px;
+	line-height: 1;
+	text-align: center;
+	margin: 10rem 0;
 }
 
 @media print {
