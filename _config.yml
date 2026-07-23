@@ -11,7 +11,8 @@ repository: subfighter3/EHBA-Ruleset-IT
 # serve.sh passes --baseurl "" so local preview still works at localhost:4000/.
 url: https://subfighter3.github.io
 baseurl: /EHBA-Ruleset-IT
-pdf_url: /EHBA-ruleset-rev230712-IT.pdf
+# The "Download PDF" button is wired up dynamically in _layouts/ruleset.html:
+# it links the newest PDF in dist/, so no filename is hardcoded here.
 
 # Kramdown is GitHub Pages' Markdown engine. GFM input keeps the tab-indented
 # nested lists working so the CSS counters in style-ruleset.css can generate the
@@ -24,11 +25,17 @@ kramdown:
     syntax_highlighter: rouge
 
 # We render a single document, so disable the default post/collection machinery.
+# dist/ (the downloadable PDF) and assets/ (css + diagrams) ARE published; the
+# authoring folders are not.
 exclude:
     - README.md
     - CLAUDE.md
+    - CHANGELOG_IT.md
     - build_page.py
     - serve.sh
     - Gemfile
     - Gemfile.lock
     - vendor
+    - src        # iA Writer source (single source of truth) — not for the web
+    - tpl        # iA Writer PDF template
+    - old        # archive of previous revisions

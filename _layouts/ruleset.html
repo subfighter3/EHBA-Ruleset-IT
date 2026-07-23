@@ -20,8 +20,11 @@
       </div>
       <div class="doc-toolbar__tools">
         <button id="toggle-night" type="button" aria-pressed="false">🌙 Modalità notte</button>
-        {% if site.pdf_url %}
-        <a class="pdf-link" href="{{ site.pdf_url | relative_url }}">⬇︎ Scarica PDF</a>
+        {% comment %} Link the newest PDF in dist/ — no hardcoded filename. {% endcomment %}
+        {% assign dist_pdfs = site.static_files | where_exp: "f", "f.path contains '/dist/'" | where: "extname", ".pdf" | sort: "path" %}
+        {% assign latest_pdf = dist_pdfs | last %}
+        {% if latest_pdf %}
+        <a class="pdf-link" href="{{ latest_pdf.path | relative_url }}">⬇︎ Scarica PDF</a>
         {% endif %}
       </div>
     </div>

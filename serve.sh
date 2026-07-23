@@ -14,16 +14,15 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-SOURCE="EHBA-ruleset-rev230712-IT.md"
-
-echo "==> Regenerating index.md from $SOURCE"
+echo "==> Regenerating index.md from the newest source in src/"
 {
   echo "---"
   echo "layout: ruleset"
   echo "title: EHBA — Regolamento Ufficiale (IT)"
   echo "---"
   echo ""
-  python3 build_page.py "$SOURCE"
+  # No filename: build_page.py auto-selects the highest-revision src/*.md.
+  python3 build_page.py
 } > index.md
 
 if [[ "${1:-}" == "--no-serve" ]]; then

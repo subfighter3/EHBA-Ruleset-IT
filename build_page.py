@@ -22,13 +22,54 @@ Transformations
   3. `{{TOC}}`               -> generated bullet list in <div class="TOC">
   4. `+++`                   -> removed (PDF page breaks; web view scrolls)
   5. tab-indented lists      -> 3 spaces/level, ordered markers normalised to "1."
+  6. `../assets/…`           -> `assets/…`  (source is in src/ and points up to the
+                               repo-root assets/ for iA Writer; the generated page
+                               sits at the repo root, so it points straight down)
 
-Usage:  python3 build_page.py SOURCE.md > OUT.md
+Source selection
+----------------
+With no argument, the current source in `src/` is used: highest revision number
+in the filename (e.g. `EHBA-ruleset-230712-IT.md`), with the most recently
+modified file winning ties *within the same revision* (so in-place fixes that
+keep the filename are honoured). Drop a new `EHBA-ruleset-<newer>-IT.md` into
+`src/` and it is picked up automatically. Pass an explicit path to override.
+
+Usage:  python3 build_page.py [SOURCE.md] > OUT.md   (default: newest src/*.md)
 """
+import glob
+import os
 import re
 import sys
+from datetime import datetime
 
 INDENT = "   "  # 3 spaces per nesting level (>= "1." + space)
+SRC_DIR = "src"
+
+
+def latest_source(folder: str = SRC_DIR) -> str:
+    """Pick the current source in src/.
+
+    Ordering, highest wins:
+      1. the revision number in the filename (e.g. 230712) — the primary key;
+      2. the file's modification time — breaks ties *within the same revision*,
+         so in-place stylistic/structural fixes that keep the filename win;
+      3. the filename, so the result is always deterministic.
+
+    mtime is deliberately NOT the primary key: git does not store mtimes, so a
+    CI checkout stamps every file with the same time and an mtime-first rule
+    would pick an arbitrary file on the runner.
+    """
+    files = glob.glob(os.path.join(folder, "*.md"))
+    if not files:
+        sys.stderr.write(f"build_page.py: no .md file found in {folder}/\n")
+        sys.exit(1)
+
+    def sort_key(path):
+        nums = re.findall(r"\d+", os.path.basename(path))
+        revision = [int(n) for n in nums]
+        return (revision, os.path.getmtime(path), os.path.basename(path))
+
+    return max(files, key=sort_key)
 
 
 def transform(text: str) -> str:
@@ -45,6 +86,11 @@ def transform(text: str) -> str:
     for l in lines:
         # (2) reference-style links -> anchor links
         l = re.sub(r'\]\[(section\d+|diagram\d+)\]', r'](#\1)', l)
+
+        # (6) asset paths: source (in src/) points to ../assets/…; the page is
+        #     generated at the repo root, so drop the leading "../".
+        l = l.replace("../assets/", "assets/")
+
         stripped = l.strip()
 
         # (4) drop iA page-break markers
@@ -95,8 +141,13 @@ def transform(text: str) -> str:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        sys.stderr.write("usage: build_page.py SOURCE.md > OUT.md\n")
+    if len(sys.argv) > 2:
+        sys.stderr.write(
+            "usage: build_page.py [SOURCE.md] > OUT.md  (default: newest src/*.md)\n"
+        )
         sys.exit(1)
-    with open(sys.argv[1], encoding="utf-8") as f:
+    source = sys.argv[1] if len(sys.argv) == 2 else latest_source()
+    mtime = datetime.fromtimestamp(os.path.getmtime(source)).strftime("%Y-%m-%d %H:%M")
+    sys.stderr.write(f"build_page.py: using source {source}  (modified {mtime})\n")
+    with open(source, encoding="utf-8") as f:
         sys.stdout.write(transform(f.read()))

@@ -125,10 +125,10 @@
 +++
 
 ### Diagramma 1: Area di porta [diagram1]
-![Area di porta](assets/diagrams/diagram-1-crease.svg)
+![Area di porta](../assets/diagrams/diagram-1-crease.svg)
 
 ### Diagramma 2: Versione alternativa dell'area di porta [diagram2]
-![Area di porta alternativa](assets/diagrams/diagram-2-alternate-crease.svg)
+![Area di porta alternativa](../assets/diagrams/diagram-2-alternate-crease.svg)
 
 +++
 

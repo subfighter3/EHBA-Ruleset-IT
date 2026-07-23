@@ -6,12 +6,38 @@ revision `230712` (2023).
 > The ruleset text itself is in Italian; this README is in English as the
 > repository's entry point. The `CHANGELOG_IT.md` is also kept in Italian.
 
+## 🌐 Read it online
+
+**→ [subfighter3.github.io/EHBA-Ruleset-IT](https://subfighter3.github.io/EHBA-Ruleset-IT/)**
+
+The full ruleset is published as a scrollable, searchable web version on GitHub
+Pages (with light/dark mode and a "Download PDF" button). It is rebuilt
+automatically from the source on every push to `master`.
+
+## Folder layout
+
+```
+src/    ← single source of truth: the iA Writer Markdown (edit only this)
+tpl/    ← iA Writer PDF template (EHBA-Ruleset.iatemplate)
+dist/   ← the manually exported PDF (downloaded from the website & README)
+old/    ← archive of previous PDFs and the 2018/200324 Markdown
+assets/ ← theme CSS (assets/css) + crease diagrams (assets/diagrams), shared
+          by both the web build and the PDF template
+```
+
 ## Structure & philosophy
 
-- **Single source of truth**: the iA Writer Markdown file
-  `EHBA-ruleset-rev230712-IT.md` (in the repo root). **Edit only this file.**
-  It contains iA Writer syntax (`{{TOC}}`, `+++`, `# Title [sectionN]`,
-  tab-indented lists) and is meant for **PDF export** via the iA Writer theme.
+- **Single source of truth**: the newest iA Writer Markdown file in
+  [`src/`](src) (currently `src/EHBA-ruleset-230712-IT.md`). **Edit only this
+  file.** It contains iA Writer syntax (`{{TOC}}`, `+++`, `# Title [sectionN]`,
+  tab-indented lists) and is meant for **PDF export** via the iA Writer template.
+  - The build auto-selects it by **highest revision number** in the filename,
+    with the **most recently modified** file winning ties *within the same
+    revision* — so in-place stylistic/structural fixes that keep the filename are
+    picked up. Publishing a new revision is just dropping
+    `src/EHBA-ruleset-<newer>-IT.md` in — no config to touch.
+  - (Revision number stays the primary key because git does not preserve file
+    mtimes: on a CI checkout every file gets the same timestamp.)
 - **Secondary (derived) web version**: GitHub Pages publishes a version
   generated automatically from that source. It is never edited by hand — a
   GitHub Action regenerates it on every push.
@@ -25,60 +51,103 @@ normalised at build time.
 
 On every push to `master`:
 
-1. `build_page.py` converts the iA Writer source into kramdown-compatible
-   Markdown:
+1. `build_page.py` (with no argument) picks the **newest `src/*.md`** and
+   converts it into kramdown-compatible Markdown:
    - `{{TOC}}` → table of contents generated from the 8 sections;
    - `# Title [sectionN]` → heading with an anchor (`<a id>` + `{#id}`);
    - `[Text][sectionN]` → `[Text](#sectionN)`;
    - `+++` (PDF page breaks) → removed for the scrollable web view;
+   - `../assets/…` → `assets/…` (the source sits in `src/` and points up to the
+     repo-root `assets/`; the generated `index.md` sits at the root);
    - **tab-indented lists → space-indented nested lists** with markers
      normalised to `1.`, because kramdown nests by marker width and would
      otherwise flatten everything (breaking the numbering).
 2. it prepends the Jekyll front matter (`layout: ruleset`);
-3. Jekyll builds and Pages publishes.
+3. Jekyll builds and Pages publishes (the "Download PDF" button links the newest
+   PDF in `dist/`, resolved in the layout — no filename is hardcoded).
 
 ## Repository setup (one-time)
 
-1. Repo root:
-   ```
-   EHBA-ruleset-rev230712-IT.md      <- iA Writer source (single source of truth)
-   _config.yml
-   Gemfile
-   build_page.py
-   _layouts/ruleset.html
-   assets/css/*.css                  <- the theme (your files, unchanged)
+1. Repo layout:
+   ```text
+   src/EHBA-ruleset-230712-IT.md         <- iA Writer source (single source of truth)
+   tpl/EHBA-Ruleset.iatemplate/          <- iA Writer PDF template
+   dist/EHBA-ruleset-230712-IT.pdf       <- exported PDF (Download button target)
+   old/                                  <- archived previous revisions
+   assets/css/*.css                      <- the theme (your files, unchanged)
    assets/diagrams/diagram-1-crease.svg
    assets/diagrams/diagram-2-alternate-crease.svg
+   _config.yml   Gemfile   build_page.py   serve.sh
+   _layouts/ruleset.html
    .github/workflows/pages.yml
    ```
 2. GitHub → **Settings → Pages → Source: GitHub Actions**.
-3. (Optional) "Download PDF" button: add `pdf_url: /EHBA-ruleset-rev230712-IT.pdf`
-   to `_config.yml` and commit the PDF under that name.
+3. Export the PDF into `dist/` (see below) and commit it — the "Download PDF"
+   button links the newest PDF in `dist/` automatically.
 4. Push to `master`.
 
 ## Local preview (optional)
 
 ```bash
-bundle install
-python3 build_page.py EHBA-ruleset-rev230712-IT.md > _body.md
-printf '%s\n' '---' 'layout: ruleset' '---' '' | cat - _body.md > index.md
-bundle exec jekyll serve      # http://127.0.0.1:4000
+./serve.sh          # builds index.md from the newest src/*.md, then serves
+                    # http://localhost:4000  (Ctrl-C to stop)
 ```
 
-## Setting up iA Writer for the theme (PDF export)
+Equivalent manual steps:
 
-> Complete this section with your own screenshots / preferences. Outline:
+```bash
+bundle install
+python3 build_page.py > _body.md        # auto-selects the newest src/*.md
+printf '%s\n' '---' 'layout: ruleset' '---' '' | cat - _body.md > index.md
+bundle exec jekyll serve --baseurl ""   # http://127.0.0.1:4000
+```
 
-1. In iA Writer, open **Preferences → Templates** and install the ruleset
-   template (the folder with `document.html`, `header.html`, `footer.html`,
-   `title.html`, `style.css` and the `style-*.css` files).
-2. Open `EHBA-ruleset-rev230712-IT.md`.
-3. **File → Print / Export → PDF**, and choose the installed template.
-4. iA Writer fills the placeholders (`data-title`, `data-author`, `data-date`,
-   `{{TOC}}`, `+++`) and applies the CSS-counter numbering.
-5. Export as `EHBA-ruleset-rev230712-IT.pdf` and commit it (for the web link).
+## Exporting the PDF with iA Writer
+
+The PDF is produced from the source file using the bundled iA Writer template:
+[`tpl/EHBA-Ruleset.iatemplate/`](tpl/EHBA-Ruleset.iatemplate). It defines the
+page shell — title page, running header, footer — and loads the same theme CSS
+(`style-ruleset.css` etc.) as the web version, so numbering and layout match.
+
+### One-time setup
+
+1. **Install the template.** Double-click
+   [`tpl/EHBA-Ruleset.iatemplate`](tpl/EHBA-Ruleset.iatemplate) in Finder, or in
+   iA Writer go to **Preferences → Templates → ＋** and select it. It then
+   appears in the export dialog as **EHBA Ruleset**.
+
+2. **Add the repository folder as a Location (favourite) in iA Writer.**
+   This step is **required for the crease diagrams to show up.** iA Writer is
+   sandboxed and can only read the images (`assets/diagrams/*.svg`) when the
+   folder that contains them has been granted access:
+   - In iA Writer's sidebar, click **＋ → Add Location…** (or drag the
+     `EHBA-Ruleset-IT/` repo folder onto the sidebar) and select the repo root.
+   - Always open `src/EHBA-ruleset-230712-IT.md` **from inside that Location** —
+     not from *Recent* or by double-clicking the loose file, or the images stay
+     blank. (The source references images as `../assets/diagrams/…`, i.e. up out
+     of `src/` into the repo-root `assets/` — hence the whole folder must be a
+     Location.)
+
+### Exporting
+
+3. Open `src/EHBA-ruleset-230712-IT.md` from the Location.
+4. **File → Export → PDF…** and choose the **EHBA Ruleset** template.
+5. iA Writer expands `{{TOC}}`, applies the `+++` page breaks, and generates the
+   clause numbering (`3.1.2.1 …`) from the CSS counters.
+6. Save into `dist/` keeping the source's revision in the name (e.g.
+   `dist/EHBA-ruleset-230712-IT.pdf`) and commit it — the website's **Download
+   PDF** button links the newest PDF in `dist/` automatically.
+
+### Header / footer text
+
+The running header is
+[`tpl/EHBA-Ruleset.iatemplate/Contents/Resources/header.html`](tpl/EHBA-Ruleset.iatemplate/Contents/Resources/header.html).
+iA Writer has no placeholder for arbitrary document headings, so the title —
+subtitle line is **hardcoded** there; the second line shows an *"Aggiornato il:"*
+date via the live `data-date` token. If you change the document's `##`/`###`
+title, update `header.html` to match.
 
 ## Supporting files
 
 - `CHANGELOG_IT.md` — changes from revision `200324` to `230712` (in Italian).
-- `EHBA_Regolamento_2018_rev200324_IT.md` — previous version (archive).
+- [`old/`](old) — archive: previous PDFs and the 2018/`200324` Markdown.

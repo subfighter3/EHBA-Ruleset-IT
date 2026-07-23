@@ -28,10 +28,6 @@ jobs:
 
             - name: Preprocess source Markdown (iA Writer -> kramdown)
               run: |
-                  # SOURCE = your iA Writer file, kept untouched in the repo.
-                  # Adjust the path/name if your source lives elsewhere.
-                  SOURCE="EHBA-ruleset-rev230712-IT.md"
-
                   # 1. front matter so Jekyll applies the ruleset layout
                   {
                     echo "---"
@@ -39,8 +35,9 @@ jobs:
                     echo "title: EHBA — Regolamento Ufficiale (IT)"
                     echo "---"
                     echo ""
-                    # 2. convert iA syntax ({{TOC}}, +++, [sectionN]) to kramdown
-                    python3 build_page.py "$SOURCE"
+                    # 2. convert iA syntax ({{TOC}}, +++, [sectionN]) to kramdown.
+                    #    No filename: build_page.py auto-selects the newest src/*.md.
+                    python3 build_page.py
                   } > index.md
 
             - name: Set up Ruby

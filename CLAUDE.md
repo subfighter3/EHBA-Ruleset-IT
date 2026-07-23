@@ -10,14 +10,31 @@ revision `230712` (2023). It is published two ways from a single source:
 1. a **PDF** exported from iA Writer using a custom theme, and
 2. a **scrollable web version** on GitHub Pages, generated automatically.
 
+## Folder layout
+
+```
+src/    single source of truth — the iA Writer Markdown (edit only this)
+tpl/    iA Writer PDF template (EHBA-Ruleset.iatemplate)
+dist/   the manually exported PDF (download target for web + README)
+old/    archive of previous PDFs and the 2018/200324 Markdown
+assets/ theme CSS (assets/css) + crease diagrams (assets/diagrams), shared
+```
+
 ## Golden rule — single source of truth
 
-- **Edit ONLY the iA Writer source Markdown**: `EHBA-ruleset-rev230712-IT.md`
-  (repo root — verify the exact filename; it is the file with iA Writer syntax).
-- **Never hand-edit the web output.** The Pages version is a *derived artifact*
-  produced at build time from the source. Editing it directly is always wrong; the
-  next build overwrites it.
-- The `2018 / rev200324` file is a historical archive. Do not update it to 2023.
+- **Edit ONLY the iA Writer source Markdown** in `src/` — currently
+  `src/EHBA-ruleset-230712-IT.md`. The build auto-selects it (see
+  `build_page.py::latest_source`): **highest revision number** in the filename
+  first, then **most recent mtime** as a tiebreaker *within the same revision*
+  (so in-place fixes that keep the filename win). A new revision is just a new
+  `src/EHBA-ruleset-<newer>-IT.md`; do not hardcode the filename anywhere.
+  - mtime is *not* the primary key on purpose: git does not store mtimes, so a
+    CI checkout stamps every file identically and an mtime-first rule would pick
+    an arbitrary file on the runner.
+- **Never hand-edit the web output** (`index.md`, `_site/`). The Pages version is
+  a *derived artifact* produced at build time. Editing it is always wrong; the
+  next build overwrites it. (Both are git-ignored.)
+- `old/` is a historical archive. Do not update it to a newer revision.
 
 ## The three non-obvious traps (READ THIS)
 
@@ -63,18 +80,32 @@ list, apply the same +1-tab rule.
 ## Build & deploy pipeline
 
 - `build_page.py` — the preprocessor (iA Writer Markdown → kramdown-clean).
-  Run: `python3 build_page.py <SOURCE>.md > index_body.md`
+  Run with **no argument** — it auto-selects the newest `src/*.md`:
+  `python3 build_page.py > _body.md` (pass an explicit path only to override).
+  It also rewrites `../assets/…` → `assets/…` (the source is in `src/` and points
+  up to the repo-root `assets/`; the generated `index.md` sits at the root).
 - `.github/workflows/pages.yml` — GitHub Action. On push to **`master`** it runs
   the preprocessor, prepends Jekyll front matter (`layout: ruleset`), builds with
   Jekyll, and deploys to Pages. (Branch is `master`, not `main`.)
 - `_config.yml` — Jekyll config (kramdown, GFM input, `parse_block_html: true`).
-- `_layouts/ruleset.html` — the page shell (night-mode toggle, optional PDF link).
+  `exclude:` keeps `src/`, `tpl/`, `old/` out of the published site; `dist/` and
+  `assets/` ARE published.
+- `_layouts/ruleset.html` — the page shell (night-mode toggle, search box, PDF
+  link). The **Download PDF** link is resolved dynamically to the newest PDF in
+  `dist/` (via `site.static_files`); no filename is hardcoded.
 - `assets/css/` — the theme CSS (originals, unchanged). `style-ruleset.css` holds
   the counter logic; `style-web-extras.css` holds web-only additions.
+  ⚠️ The PDF template keeps its **own copy** of these under
+  `tpl/EHBA-Ruleset.iatemplate/Contents/Resources/`. When you change a shared
+  file (e.g. `style-ruleset.css`), mirror it into the template copy so PDF and
+  web stay in sync. (`style.css` intentionally differs: the web one also imports
+  `style-web-extras.css`.)
 - `assets/diagrams/` — the two crease SVGs:
   `diagram-1-crease.svg`, `diagram-2-alternate-crease.svg`
   (all lowercase; there must be exactly ONE `assets/` folder — a capital `Assets/`
-  collides on case-insensitive filesystems).
+  collides on case-insensitive filesystems). The source references them as
+  `../assets/diagrams/…` so iA Writer (with the repo folder added as a Location)
+  resolves them; the preprocessor drops the `../` for the web.
 
 ## Local preview
 
@@ -91,9 +122,9 @@ One command — regenerates `index.md` from the source, then serves with live-re
 
 ```bash
 bundle install
-python3 build_page.py EHBA-ruleset-rev230712-IT.md > _body.md
+python3 build_page.py > _body.md   # auto-selects the newest src/*.md
 printf '%s\n' '---' 'layout: ruleset' 'title: EHBA — Regolamento Ufficiale (IT)' '---' '' | cat - _body.md > index.md
-bundle exec jekyll serve   # http://127.0.0.1:4000
+bundle exec jekyll serve --baseurl ""   # http://127.0.0.1:4000
 ```
 
 `index.md` is a *generated* file (never commit or hand-edit it — see the golden rule).
@@ -124,8 +155,10 @@ numbered spot like §3.1.2).
 
 ## Validation checklist before committing a source edit
 
-1. Numbering still correct after a local `jekyll serve` (CSS counters).
+1. Numbering still correct after a local `./serve.sh` (CSS counters).
 2. No `Assets/` (capital) folder; diagrams under `assets/diagrams/` lowercase.
 3. Every `[`n.n`](#n.n)` cross-reference resolves to an existing `<a name>`.
 4. Every `[Text][sectionN]`/`[diagramN]` target heading still exists.
 5. iA Writer PDF export still renders (the source stays iA-compatible).
+6. If you edited a shared theme CSS, the `tpl/…/Contents/Resources/` copy was
+   mirrored (see Build & deploy pipeline).
