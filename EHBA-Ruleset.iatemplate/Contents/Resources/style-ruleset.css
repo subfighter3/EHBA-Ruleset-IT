@@ -77,7 +77,16 @@ body {
 	display: table;
 	margin-bottom: 0.6em;
 	padding-left: 0;
-	page-break-inside: avoid;
+	/* Pagination: let clauses flow across a page break so each page fills up to
+	   the last whole clause that fits, instead of pushing an entire clause to the
+	   next page and leaving a gap. orphans/widows stop a single line being
+	   stranded at a page edge. (Keeping a clause's title with its first sub-clause
+	   is not reliably possible in WebKit's paginator with this table layout, so we
+	   accept the occasional orphaned title as the cost of full pages.) */
+	page-break-inside: auto;
+	break-inside: auto;
+	orphans: 2;
+	widows: 2;
 }
 
 .markdown-body h1 ~ ol > li > strong {

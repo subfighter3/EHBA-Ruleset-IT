@@ -6,13 +6,11 @@
 
 > ⚠️ Alcune parole, frasi o concetti, sono nella maggior parte dei casi tradotte in Italiano, tranne quando la versione Inglese, oltre che essere più breve ed esaustiva rappresenta ormai un modo di dire consolidato a livello internazionale nel Bike Polo.
 
-+++
+---
 
 ##### **Indice**
 
 {{TOC}}
-
----
 
 +++
 
@@ -95,9 +93,9 @@
 			21332. Un arco sarà marcato a `3 ± 0.25 m` dal centro di ciascun ingresso e verrà indicato come Area di Transizione dei giocatori.
 	214. **Linee**
 		2141. Tutte le linee devono avere uno spessore massimo di `5 cm`.
-		2142. Il campo verrà segmentato per tutta la sua larghezza in tre posizioni:\
-			- metà campo, o *linea centrale;*\
-			- entrambe le Linee di Porta.\
+		2142. Il campo verrà segmentato per tutta la sua larghezza in tre posizioni:
+			- metà campo, o *linea centrale;*
+			- entrambe le Linee di Porta.
 				21421. Verrà marcata la metà della linea centrale per posizionare la palla per le "contese" *(Joust).*
 		2143. Le Linee di Porta devono essere parallele alla sponda di fondo e a `3–4.5 m` di distanza da essa, a seconda delle dimensioni del campo.
 			21431. Le Linee di Porta non possono essere distanti meno di `29 ± 0.5 m` l'una dall'altra.
@@ -127,20 +125,20 @@
 +++
 
 ### Diagramma 1: Area di porta [diagram1]
-![](assets/diagrams/diagram-1-crease.svg)
+![Area di porta](assets/diagrams/diagram-1-crease.svg)
 
 ### Diagramma 2: Versione alternativa dell'area di porta [diagram2]
-![](assets/diagrams/diagram-2-alternate-crease.svg)
+![Area di porta alternativa](assets/diagrams/diagram-2-alternate-crease.svg)
 
 +++
 
 # Ufficiali di Gara [section3]
 31. **Ufficiali di Gara**
 	311. Un torneo richiede un Capo Arbitro *(Head Referee)* designato dagli organizzatori dell'evento e comunicato ai giocatori all'inizio del torneo.
-	312. Una partita ha bisogno dei seguenti Ufficiali di Gara:\
-		- Arbitro *(Main Referee)*;\
-		- Due (2) Giudici di Porta *(Goal Judges or Referees)*;\
-		- Assistenti di Gioco *(Game Assistant)*;\
+	312. Una partita ha bisogno dei seguenti Ufficiali di Gara:
+		- Arbitro *(Main Referee)*;
+		- Due (2) Giudici di Porta *(Goal Judges or Referees)*;
+		- Assistenti di Gioco *(Game Assistant)*;
 		- Assistente Arbitro *(Assistant Referee)*.
 			3121. Uno degli arbitri viene designato come Arbitro per dirigere la partita e viene comunicato a ciascuna squadra prima dell'inizio della partita.
 			3122. I Giudici di Porta vengono nominati e approvati dall'Arbitro prima dell'inizio della partita.
@@ -148,13 +146,13 @@
 			3123. Gli Assistenti di Gioco e gli Assistenti Arbitro non sono obbligatori, ma consigliati.
 				31231. Nel caso in cui gli Assistenti di Gioco non siano disponibili l'Arbitro si assumerà le loro responsabilità e doveri.
 32. **Attrezzatura**
-	321. Gli organizzatori dell'evento devono fornire la seguente attrezzatura agli Ufficiali di Gara:\
-		- orologio o cronometro;\
-		- fischietto;\
-		- tabellone;\
-		- bandiere, cappelli o casacche (2) per i Giudici di Porta;\
-		- penna e carta;\
-		- adesivi "Bike Check", nastro adesivo o marcatori simili;\
+	321. Gli organizzatori dell'evento devono fornire la seguente attrezzatura agli Ufficiali di Gara:
+		- orologio o cronometro;
+		- fischietto;
+		- tabellone;
+		- bandiere, cappelli o casacche (2) per i Giudici di Porta;
+		- penna e carta;
+		- adesivi "Bike Check", nastro adesivo o marcatori simili;
 		- casacche colorate per i giocatori.
 33. **Posizionamento**
 	331. **Arbitro**
@@ -197,18 +195,18 @@
 		3442. L'Assistente di Gioco tiene il tempo delle penalità assegnate ai giocatori quando sono temporaneamente esclusi dal gioco.
 			34421. L'Assistente di Gioco ha la responsabilità di far sapere ai giocatori temporaneamente esclusi dal gioco quando possono rientrare. 
 		3443. L'Assistente di Gioco compila e mantiene un registro di gioco *(Game Log)* cartaceo.
-		3444. Il registro di gioco contiene le seguenti informazioni:\
-			- i goal di ogni squadra;\
+		3444. Il registro di gioco contiene le seguenti informazioni:
+			- i goal di ogni squadra;
 			- le penalità di ogni giocatore.
-				34441. L'organizzatore dell'evento, in aggiunta, può richiedere anche:\
-					- I tempi di tutti i goal e penalità chiamate;\
+				34441. L'organizzatore dell'evento, in aggiunta, può richiedere anche:
+					- I tempi di tutti i goal e penalità chiamate;
 					- I nomi di chi segna i goal.
 		3445. Se è presente un timer e un tabellone del punteggio visibile ai giocatori, l'Assistente di Gioco si occupa di far partire il tempo, fermarlo e aggiornare i goal sul tabellone.
-		3446. L'Assistente di Gioco chiama ad alta voce i tempi di gioco a intervalli periodici e anche nelle seguenti situazioni:\
-			- dopo i goal;\
-			- a metà partita;\
-			- ad ogni ripresa;\
-			- due (2) minuti dalla fine;\
+		3446. L'Assistente di Gioco chiama ad alta voce i tempi di gioco a intervalli periodici e anche nelle seguenti situazioni:
+			- dopo i goal;
+			- a metà partita;
+			- ad ogni ripresa;
+			- due (2) minuti dalla fine;
 			- su richiesta dei giocatori.
 				34461. Dopo aver chiamato due (2) minuti, l'Assistente di Gioco deve chiamare sessanta (60) secondi, trenta (30) secondi, dieci (10) secondi e un conto alla rovescia da cinque (5) secondi a uno (1).
 	345. **Assistente Arbitro**
@@ -237,9 +235,9 @@
 # Giocare la palla [section4]
 41. <a name="4.1"></a>**Possesso di palla**
 	411.  Il giocatore che ha eseguito intenzionalmente l'ultimo tocco controllato sulla palla con la mazza è considerato in possesso di palla. Il giocatore in possesso è noto come Portatore di Palla.
-		4111. Un giocatore non è considerato in possesso della palla, o il possesso viene ceduto nei seguenti casi:\
-			- La palla si muove a circa 3 metri di distanza dal Portatore di Palla;\
-			- La palla si muove così velocemente in prossimità di un giocatore che non è in grado di eseguire più di un (1) tocco controllato sulla palla libera;\
+		4111. Un giocatore non è considerato in possesso della palla, o il possesso viene ceduto nei seguenti casi:
+			- La palla si muove a circa 3 metri di distanza dal Portatore di Palla;
+			- La palla si muove così velocemente in prossimità di un giocatore che non è in grado di eseguire più di un (1) tocco controllato sulla palla libera;
 			- Il Portatore di Palla non è più in grado di giocare la palla con la mazza.
 		4112. Il possesso non è perso dal Portatore di Palla se un tocco intenzionale sulla palla da parte di un avversario, non ostacola l'abilità del Portatore di continuare a giocare la palla con la mazza e la palla resta in prossimità di circa tre (3) metri.
 42. <a name="4.2"></a>**Tiro**
@@ -298,28 +296,28 @@
 53. <a name="5.3"></a>**Interruzione del Gioco**
 	531. L'Arbitro segnala l'interruzione del gioco fischiando.
 		5311. Una volta che l'Arbitro segnala l'interruzione, il gioco deve fermarsi indipendentemente dalle circostanze.
-	532. Il gioco può essere interrotto per una delle seguenti ragioni:\
-		- goal;\
-		- penalità;\
-		- palla fuori campo;\
-		- infortunio;\
-		- porta spostata;\
-		- time-out;\
-		- equipaggiamento non sicuro;\
+	532. Il gioco può essere interrotto per una delle seguenti ragioni:
+		- goal;
+		- penalità;
+		- palla fuori campo;
+		- infortunio;
+		- porta spostata;
+		- time-out;
+		- equipaggiamento non sicuro;
 		- riparazione delle strutture di gioco.
 	533. <a name="5.3.3"></a>Le squadre devono smettere di giocare e tornare nella propria metà campo entro dieci (10) secondi dal fischio.
 	534. **Formato 3v3**
 		5341. L'Assistente di Gioco deve fermare il tempo ad ogni interruzione del gioco.
 	535. **Formato Quads**
-		5351. Il cronometro continua a scorrere, ad eccezione degli infortuni o di circostanze che impedirebbero una rapida ripresa del gioco, come, ma non solo:\
-			- danni al campo;\
-			- palla rotta o mancante;\
+		5351. Il cronometro continua a scorrere, ad eccezione degli infortuni o di circostanze che impedirebbero una rapida ripresa del gioco, come, ma non solo:
+			- danni al campo;
+			- palla rotta o mancante;
 			- valutazione e revisione di un'azione, un fallo o un goal da parte degli Ufficiali di Gara.
 				53511. Durante gli ultimi due (2) minuti della partita, l'Assistente di Gioco ferma il tempo ad ogni interruzione del gioco.
 	536. **Formato Squad**
-		5361. Il cronometro continua a scorrere, ad eccezione degli infortuni o di circostanze che impedirebbero una rapida ripresa del gioco, come, ma non solo:\
-			- danni al campo;\
-			- palla rotta o mancante;\
+		5361. Il cronometro continua a scorrere, ad eccezione degli infortuni o di circostanze che impedirebbero una rapida ripresa del gioco, come, ma non solo:
+			- danni al campo;
+			- palla rotta o mancante;
 			- valutazione e revisione di un'azione, un fallo o un goal da parte degli Ufficiali di Gara.
 				53611. Durante gli ultimi due (2) minuti della partita, l'Assistente di Gioco ferma il tempo ad ogni interruzione del gioco.
 54. <a name="5.4"></a>**Ripresa del Gioco**
@@ -343,9 +341,9 @@
 		5612. Il Giudice di Porta segnala un goal come da [`3.5.2.1`](#3.5.2.1). e il gioco riparte come da [`5.4`](#5.4).
 	562. **Goal non validi**
 		5621. Non viene assegnato un punto nel caso in cui la palla attraversa la Linea dello Specchio della Porta per mezzo di un'azione di un giocatore in attacco che non è stata un tiro.
-		5622. Non viene assegnato punto nelle seguenti situazioni:\
-			- Qualunque palla che superi la Linea dello Specchio della Porta dopo un fischio.\
-			- Qualunque azione sulla palla che avvenga prima che il gioco abbia inizio come da [`5.4.3`](#5.4.3)\
+		5622. Non viene assegnato punto nelle seguenti situazioni:
+			- Qualunque palla che superi la Linea dello Specchio della Porta dopo un fischio.
+			- Qualunque azione sulla palla che avvenga prima che il gioco abbia inizio come da [`5.4.3`](#5.4.3)
 			- Un giocatore in attacco commette un'infrazione durante un'azione che porta a un goal, indipendentemente dal momento in cui la palla attraversa la Linea dello Specchio della Porta.
 		5623. Il Giudice di Porta segnala un goal non valido come indicato in [`3.5.2.2`](#3.5.2.2).
 		5624. La squadra in attacco perde il possesso di palla e il gioco ricomincia come da [`5.4`](#5.4).
@@ -451,21 +449,21 @@
 		6113. Un giocatore fa uscire la palla dal gioco raccogliendola con il lato cavo della testa (*Scooping*) o tirandola fuori dal gioco di proposito.
 		6114. Un giocatore sposta di proposito la posizione della porta come da [`5.11`](#5.11).
 	612. **Comportamento Antisportivo**
-		6121. <a name="6.1.2.1"></a>Il comportamento di un giocatore viene considerato antisportivo secondo, ma non limitato a, i seguenti criteri:\
-			- Generali e continuative interruzioni delle procedure di gioco;\
-			- Eccessive proteste contro gli ufficiali di gioco;\
-			- Essere attivamente coinvolto nel gioco dopo un'Infrazione di Piede (*Dabbing*);\
-			- Incapacità di uscire dopo un'Infrazione di Piede (*Dabbing*), che comporta un vantaggio per la propria squadra;\
-			- Interagire o schermare un giocatore che ha appena commesso un'Infrazione di Piede (*Dabbed*), o rendere la sua attrezzatura più difficile da recuperare;\
+		6121. <a name="6.1.2.1"></a>Il comportamento di un giocatore viene considerato antisportivo secondo, ma non limitato a, i seguenti criteri:
+			- Generali e continuative interruzioni delle procedure di gioco;
+			- Eccessive proteste contro gli ufficiali di gioco;
+			- Essere attivamente coinvolto nel gioco dopo un'Infrazione di Piede (*Dabbing*);
+			- Incapacità di uscire dopo un'Infrazione di Piede (*Dabbing*), che comporta un vantaggio per la propria squadra;
+			- Interagire o schermare un giocatore che ha appena commesso un'Infrazione di Piede (*Dabbed*), o rendere la sua attrezzatura più difficile da recuperare;
 			- Creare un vantaggio ingiusto per la propria squadra.
 				61211. Spostare la mazza caduta di un giocatore che ha commesso un'Infrazione di Piede, e che interferisce con il gioco, non comporta un'infrazione da comportamento antisportivo, come da [`6.4.8.2.2`](#6.4.8.2.2).
 		6122. L'infrazione da comportamento antisportivo comporta una Penalità Minore, Maggiore o di Cattiva Condotta.
 			61221. Un giocatore coinvolto in aggressioni verbali o fisiche rivolte a Ufficiali di Gioco, organizzatori dell'evento, spettatori o altri giocatori, porterà automaticamente all'assegnazione di una Penalità di Cattiva Condotta.
 	613. **Interferenza**
 		6131. **Interferenza con la Bici**
-			61311. L'Interferenza con la bici, "schermatura/ostruzione" (*screening*) o "blocco", viene definita come un utilizzo attivo del movimento e della posizione della bici per bloccare bruscamente e/o continuamente un avversario non in possesso di palla, impedendogli di:\
-				- Guadagnare una posizione difensiva o offensiva nel campo.\
-				- Avere accesso diretto a una palla libera.\
+			61311. L'Interferenza con la bici, "schermatura/ostruzione" (*screening*) o "blocco", viene definita come un utilizzo attivo del movimento e della posizione della bici per bloccare bruscamente e/o continuamente un avversario non in possesso di palla, impedendogli di:
+				- Guadagnare una posizione difensiva o offensiva nel campo.
+				- Avere accesso diretto a una palla libera.
 				- Affrontare il giocatore in possesso di palla.
 					613111. Un'infrazione di Interferenza con la Bici viene chiamata quando un giocatore che non è in possesso di palla scherma un avversario che a sua volta non è in possesso di palla.
 			61312. Tutti i giocatori non in possesso di palla hanno diritto allo spazio che occupano.
@@ -560,7 +558,7 @@
 	641. **Gestione della Palla Illegale**
 		6411. L'infrazione di Gestione della Palla Illegale viene chiamata per ogni gioco di palla non permesso come da [`Sezione 4`][section4].
 	642. **Frustata (*Slashing*)**
-		6421. L'infrazione di Frustata viene chiamata quando un giocatore colpisce, o tenta di colpire, l'asta della mazza o il corpo di un avversario con movimenti verso l'alto, verso il basso o laterali, in base ai seguenti criteri:\
+		6421. L'infrazione di Frustata viene chiamata quando un giocatore colpisce, o tenta di colpire, l'asta della mazza o il corpo di un avversario con movimenti verso l'alto, verso il basso o laterali, in base ai seguenti criteri:
 			- una risposta sproporzionata rispetto al gioco naturale, o in maniera violenta;
 			- ha il potenziale di causare danni o infortuni.
 				64211. Il contatto con il corpo o la bici di un avversario non è un requisito necessario per l'assegnazione di una penalità di Frustata.
@@ -572,8 +570,8 @@
 			64412. Un giocatore può toccare una palla al volo con la mano, tenendo la mazza puntata dritta verso il basso, come da [`4.7.2.1`](#4.7.2.1).
 		6442. L'infrazione di Mazza Alta viene chiamata per ogni contatto della mazza di un avversario con il corpo di un giocatore al di sopra delle spalle.
 		6443. <a name="6.4.4.3"></a>L'infrazione di Mazza Alta viene chiamata quando uno *Scoop* viene alzato sopra l'altezza del manubrio del giocatore che lo sta effettuando, o del manubrio di un avversario nel raggio di `3 m` circa.
-		6444. Il caricamento e il movimento conseguente della mazza, associati al normale movimento per colpire la palla, quando si estendono sopra l'altezza del manubrio dell'avversario più vicino, comportano l'assegnazione di un'infrazione di Mazza Alta, ma solo se l'Arbitro giudica l'oscillazione non sicura o fuori controllo, nelle seguenti situazioni:\
-			- se il colpo richiede la completa rotazione della mazza da sopra la testa del giocatore fino al suolo;\
+		6444. Il caricamento e il movimento conseguente della mazza, associati al normale movimento per colpire la palla, quando si estendono sopra l'altezza del manubrio dell'avversario più vicino, comportano l'assegnazione di un'infrazione di Mazza Alta, ma solo se l'Arbitro giudica l'oscillazione non sicura o fuori controllo, nelle seguenti situazioni:
+			- se il colpo richiede la completa rotazione della mazza da sopra la testa del giocatore fino al suolo;
 			- se il movimento di chiusura del tiro di rovescio si estende sopra il manubrio dell'avversario più vicino.
 	645. **Incastro (*Jamming*)**
 		6451. L'infrazione di Incastro viene chiamata quando un giocatore costringe un avversario a commettere *Dab* o a schiantarsi, posizionando la propria mazza sotto la ruota anteriore o posteriore dell'avversario.

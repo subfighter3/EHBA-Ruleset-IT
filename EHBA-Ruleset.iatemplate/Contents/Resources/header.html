@@ -4,14 +4,18 @@
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" media="all" href="style.css" />
 	</head>
+	<!-- iA Writer has no token for "first ##/###", so the title and subtitle are
+	     hardcoded here to mirror the document's first H2 and H3. If you change
+	     those headings in the source, update this file to match. -->
 	<body class="header" style="text-align: center">
-		<div data-title>&nbsp;</div>
 		<div>
-			Revisione IT:&nbsp;
-			<span>
-				<span data-date="yy"></span><span data-date="MM"></span
-				><span data-date="dd"></span>
-			</span>
+			<span style="font-weight: bold">EHBA: European Hardcourt Bikepolo Association</span>
+			&nbsp;&mdash;&nbsp;
+			<span style="font-style: italic">Regolamento Ufficiale (rev. 230712)</span>
+		</div>
+		<div style="margin-top: 0.3em">
+			Aggiornato il:&nbsp;
+			<span data-date="dd"></span>/<span data-date="MM"></span>/<span data-date="yyyy"></span>
 		</div>
 	</body>
 </html>
