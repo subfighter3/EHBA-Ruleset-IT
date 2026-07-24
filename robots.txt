@@ -1,2 +1,106 @@
-User-agent: *
+# Allow major search engines
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+User-agent: MSNBot
+Disallow:
+
+User-agent: DuckDuckBot
+Disallow:
+
+User-agent: Slurp
+Disallow:
+
+User-agent: Baiduspider
+Disallow:
+
+User-agent: Yandexbot
+Disallow:
+
+User-agent: Applebot
+Disallow:
+
+# Block AI training crawlers
+User-agent: GPTBot
 Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: ai21labs
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: DiffBot
+Disallow: /
+
+# Block Facebook AI crawler (keep facebookexternalhit allowed for link previews)
+User-agent: FacebookBot
+Disallow: /
+
+# Block aggressive SEO/link crawlers
+User-agent: PetalBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# Rate-limit SEO tools
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10

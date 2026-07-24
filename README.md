@@ -8,7 +8,7 @@ revision `230712` (2023).
 
 ## 🌐 Read it online
 
-**→ [subfighter3.github.io/EHBA-Ruleset-IT](https://subfighter3.github.io/EHBA-Ruleset-IT/)**
+**→ [regole.bikepolo.it](https://regole.bikepolo.it/)**
 
 The full ruleset is published as a scrollable, searchable web version on GitHub
 Pages (with light/dark mode and a "Download PDF" button). It is rebuilt
